@@ -49,11 +49,6 @@ const HeaderLogo = (): ReactElement => {
 };
 
 const DesktopMenu = ({ curPage }: HeaderPropsInterface): ReactElement => {
-  const menuOpenCtx: {
-    isMenuOpen: boolean;
-    toggleMenuHandler: () => void;
-  } = useContext(MenuOpenContext);
-
   return (
     <div className="hidden lg:flex lg:gap-14">
       {ROUTES.map((route) => (
@@ -62,7 +57,6 @@ const DesktopMenu = ({ curPage }: HeaderPropsInterface): ReactElement => {
             className={`transition-300 ${
               curPage === route.text ? `text-green-1` : `text-green-2`
             } hover:text-green-1`}
-            onClick={menuOpenCtx.toggleMenuHandler}
           >
             {route.text}
           </a>
@@ -93,7 +87,10 @@ const MobileMenu = (): ReactElement => {
       <div className="-mt-6 flex w-full flex-col gap-16 pl-9">
         {ROUTES.map((route) => (
           <Link href={route.route} key={route.id}>
-            <a className="block cursor-pointer">
+            <a
+              className="block cursor-pointer"
+              onClick={menuOpenCtx.toggleMenuHandler}
+            >
               <span className="gradient gradient-text pb-1 text-4xl font-semibold 2xs:text-5xl">
                 {route.text}
               </span>
