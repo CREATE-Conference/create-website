@@ -26,7 +26,7 @@ const Landing = (): ReactElement => {
         </div>
       </div>
       <div className="-ml-[20%] w-[140%] sm:mx-auto sm:w-full sm:max-w-[600px] lg:ml-0 lg:w-[110%] lg:max-w-none">
-        <Image src={landingGraphic} alt="CREATE Markham Conference" />
+        <Image src={landingGraphic} alt="CREATE Markham Conference" priority />
       </div>
     </section>
   );

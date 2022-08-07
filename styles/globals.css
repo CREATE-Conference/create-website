@@ -4,11 +4,11 @@
 
 @layer components {
   .h1 {
-    @apply gradient-text gradient text-6xl font-bold md:text-7xl;
+    @apply gradient-text gradient pb-1 text-6xl font-bold md:text-7xl;
   }
 
   .h2 {
-    @apply gradient-text gradient text-5xl font-bold md:text-6xl;
+    @apply gradient-text gradient pb-1 text-4xl font-bold xs:text-5xl md:text-6xl;
   }
 
   .body {
@@ -16,7 +16,7 @@
   }
 
   .section {
-    @apply mb-24 md:mb-32;
+    @apply mb-20 md:mb-32;
   }
 
   .m-horizontal {
@@ -36,7 +36,7 @@
   }
 
   .transition-300 {
-    @apply duration-300 ease-in-out;
+    @apply transition-all duration-300 ease-in-out;
   }
 
   .h-screen-trick {
