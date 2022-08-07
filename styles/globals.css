@@ -3,4 +3,45 @@
 @tailwind utilities;
 
 @layer components {
+  .h1 {
+    @apply gradient-text gradient text-6xl font-bold md:text-7xl;
+  }
+
+  .h2 {
+    @apply gradient-text gradient text-5xl font-bold md:text-6xl;
+  }
+
+  .body {
+    @apply text-base text-green-1;
+  }
+
+  .section {
+    @apply mb-24 md:mb-32;
+  }
+
+  .m-horizontal {
+    @apply mx-auto block w-11/12 max-w-[1400px];
+  }
+
+  .m-left {
+    @apply ml-[max(calc(1/12*100%/2),calc(calc(100%-1400px)/2))];
+  }
+
+  .gradient-text {
+    @apply inline-block bg-clip-text text-transparent;
+  }
+
+  .gradient {
+    @apply bg-gradient-to-r from-green-2 to-green-1;
+  }
+
+  .transition-300 {
+    @apply duration-300 ease-in-out;
+  }
+
+  .h-screen-trick {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    @apply min-h-[640px] !important;
+  }
 }

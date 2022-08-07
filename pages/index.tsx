@@ -1,7 +1,14 @@
-import type { NextPage } from "next";
+import type { NextPage } from 'next';
+import Header from '../components/navigation/Header';
+import Landing from '../components/sections/Landing';
 
 const Home: NextPage = () => {
-  return <div className=""></div>;
+  return (
+    <>
+      <Header curPage="Home" />
+      <Landing />
+    </>
+  );
 };
 
 export default Home;
