@@ -1,11 +1,11 @@
 import type { NextPage } from 'next';
-import Header from '../../components/navigation/Header';
+import Page from '../../components/layout/Page';
 
 const Links: NextPage = () => {
   return (
-    <>
-      <Header curPage="Links" />
-    </>
+    <Page curPage="Links">
+      <></>
+    </Page>
   );
 };
 

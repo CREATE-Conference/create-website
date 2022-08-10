@@ -1,13 +1,12 @@
 import type { NextPage } from 'next';
-import Header from '../../components/navigation/Header';
+import Page from '../../components/layout/Page';
 import TeamGrid from '../../components/sections/TeamGrid';
 
 const Team: NextPage = () => {
   return (
-    <>
-      <Header curPage="Team" />
+    <Page curPage="Team">
       <TeamGrid />
-    </>
+    </Page>
   );
 };
 

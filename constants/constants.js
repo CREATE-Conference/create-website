@@ -36,6 +36,10 @@ import sagaana2 from '../public/img/team/founding-members/sagaana.jpg';
 import christopher from '../public/img/team/founding-members/christopher.jpg';
 import akilesh from '../public/img/team/founding-members/akilesh.jpg';
 
+// Footer socials
+import mail from '../public/img/icons/mail.svg';
+import instagram from '../public/img/icons/instagram-gradient.svg';
+
 export const ABOUT_US = [
   {
     id: 'about-1',
@@ -299,5 +303,20 @@ export const TEAM = [
         picture: akilesh,
       },
     ],
+  },
+];
+
+export const FOOTER_SOCIALS = [
+  {
+    id: 'social-1',
+    icon: mail,
+    altText: 'email icon',
+    link: 'mailto:createconferencecouncil@gmail.com',
+  },
+  {
+    id: 'social-2',
+    icon: instagram,
+    altText: 'Instagram icon',
+    link: 'https://www.instagram.com/createmarkham/',
   },
 ];

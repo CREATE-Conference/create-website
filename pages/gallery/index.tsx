@@ -1,11 +1,11 @@
 import type { NextPage } from 'next';
-import Header from '../../components/navigation/Header';
+import Page from '../../components/layout/Page';
 
 const Gallery: NextPage = () => {
   return (
-    <>
-      <Header curPage="Gallery" />
-    </>
+    <Page curPage="Gallery">
+      <></>
+    </Page>
   );
 };
 

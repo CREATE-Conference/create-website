@@ -23,6 +23,10 @@
     @apply mx-auto block w-11/12 max-w-[1400px];
   }
 
+  .navigation {
+    @apply mx-5 lg:mx-16;
+  }
+
   .m-left {
     @apply ml-[max(calc(1/12*100%/2),calc(calc(100%-1400px)/2))];
   }

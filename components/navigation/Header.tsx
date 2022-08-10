@@ -19,7 +19,7 @@ interface HeaderPropsInterface {
 
 const Header = ({ curPage }: HeaderPropsInterface): ReactElement => {
   return (
-    <header className="mx-5 mt-6 mb-16 flex items-center justify-between lg:mx-16 lg:mb-14 lg:mt-12">
+    <header className="navigation mt-6 mb-16 flex items-center justify-between lg:mb-14 lg:mt-12">
       <HeaderLogo />
       <DesktopMenu curPage={curPage} />
       <div className="transition-300 hidden hover:-translate-y-0.5 lg:block">
