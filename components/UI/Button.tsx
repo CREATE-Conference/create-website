@@ -22,7 +22,7 @@ const Button = ({
           type === 'tertiary' &&
           `bg-green-5 text-green-1 outline outline-1 outline-green-1`
         }
-        transition-300 inline-block rounded-full px-10 py-4 hover:-translate-y-0.5 hover:shadow-md`}
+        transition-300 inline-block rounded-full px-10 py-4 shadow-sm hover:-translate-y-0.5 hover:shadow-md`}
       >
         {children}
       </a>

@@ -10,9 +10,9 @@ module.exports = {
       sans: ['Work Sans', 'sans-serif'],
     },
     boxShadow: {
-      sm: '0px 4px 20px 3px rgba(82, 121, 111, 0.1);',
-      md: '0px 4px 20px 3px rgba(82, 121, 111, 0.2)',
-      lg: '0px 4px 20px 3px rgba(82, 121, 111, 0.4)',
+      sm: '0px 4px 20px 3px rgba(82, 121, 111, 0.15);',
+      md: '0px 4px 20px 3px rgba(82, 121, 111, 0.3)',
+      lg: '0px 4px 20px 3px rgba(82, 121, 111, 0.5)',
     },
     colors: {
       transparent: 'transparent',
