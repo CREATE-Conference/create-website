@@ -19,7 +19,7 @@ interface HeaderPropsInterface {
 
 const Header = ({ curPage }: HeaderPropsInterface): ReactElement => {
   return (
-    <header className="navigation mt-6 mb-16 flex items-center justify-between lg:mb-14 lg:mt-12">
+    <header className="navigation mt-6 mb-16 flex items-center justify-between lg:mb-4 lg:mt-12">
       <HeaderLogo />
       <DesktopMenu curPage={curPage} />
       <div className="transition-300 hidden hover:-translate-y-0.5 lg:block">
@@ -79,7 +79,7 @@ const MobileMenu = (): ReactElement => {
       } z-10 items-center bg-green-5`}
     >
       <div
-        className="absolute right-5 top-6 cursor-pointer"
+        className="icon-dark absolute right-5 top-6 cursor-pointer"
         onClick={menuOpenCtx.toggleMenuHandler}
       >
         <Image src={closeIcon} width="64" height="64" alt="close icon" />

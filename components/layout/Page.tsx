@@ -12,7 +12,7 @@ const Page = ({ curPage, children }: PagePropsInterface): ReactElement => {
     <div className="flex min-h-screen flex-col justify-between">
       <div>
         <Header curPage={curPage} />
-        {children}
+        <main>{children}</main>
       </div>
       <Footer />
     </div>

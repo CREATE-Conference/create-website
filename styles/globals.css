@@ -16,7 +16,7 @@
   }
 
   .section {
-    @apply mb-20 md:mb-32;
+    @apply pt-8 pb-16 first:pt-0 md:pt-10 md:pb-28;
   }
 
   .m-horizontal {
@@ -47,5 +47,15 @@
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     @apply min-h-[640px] !important;
+  }
+
+  .icon-dark {
+    filter: invert(8%) sepia(30%) saturate(944%) hue-rotate(108deg)
+      brightness(93%) contrast(96%);
+  }
+
+  .icon-light {
+    filter: invert(89%) sepia(40%) saturate(93%) hue-rotate(63deg)
+      brightness(106%) contrast(102%);
   }
 }

@@ -8,10 +8,13 @@ import Image from 'next/image';
 
 const AboutUs = (): ReactElement => {
   return (
-    <section className="section relative text-center">
+    <section
+      className="section m-horizontal relative text-center"
+      id="about-us"
+    >
       <div className="mx-auto max-w-[744px]">
         <h2 className="h2 mb-4 md:mb-5">about us</h2>
-        <div className="mb-11 md:mb-16">
+        <div className="mb-11 text-left md:mb-16 md:text-center">
           {ABOUT_US.map((about) => (
             <p className="mb-4 md:mb-5" key={about.id}>
               {about.text}
