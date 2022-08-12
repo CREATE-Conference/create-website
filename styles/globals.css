@@ -16,7 +16,7 @@
   }
 
   .section {
-    @apply pt-8 pb-16 first:pt-0 md:pt-10 md:pb-28;
+    @apply pt-8 pb-16 first:pt-0 last:pb-20 md:pt-10 md:pb-28 last:md:pb-36;
   }
 
   .m-horizontal {
