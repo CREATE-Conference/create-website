@@ -21,7 +21,7 @@ const AboutUs = (): ReactElement => {
             </p>
           ))}
         </div>
-        <Button type="secondary" link="/applications">
+        <Button type="secondary" purpose="route" link="/applications">
           Apply Today
         </Button>
       </div>

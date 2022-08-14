@@ -3,31 +3,50 @@ import { ReactElement } from 'react';
 
 interface ButtonPropsInterface {
   type: string;
-  link: string;
+  purpose: string;
+  link?: string;
+  formId?: string;
+  isEnabled?: boolean;
   children: string;
 }
 
 const Button = ({
   type,
-  link,
+  purpose,
+  link = '',
+  formId = '',
+  isEnabled,
   children,
 }: ButtonPropsInterface): ReactElement => {
-  return (
-    <Link href={link}>
-      <a
-        className={`
+  const buttonContent = (
+    <a
+      className={`
         ${type === 'primary' && `gradient text-green-5`}
         ${type === 'secondary' && `bg-green-2 text-green-5`}
         ${
           type === 'tertiary' &&
           `bg-green-5 text-green-1 outline outline-1 outline-green-1`
         }
+        ${
+          purpose === 'onClick' &&
+          !isEnabled &&
+          `cursor-default opacity-50 hover:-translate-y-0`
+        }
         transition-300 inline-block rounded-full px-10 py-4 shadow-sm hover:-translate-y-0.5 hover:shadow-md`}
-      >
-        {children}
-      </a>
-    </Link>
+    >
+      {children}
+    </a>
   );
+
+  if (purpose === 'route') {
+    return <Link href={link}>{buttonContent}</Link>;
+  } else {
+    return (
+      <button type="submit" form={formId}>
+        {buttonContent}
+      </button>
+    );
+  }
 };
 
 export default Button;

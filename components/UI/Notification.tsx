@@ -27,9 +27,13 @@ const Notification = (): ReactElement => {
     0,
     notification.text.indexOf('{LINK}')
   );
-  const notificationTextSecondPart = notification.text.slice(
-    notification.text.indexOf('{LINK}') + 6
-  );
+
+  let notificationTextSecondPart = '';
+  if (notification.text.indexOf('{LINK}') !== -1) {
+    notificationTextSecondPart = notification.text.slice(
+      notification.text.indexOf('{LINK}') + 6
+    );
+  }
 
   return (
     <div
