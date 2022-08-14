@@ -17,10 +17,10 @@ const Landing = (): ReactElement => {
           connections, and discover your full potential!
         </p>
         <div className="mx-auto flex max-w-[450px] flex-col justify-center gap-5 md:flex-row md:gap-10 lg:mx-0 lg:justify-start">
-          <Button type="secondary" link="/#about-us">
+          <Button type="secondary" purpose="route" link="/#about-us">
             Learn More
           </Button>
-          <Button type="tertiary" link="/#contact">
+          <Button type="tertiary" purpose="route" link="/#contact">
             Contact Us
           </Button>
         </div>
