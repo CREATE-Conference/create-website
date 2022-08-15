@@ -9,19 +9,20 @@ const LinksPage = (): ReactElement => {
           links
         </h1>
       <div className="flex justify-center flex-col gap-10 md:gap-5 lg:mx-[22.4rem] md:mx-32 xs:mx-14" >
-        <Button type="tertiary" link="https://createmarkham.ca/">
+        
+        <Button type="tertiary" link="https://createmarkham.ca/" purpose={'route'}>
           Website
         </Button>
-        <Button type="tertiary" link="/#">
+        <Button type="tertiary" link="/#" purpose={'route'}>
           CREATE Delegate Application
         </Button>
-        <Button type="tertiary" link="/#">
+        <Button type="tertiary" link="/#" purpose={'route'}>
           CREATE Maven Application
         </Button>
-        <Button type="tertiary" link="https://www.instagram.com/createmarkham/">
+        <Button type="tertiary" link="https://www.instagram.com/createmarkham/" purpose={'route'}>
           Instagram
         </Button>
-        <Button type="tertiary" link="mailto:createconferencecouncil@gmail.com">
+        <Button type="tertiary" link="mailto:createconferencecouncil@gmail.com" purpose={'route'}>
           Email
         </Button>
         
