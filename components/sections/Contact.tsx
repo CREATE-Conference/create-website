@@ -54,7 +54,7 @@ const Contact = (): ReactElement => {
     e.preventDefault();
 
     if (formValidity.name && formValidity.email && formValidity.message) {
-      handleSubmit(e);
+      handleSubmit('contact', formValues);
       formSubmissionModalOpenCtx.showFormSubmissionModal();
       setFormValues({ name: '', email: '', message: '' });
       setFormValidity({ name: false, email: false, message: false });
@@ -108,9 +108,7 @@ const Contact = (): ReactElement => {
         purpose="submit"
         formId="contact"
         isEnabled={
-          formValidity.name === true &&
-          formValidity.email === true &&
-          formValidity.message === true
+          formValidity.name && formValidity.email && formValidity.message
         }
       >
         Submit

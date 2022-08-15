@@ -30,7 +30,7 @@ const Button = ({
           `bg-green-5 text-green-1 outline outline-1 outline-green-1`
         }
         ${
-          purpose === 'onClick' &&
+          purpose === 'submit' &&
           !isEnabled &&
           `cursor-default opacity-50 hover:-translate-y-0`
         }
