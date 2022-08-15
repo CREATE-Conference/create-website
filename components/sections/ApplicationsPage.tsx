@@ -2,48 +2,46 @@ import { ReactElement, useState } from 'react';
 import Button from '../UI/Button';
 
 const ApplicationsPage = (): ReactElement => {
-  return ( 
-    <section className="section items-center center">
-    <div className="text-center lg:-mt-240">
-    <h1 className="h1 mb-5 lg:mb-14 lg:mt-10 md:mb-14 xs:mb-10">
+  return (
+    <section className="section center items-center">
+      <div className="lg:-mt-240 text-center">
+        <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">
           applications
         </h1>
-        <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-10 place-content-center">
-          <div className = "text-left md:mr-1 xs:mx-10 lg:ml-24 md:ml-20 lg:mr-5 rounded-xl bg-green-5 text-green-1 outline outline-1 outline-green-1 transition-300 inline-block px-10 py-4 shadow-sm hover:-translate-y-0.5 hover:shadow-md">
-            <p className= " mb-2 font-semibold text-left gradient-text gradient pb-1 xs:text-2xl md:text-3xl lg:text-3xl" >
+        <div className="grid place-content-center gap-10 md:grid-cols-2 lg:grid-cols-2">
+          <div className="transition-300 inline-block rounded-xl bg-green-5 px-10 py-4 text-left text-green-1 shadow-sm outline outline-1 outline-green-1 hover:-translate-y-0.5 hover:shadow-md xs:mx-10 md:mr-1 md:ml-20 lg:ml-24 lg:mr-5">
+            <p className=" gradient-text gradient mb-2 pb-1 text-left font-semibold xs:text-2xl md:text-3xl lg:text-3xl">
               Activities Chairsperson
             </p>
-            <p className = "text-green-1 mb-6">
-            Interested in planning activities for CREATE? 
-            Applications for the CREATE Activities Executive 
-            position are due by 11:59 PM on July 6.
+            <p className="mb-6 text-green-1">
+              Interested in planning activities for CREATE? Applications for the
+              CREATE Activities Executive position are due by 11:59 PM on July
+              6.
             </p>
-            <div className = "mb-5">
-            <Button type="secondary" link="#" >
-          Apply
-        </Button>
+            <div className="mb-5">
+              <Button purpose="route" type="secondary" link="#">
+                Apply
+              </Button>
             </div>
           </div>
-          <div className="text-left md:ml-1 lg:ml-5 lg:mr-24 md:mr-20 xs:mx-10 rounded-xl bg-green-5 text-green-1 outline outline-1 outline-green-1 transition-300 inline-block px-10 py-4 shadow-sm hover:-translate-y-0.5 hover:shadow-md">
-          <p className= " mb-2 font-semibold gradient-text gradient pb-1 xs:text-2xl md:text-3xl lg:text-3xl" >
-              
-          Activites Chairsperson
+          <div className="transition-300 inline-block rounded-xl bg-green-5 px-10 py-4 text-left text-green-1 shadow-sm outline outline-1 outline-green-1 hover:-translate-y-0.5 hover:shadow-md xs:mx-10 md:ml-1 md:mr-20 lg:ml-5 lg:mr-24">
+            <p className=" gradient-text gradient mb-2 pb-1 font-semibold xs:text-2xl md:text-3xl lg:text-3xl">
+              Activites Chairsperson
             </p>
-            <p className = "text-green-1 mb-6">
-            Interested in planning activities for CREATE? 
-          Applications for the CREATE Activities Executive 
-          position are due by 11:59 PM on July 6.
+            <p className="mb-6 text-green-1">
+              Interested in planning activities for CREATE? Applications for the
+              CREATE Activities Executive position are due by 11:59 PM on July
+              6.
             </p>
-            <div className = "mb-5">
-            <Button type="secondary" link="#" >
-          Apply
-        </Button>
-            </div>
-            
+            <div className="mb-5">
+              <Button purpose="route" type="secondary" link="#">
+                Apply
+              </Button>
             </div>
           </div>
-    </div>
-  </section>
+        </div>
+      </div>
+    </section>
   );
 };
 
