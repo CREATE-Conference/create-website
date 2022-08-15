@@ -1,6 +1,8 @@
-import { ReactElement, useState } from 'react';
+import { ReactElement, useState, useContext } from 'react';
 import Button from '../UI/Button';
 import Input from '../UI/Input';
+import handleSubmit from '../../utils/submitForm';
+import formSubmissionModalOpenContext from '../../store/form-submission-modal-open-context';
 
 const Contact = (): ReactElement => {
   const [formValues, setFormValues] = useState({
@@ -20,6 +22,8 @@ const Contact = (): ReactElement => {
     email: false,
     message: false,
   });
+
+  const formSubmissionModalOpenCtx = useContext(formSubmissionModalOpenContext);
 
   const inputChangeHandler = (
     event:
@@ -50,9 +54,11 @@ const Contact = (): ReactElement => {
     e.preventDefault();
 
     if (formValidity.name && formValidity.email && formValidity.message) {
-      console.log('Form is valid');
-    } else {
-      console.log('Form is invalid');
+      handleSubmit(e);
+      formSubmissionModalOpenCtx.showFormSubmissionModal();
+      setFormValues({ name: '', email: '', message: '' });
+      setFormValidity({ name: false, email: false, message: false });
+      setFormTouched({ name: false, email: false, message: false });
     }
   };
 
@@ -99,7 +105,7 @@ const Contact = (): ReactElement => {
       </form>
       <Button
         type="secondary"
-        purpose="onClick"
+        purpose="submit"
         formId="contact"
         isEnabled={
           formValidity.name === true &&

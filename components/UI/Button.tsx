@@ -8,6 +8,7 @@ interface ButtonPropsInterface {
   formId?: string;
   isEnabled?: boolean;
   children: string;
+  onClick?: () => void;
 }
 
 const Button = ({
@@ -17,6 +18,7 @@ const Button = ({
   formId = '',
   isEnabled,
   children,
+  onClick,
 }: ButtonPropsInterface): ReactElement => {
   const buttonContent = (
     <a
@@ -40,11 +42,17 @@ const Button = ({
 
   if (purpose === 'route') {
     return <Link href={link}>{buttonContent}</Link>;
-  } else {
+  } else if (purpose === 'submit') {
     return (
       <button type="submit" form={formId}>
         {buttonContent}
       </button>
+    );
+  } else {
+    return (
+      <div className="cursor-pointer" onClick={onClick}>
+        {buttonContent}
+      </div>
     );
   }
 };
