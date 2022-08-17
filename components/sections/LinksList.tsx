@@ -3,16 +3,15 @@ import { useState, useEffect } from 'react';
 import { ref, onValue } from 'firebase/database';
 import { db } from '../../utils/firebaseConfig';
 
-type Link = {
+interface Link {
   id: string;
   text: string;
   link: string;
-};
+}
 
 const LinksList = (): ReactElement => {
-  const [links, setLinks] = useState([
-    { id: 'application-1', text: 'Website', link: 'createmarkham.ca' },
-  ]);
+  const emptyLinks: Link[] = [];
+  const [links, setLinks] = useState(emptyLinks);
 
   useEffect(() => {
     const linksRef = ref(db, 'links');
