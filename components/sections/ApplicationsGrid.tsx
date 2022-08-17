@@ -36,7 +36,11 @@ const ApplicationsGrid = (): ReactElement => {
               <p className="mb-7 text-base text-green-1 md:mb-10 md:text-lg">
                 {application.description}
               </p>
-              <Button type="secondary" purpose="route" link={application.link}>
+              <Button
+                type="secondary"
+                purpose="externalLink"
+                link={application.link}
+              >
                 Apply
               </Button>
             </div>
