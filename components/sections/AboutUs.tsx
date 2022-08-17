@@ -21,7 +21,12 @@ const AboutUs = (): ReactElement => {
             </p>
           ))}
         </div>
-        <Button type="secondary" purpose="route" link="/applications">
+        <Button
+          type="secondary"
+          purpose="route"
+          link="/applications"
+          mobileFullWidth={false}
+        >
           Apply Today
         </Button>
       </div>

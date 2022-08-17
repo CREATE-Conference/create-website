@@ -9,6 +9,7 @@ interface ButtonPropsInterface {
   isEnabled?: boolean;
   children: string;
   onClick?: () => void;
+  mobileFullWidth: boolean;
 }
 
 const Button = ({
@@ -19,6 +20,7 @@ const Button = ({
   isEnabled,
   children,
   onClick,
+  mobileFullWidth,
 }: ButtonPropsInterface): ReactElement => {
   const buttonClasses = `
         ${type === 'primary' && `gradient text-green-5`}
@@ -27,6 +29,7 @@ const Button = ({
           type === 'tertiary' &&
           `bg-green-5 text-green-1 outline outline-1 outline-green-1`
         }
+        ${mobileFullWidth && `w-full md:w-auto`}
         transition-300 inline-block rounded-full px-10 py-4 shadow-sm hover:-translate-y-0.5 hover:shadow-md`;
 
   const buttonContent =

@@ -27,7 +27,12 @@ const Header = ({ curPage }: HeaderPropsInterface): ReactElement => {
       <HeaderLogo />
       <DesktopMenu curPage={curPage} />
       <div className="transition-300 hidden hover:-translate-y-0.5 lg:block">
-        <Button type="primary" purpose="route" link="/applications">
+        <Button
+          type="primary"
+          purpose="route"
+          link="/applications"
+          mobileFullWidth={false}
+        >
           Join Us!
         </Button>
       </div>

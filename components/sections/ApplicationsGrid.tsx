@@ -40,6 +40,7 @@ const ApplicationsGrid = (): ReactElement => {
                 type="secondary"
                 purpose="externalLink"
                 link={application.link}
+                mobileFullWidth={true}
               >
                 Apply
               </Button>

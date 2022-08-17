@@ -110,6 +110,7 @@ const Contact = (): ReactElement => {
         isEnabled={
           formValidity.name && formValidity.email && formValidity.message
         }
+        mobileFullWidth={false}
       >
         Submit
       </Button>
