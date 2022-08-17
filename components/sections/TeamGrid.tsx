@@ -4,6 +4,7 @@ import { TEAM } from '../../constants/constants';
 import arrowLeftIcon from '../../public/img/icons/arrow-gradient-left.svg';
 import arrowRightIcon from '../../public/img/icons/arrow-gradient-right.svg';
 import instagramIcon from '../../public/img/icons/instagram.svg';
+import Row2 from '../layout/Row2';
 import Card from '../UI/Card';
 
 const TeamGrid = (): ReactElement => {
@@ -77,7 +78,7 @@ interface MemberInterface {
 
 const Members = ({ year }: MembersPropsInterface): ReactElement => {
   return (
-    <div className="grid gap-8 md:grid-cols-2 lg:gap-12 xl:gap-14">
+    <Row2>
       {TEAM[year].members.map((member: MemberInterface) => (
         <Card key={member.id}>
           <div className="px-5 pt-5 pb-6 sm:px-8 sm:pt-8 sm:pb-10 lg:px-10 lg:pt-10 lg:pb-12">
@@ -126,7 +127,7 @@ const Members = ({ year }: MembersPropsInterface): ReactElement => {
           </div>
         </Card>
       ))}
-    </div>
+    </Row2>
   );
 };
 

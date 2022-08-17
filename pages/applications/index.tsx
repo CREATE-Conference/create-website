@@ -1,11 +1,11 @@
 import type { NextPage } from 'next';
 import Page from '../../components/layout/Page';
-import ApplicationsPage from '../../components/sections/ApplicationsPage';
+import ApplicationsGrid from '../../components/sections/ApplicationsGrid';
 
 const Applications: NextPage = () => {
   return (
     <Page curPage="Applications">
-      <ApplicationsPage/>
+      <ApplicationsGrid />
     </Page>
   );
 };

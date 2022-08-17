@@ -20,8 +20,8 @@ interface HeaderPropsInterface {
 const Header = ({ curPage }: HeaderPropsInterface): ReactElement => {
   return (
     <header
-      className={`navigation mt-6 flex items-center justify-between lg:mt-12 ${
-        curPage === 'Home' ? 'mb-16 lg:mb-8' : ''
+      className={`navigation mt-6 mb-16 flex items-center justify-between lg:mt-12 ${
+        curPage === 'Home' ? 'lg:mb-8' : 'lg:mb-20'
       }`}
     >
       <HeaderLogo />
