@@ -1,10 +1,10 @@
 import type { NextPage } from 'next';
-import Page from '../components/layout/Page';
-import AboutUs from '../components/sections/AboutUs';
-import Contact from '../components/sections/Contact';
-import Landing from '../components/sections/Landing';
-import MyCreateStory from '../components/sections/MyCreateStory';
 import SEO from '../components/SEO/SEO';
+import Page from '../components/layout/Page';
+import Landing from '../components/sections/Landing';
+import AboutUs from '../components/sections/AboutUs';
+import MyCreateStory from '../components/sections/MyCreateStory';
+import Contact from '../components/sections/Contact';
 
 const Home: NextPage = () => {
   return (

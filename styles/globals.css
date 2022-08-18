@@ -8,7 +8,7 @@
   }
 
   .h2 {
-    @apply gradient-text gradient pb-1 text-4xl font-bold xs:text-5xl md:text-6xl;
+    @apply gradient-text gradient pb-1 text-4xl font-bold 2xs:text-[42px] md:text-6xl;
   }
 
   .body {
@@ -60,7 +60,5 @@
   }
 
   .button-margin {
-    
   }
-
 }

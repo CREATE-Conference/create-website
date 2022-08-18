@@ -2,7 +2,7 @@ import { ReactElement, useState, useEffect } from 'react';
 import Row2 from '../layout/Row2';
 import Button from '../UI/Button';
 import Card from '../UI/Card';
-import { app, db } from '../../utils/firebaseConfig';
+import { db } from '../../utils/firebaseConfig';
 import { ref, onValue } from 'firebase/database';
 
 interface Application {
@@ -58,7 +58,7 @@ const ApplicationsGrid = (): ReactElement => {
         </Row2>
       ) : (
         <p className="text-center text-lg font-medium text-green-1">
-          Applications are now closed. Stay tuned for more applications!
+          Applications are now closed. Stay tuned for more!
         </p>
       )}
     </section>

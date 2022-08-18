@@ -1,11 +1,11 @@
 import Image, { StaticImageData } from 'next/image';
 import { ReactElement, useState } from 'react';
+import Row2 from '../layout/Row2';
+import Card from '../UI/Card';
 import { TEAM } from '../../constants/constants';
 import arrowLeftIcon from '../../public/img/icons/arrow-gradient-left.svg';
 import arrowRightIcon from '../../public/img/icons/arrow-gradient-right.svg';
 import instagramIcon from '../../public/img/icons/instagram.svg';
-import Row2 from '../layout/Row2';
-import Card from '../UI/Card';
 
 const TeamGrid = (): ReactElement => {
   const [year, setYear] = useState(0);

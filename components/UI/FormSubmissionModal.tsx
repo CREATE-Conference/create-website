@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import { ReactElement } from 'react';
-import messageSentIcon from '../../public/img/icons/message-sent.svg';
+import { ReactElement, useContext } from 'react';
 import Button from './Button';
-import closeIcon from '../../public/img/icons/close.svg';
-import { useContext } from 'react';
 import FormSubmissionModalOpenContext from '../../store/form-submission-modal-open-context';
+import messageSentIcon from '../../public/img/icons/message-sent.svg';
+import closeIcon from '../../public/img/icons/close.svg';
 
 const FormSubmissionModal = (): ReactElement => {
   const formSubmissionModalOpenCtx = useContext(FormSubmissionModalOpenContext);

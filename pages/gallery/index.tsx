@@ -5,7 +5,7 @@ import GalleryPage from '../../components/sections/GalleryPage';
 const Gallery: NextPage = () => {
   return (
     <Page curPage="Gallery">
-      <GalleryPage/>
+      <GalleryPage />
     </Page>
   );
 };

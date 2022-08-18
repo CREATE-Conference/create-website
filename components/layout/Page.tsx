@@ -1,6 +1,6 @@
-import { ReactElement } from 'react';
-import Footer from '../navigation/Footer';
+import type { ReactElement } from 'react';
 import Header from '../navigation/Header';
+import Footer from '../navigation/Footer';
 
 interface PagePropsInterface {
   curPage: string;

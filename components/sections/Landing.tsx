@@ -1,7 +1,7 @@
-import { ReactElement } from 'react';
+import Image from 'next/image';
+import type { ReactElement } from 'react';
 import Button from '../UI/Button';
 import landingGraphic from '../../public/img/graphics/landing.png';
-import Image from 'next/image';
 
 const Landing = (): ReactElement => {
   return (

@@ -1,5 +1,5 @@
-import { ReactElement, useState } from 'react';
 import Image, { StaticImageData } from 'next/image';
+import { ReactElement, useState } from 'react';
 import { MY_CREATE_STORY } from '../../constants/constants';
 
 const MyCreateStory = (): ReactElement => {

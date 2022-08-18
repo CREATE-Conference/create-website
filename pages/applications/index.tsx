@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
+import SEO from '../../components/SEO/SEO';
 import Page from '../../components/layout/Page';
 import ApplicationsGrid from '../../components/sections/ApplicationsGrid';
-import SEO from '../../components/SEO/SEO';
 
 const Applications: NextPage = () => {
   return (

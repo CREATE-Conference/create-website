@@ -1,10 +1,10 @@
-import { ReactElement, useContext, useEffect, useState } from 'react';
 import Image from 'next/image';
+import { ReactElement, useContext, useEffect, useState } from 'react';
 import NotificationOpenContext from '../../store/notification-open-context';
-import openIcon from '../../public/img/icons/open.svg';
-import closeIcon from '../../public/img/icons/close.svg';
 import { ref, onValue } from 'firebase/database';
 import { db } from '../../utils/firebaseConfig';
+import openIcon from '../../public/img/icons/open.svg';
+import closeIcon from '../../public/img/icons/close.svg';
 
 const Notification = (): ReactElement => {
   const notificationOpenCtx = useContext(NotificationOpenContext);

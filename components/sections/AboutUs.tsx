@@ -1,10 +1,10 @@
-import { ReactElement } from 'react';
-import { ABOUT_US } from '../../constants/constants';
+import Image from 'next/image';
+import type { ReactElement } from 'react';
 import Button from '../UI/Button';
+import { ABOUT_US } from '../../constants/constants';
 import graphic1 from '../../public/img/graphics/about-1.png';
 import graphic2 from '../../public/img/graphics/about-2.png';
 import graphic3 from '../../public/img/graphics/about-3.png';
-import Image from 'next/image';
 
 const AboutUs = (): ReactElement => {
   return (
