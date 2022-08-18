@@ -58,7 +58,7 @@ const ApplicationsGrid = (): ReactElement => {
         </Row2>
       ) : (
         <p className="text-center text-lg font-medium text-green-1">
-          Applications are now closed! Stay tuned for next year!
+          Applications are now closed. Stay tuned for more applications!
         </p>
       )}
     </section>

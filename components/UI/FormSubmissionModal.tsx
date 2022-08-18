@@ -31,6 +31,7 @@ const FormSubmissionModal = (): ReactElement => {
           type="primary"
           purpose="onClick"
           onClick={formSubmissionModalOpenCtx.closeFormSubmissionModal}
+          mobileFullWidth={false}
         >
           Continue
         </Button>
