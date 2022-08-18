@@ -39,10 +39,10 @@ const Input = ({
     return !isValid && touched && !isFocused;
   };
 
-  const classes = `placeholder:transition-300 transition-300 block w-full rounded-lg bg-green-5 px-4 py-3 shadow-sm outline outline-1 placeholder:italic ${
+  const classes = `placeholder:transition-300 transition-300 block w-full rounded-lg bg-green-5 px-4 py-3 shadow-sm border border-1 placeholder:italic outline-none ${
     shouldShowError()
-      ? 'text-red outline-red placeholder:text-red focus:outline-red'
-      : 'text-green-1 outline-green-4 placeholder:text-green-3 focus:outline-green-1'
+      ? 'text-red border-red placeholder:text-red focus:border-red'
+      : 'text-green-1 border-green-4 placeholder:text-green-3 focus:border-green-1'
   }`;
 
   return (

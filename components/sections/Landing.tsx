@@ -12,9 +12,9 @@ const Landing = (): ReactElement => {
         </h1>
         <p className="body mb-11 md:mb-16">
           CREATE Markham is a two-day conference where participants come
-          together and brainstorm prompts to benefit their community! It is a
-          fantastic opportunity to develop your leadership skills, foster new
-          connections, and discover your full potential!
+          together and brainstorm prompts to benefit their community!
+          You&apos;ll develop your leadership skills and create connections,
+          while also gaining volunteering hours and experience.
         </p>
         <div className="mx-auto flex max-w-[450px] flex-col justify-center gap-5 md:flex-row md:gap-10 lg:mx-0 lg:justify-start">
           <Button

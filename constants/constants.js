@@ -43,19 +43,19 @@ import instagram from '../public/img/icons/instagram-gradient.svg';
 export const ABOUT_US = [
   {
     id: 'about-1',
-    text: 'CREATE stands for Cultivating Realistic and Effective Actions Towards Everyone. And that is exactly what we do. Every year, we host a wintertime conference, followed by a summertime outdoors retreat centered around personal growth within the Markham youth.',
+    text: 'CREATE stands for Cultivating Realistic and Effective Actions Towards Everyone. We host an annual wintertime conference, followed by a summertime outdoors retreat centred around personal growth within the Markham youth.',
   },
   {
     id: 'about-2',
-    text: 'During the conference, participants, known as Delegates, are divided into teams, led by youth leaders, known as Mavens. Together, they are given a prompt around which they will carry out a year-long initiative. Prompts include physical, social, creative, and environmental wellness.',
+    text: 'During the conference, participants, known as Delegates, are divided into teams and led by youth leaders known as Mavens. Together, they will carry out a year-long initiative around a given prompt. Prompts include physical, social, creative, and environmental wellness. This is also a volunteering opportunity, allowing you to earn volunteer hours for school.',
   },
   {
     id: 'about-3',
-    text: 'Through their initiative, delegates will learn essential leadership, collaboration, and communication skills, preparing them for their future endeavours.',
+    text: 'Throughout their initiative, delegates will learn essential leadership, collaboration, and communication skills, preparing them for their future endeavours.',
   },
   {
     id: 'about-4',
-    text: 'Interested in joining CREATE Markham? Apply to be a Delegate, Maven, or Executive member! Executive applications open in June every year, followed by Mavens and Delegates in the fall. Follow our Instagram, @createmarkham to learn more!',
+    text: 'Want to join CREATE Markham? Apply to be a Delegate, Maven, or Executive member! Executive applications open in June, followed by Mavens and Delegates in the fall. Follow our Instagram, @createmarkham and stay tuned!',
   },
 ];
 
@@ -160,7 +160,7 @@ export const TEAM = [
         description: [
           "hi loves! my names simran and i'm one of the four AWESOME activities chairs on CREATE this year :)) i go to pierre elliott trudeau, my fav colour is pink and i LOVE watching the sunset :) CREATE has left such a powerful and memorable impact on me and this year im hoping to leave that type of impact on all of you as well! stay tuned for our maven apps coming out soon 😘",
         ],
-        instagram: 'https://www.instagram.com/__simransaini/',
+        instagram: 'https://www.instagram.com/_simrannks/',
       },
       {
         id: 'member-8',

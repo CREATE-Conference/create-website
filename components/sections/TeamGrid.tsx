@@ -48,7 +48,7 @@ const YearIndicator = ({
       >
         <Image src={arrowLeftIcon} alt="Arrow icon" />
       </div>
-      <p className="inline-block rounded-full px-10 py-4 outline outline-1 outline-green-1">
+      <p className="border-1 inline-block rounded-full border border-green-1 px-10 py-4">
         {TEAM[year].year}
       </p>
       <div
@@ -97,7 +97,7 @@ const Members = ({ year }: MembersPropsInterface): ReactElement => {
             <div
               className={`${
                 member.description ? 'mb-5' : 'mb-0'
-              } relative overflow-hidden rounded-2xl outline outline-1 outline-green-1 md:rounded-3xl`}
+              } border-1 relative overflow-hidden rounded-2xl border  border-green-1 md:rounded-3xl`}
             >
               <Image
                 src={member.picture}

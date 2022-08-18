@@ -47,7 +47,7 @@ const Link = ({ text, link }: LinkPropsInterface) => {
   return (
     <a
       href={link}
-      className="transition-300 mb-6 block rounded-full bg-green-5 py-4 text-center outline outline-1 outline-green-2 last:mb-0 hover:shadow-sm"
+      className="transition-300 border-1 mb-6 block rounded-full border border-green-2 bg-green-5 py-4 text-center last:mb-0 hover:shadow-sm"
       target="_blank"
       rel="noreferrer"
     >

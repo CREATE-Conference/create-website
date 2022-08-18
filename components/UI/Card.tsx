@@ -6,7 +6,7 @@ interface CardPropsInterface {
 
 const Card = ({ children }: CardPropsInterface): ReactElement => {
   return (
-    <div className="transition-300 rounded-2xl shadow-sm outline outline-1 outline-green-1 hover:shadow-md md:rounded-3xl">
+    <div className="transition-300 border-1 rounded-2xl border border-green-1 shadow-sm hover:shadow-md md:rounded-3xl">
       {children}
     </div>
   );

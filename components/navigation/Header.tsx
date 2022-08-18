@@ -85,7 +85,7 @@ const MobileMenu = (): ReactElement => {
     <div
       className={`transition-300 h-screen-trick absolute top-0 left-0 flex w-screen ${
         menuOpenCtx.isMenuOpen ? `opacity-100` : `translate-x-full opacity-0`
-      } z-10 items-center bg-green-5`}
+      } z-30 items-center bg-green-5`}
     >
       <div
         className="icon-dark absolute right-5 top-6 cursor-pointer"

@@ -16,7 +16,7 @@ const FormSubmissionModal = (): ReactElement => {
           : '-z-10 opacity-0'
       }`}
     >
-      <div className="absolute top-1/2 left-1/2 w-11/12 max-w-[864px] -translate-x-1/2 -translate-y-1/2 rounded-2xl bg-green-5 py-12 text-center outline outline-1 outline-green-1 md:py-16">
+      <div className="border-1 absolute top-1/2 left-1/2 w-11/12 max-w-[864px] -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-green-1 bg-green-5 py-12 text-center md:py-16">
         <div className="inline-block h-[80px] w-[80px] md:mb-2 md:h-[120px] md:w-[120px]">
           <Image src={messageSentIcon} layout="responsive" alt="Email sent" />
         </div>
