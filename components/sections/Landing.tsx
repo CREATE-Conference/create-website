@@ -7,8 +7,8 @@ const Landing = (): ReactElement => {
   return (
     <section className="section m-horizontal grid items-center gap-16 lg:grid-cols-2 lg:gap-8">
       <div className="text-center lg:-mt-24 lg:text-left">
-        <h1 className="h1 mb-5 md:mb-6">
-          create&nbsp;<span className="hidden md:inline-block">markham</span>
+        <h1 className="h1 mb-5 lowercase md:mb-6">
+          CREATE <span className="hidden md:inline-block">Markham</span>
         </h1>
         <p className="body mb-11 md:mb-16">
           CREATE Markham is a two-day conference where participants come
