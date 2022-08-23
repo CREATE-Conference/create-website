@@ -59,7 +59,7 @@ const HeaderLogo = (): ReactElement => {
 
 const DesktopMenu = ({ curPage }: HeaderPropsInterface): ReactElement => {
   return (
-    <div className="hidden lg:flex lg:gap-14">
+    <nav className="hidden lg:flex lg:gap-14">
       {ROUTES.map((route) => (
         <Link href={route.route} key={route.id}>
           <a
@@ -71,7 +71,7 @@ const DesktopMenu = ({ curPage }: HeaderPropsInterface): ReactElement => {
           </a>
         </Link>
       ))}
-    </div>
+    </nav>
   );
 };
 
@@ -93,7 +93,7 @@ const MobileMenu = (): ReactElement => {
       >
         <Image src={closeIcon} width="64" height="64" alt="close icon" />
       </div>
-      <div className="-mt-6 flex w-full flex-col gap-16 pl-9">
+      <nav className="-mt-6 flex w-full flex-col gap-16 pl-9">
         {ROUTES.map((route) => (
           <Link href={route.route} key={route.id}>
             <a
@@ -106,7 +106,7 @@ const MobileMenu = (): ReactElement => {
             </a>
           </Link>
         ))}
-      </div>
+      </nav>
     </div>
   );
 };
