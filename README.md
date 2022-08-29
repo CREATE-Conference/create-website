@@ -9,7 +9,7 @@ This repo is for the website of CREATE Markham. Visit it [here](https://www.crea
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=#FFCB33)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-### About CREATE Markham  🌱
+### About CREATE Markham 🌱
 CREATE stands for Cultivating Realistic and Effective Actions Towards Everyone. They host an annual wintertime conference, followed by a summertime outdoors retreat centred around personal growth within the Markham youth.
 
 During the conference, participants, known as Delegates, are divided into teams and led by youth leaders known as Mavens. Together, they will carry out a year-long initiative around a given prompt. Prompts include physical, social, creative, and environmental wellness. It is also a volunteering opportunity, allowing participants to earn volunteer hours that goes towards their graduation.
