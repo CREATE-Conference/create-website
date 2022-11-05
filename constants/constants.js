@@ -36,15 +36,15 @@ import sagaana2 from '../public/img/team/founding-members/sagaana.jpg';
 import christopher from '../public/img/team/founding-members/christopher.jpg';
 import akilesh from '../public/img/team/founding-members/akilesh.jpg';
 
-import alyssa2 from '.../public/img/team/2022-2023/alyssa2.jpg';
-import cheuk2 from '.../public/img/team/2022-2023/cheuk2.jpg';
-import chloe2 from '.../public/img/team/2022-2023/chloe2.jpg';
-import harishan2 from '.../public/img/team/2022-2023/harishan2.jpg';
-import harry2 from '.../public/img/team/2022-2023/harry2.jpg';
-import jayleen2 from '.../public/img/team/2022-2023/jayleen2.jpg';
-import jier2 from '.../public/img/team/2022-2023/jier2.jpg';
-import pari2 from '.../public/img/team/2022-2023/pari2.jpg';
-import tiffaney2 from '.../public/img/team/2022-2023/tiffaney2.jpg';
+import alyssa2 from '../public/img/team/2022-2023/alyssa2.jpg';
+import cheuk2 from '../public/img/team/2022-2023/cheuk2.jpg';
+import chloe2 from '../public/img/team/2022-2023/chloe2.jpg';
+import harishan2 from '../public/img/team/2022-2023/harishan2.jpg';
+import harry2 from '../public/img/team/2022-2023/harry2.jpg';
+import jayleen2 from '../public/img/team/2022-2023/jayleen2.jpg';
+import jier2 from '../public/img/team/2022-2023/jier2.jpg';
+import pari2 from '../public/img/team/2022-2023/pari2.jpg';
+import tiffaney2 from '../public/img/team/2022-2023/tiffaney2.jpg';
 
 // Footer socials
 import mail from '../public/img/icons/mail.svg';
