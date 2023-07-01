@@ -41,7 +41,7 @@ const ApplicationsGrid = (): ReactElement => {
                 <h3 className="gradient gradient-text mb-2 text-2xl font-semibold md:mb-4 md:text-3xl">
                   {application.title}
                 </h3>
-                <p className="mb-7 text-base text-green-1 md:mb-10 md:text-lg">
+                <p className="mb-7 text-sm text-green-1 md:mb-10 md:text-lg">
                   {application.description}
                 </p>
                 <Button
