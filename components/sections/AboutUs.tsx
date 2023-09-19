@@ -55,6 +55,7 @@ const AboutUs = (): ReactElement => {
         />
       </div>
     </section>
+  
   );
 };
 

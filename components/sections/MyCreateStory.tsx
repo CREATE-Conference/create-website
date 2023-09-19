@@ -1,10 +1,38 @@
 import Image, { StaticImageData } from 'next/image';
 import { ReactElement, useState } from 'react';
 import { MY_CREATE_STORY } from '../../constants/constants';
+import landingGraphic from '../../public/img/graphics/landing.png';
+import brain from '../../public/img/sponsers/brain.png';
+import hub from '../../public/img/sponsers/hub.jpeg';
+import markham from '../../public/img/sponsers/markham.png';
 
 const MyCreateStory = (): ReactElement => {
   return (
     <section className="section m-horizontal text-center">
+      <h2 className="h2 pb-4 md:pb-5">our sponsors</h2>
+      <p className="body pb-9 md:pb-16">
+        Sharing those who have supported us over the last years. We truly thank you for making CREATE possible!
+      </p>
+      <Image
+        src={brain}
+        alt="Brain Power"
+        width="500px"
+        height="183px"
+      />
+      <Image
+        src={hub}
+        alt="Hub Climbing"
+        width="250px"
+        height="183px"
+      />
+      <Image
+        src={markham}
+        alt="CREATE Markham Retreat 1"
+        width="450px"
+        height="183px"
+      />
+      <p className="body pb-9 md:pb-16"> </p>
+
       <h2 className="h2 pb-4 md:pb-5">#mycreatestory</h2>
       <p className="body pb-9 md:pb-16">
         Listen to what some of our participants have said about their CREATE
@@ -73,9 +101,8 @@ const Testimonial = ({
         <div className="relative h-6 w-6">
           <div className="absolute left-1/2 top-1/2 h-1 w-6 -translate-x-1/2 -translate-y-1/2 bg-green-1"></div>
           <div
-            className={`transition-300 absolute left-1/2 top-1/2 w-1 -translate-y-1/2 -translate-x-1/2 bg-green-1 ${
-              isOpen ? `h-1` : `h-6`
-            }`}
+            className={`transition-300 absolute left-1/2 top-1/2 w-1 -translate-y-1/2 -translate-x-1/2 bg-green-1 ${isOpen ? `h-1` : `h-6`
+              }`}
           ></div>
         </div>
       </div>
