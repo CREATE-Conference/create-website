@@ -150,7 +150,7 @@ export const TEAM = [
         position: 'Marketing Executive',
         picture: rhianna,
         description: [
-          "what's up beautiful ppl!! my name is jayleen and i'm a grade 11 student at peths! i'm back at it again for a second year as THE media marketing exec 🤯🤯 alongside harry yang, they will bless ur eyeballs with the most attractive content in the new iconic bright green #01FF05 😋😍 like last year (but better), my main jobs are to capture y’all thriving at CREATE, make them into 🥵🥵🥵 media, and then feature them on @createmarkham!🤩🤩 if u got absolutely anything to say, send @jayleeen.w a message and i'll guarantee a friendly reply! i'm super duper looking forward to the memories we make this year at CREATE SO make sure u join us :)"
+          "hi everyone! i'm rhianna, a grade 12 student at milliken mills and this is my first year on create! i'll be working with jerryl as the graphic marketing exec to keep up the create feed and (hopefully) carry on the great JWU x HYANG legacy!! 🙏 i might be new but i can't wait for what we have in store this year! 🤗 feel free to say hi + ask for photos of my cat @rhiannajiang 🐈"
         ],
         instagram: 'https://www.instagram.com/rhiannajiang/',
       },
