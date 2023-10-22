@@ -36,7 +36,7 @@ const MyCreateStory = (): ReactElement => {
       <Image
         src={sticker}
         alt="Sticker Giant"
-        width="450px"
+        width="350px"
         height="183px"
         on-onClick={"https://www.stickergiant.com/coupons"}
       />
