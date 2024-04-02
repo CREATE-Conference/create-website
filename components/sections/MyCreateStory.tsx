@@ -6,6 +6,7 @@ import brain from '../../public/img/sponsers/brain.png';
 import sticker from '../../public/img/sponsers/sticker.png';
 import hub from '../../public/img/sponsers/hub.jpeg';
 import markham from '../../public/img/sponsers/markham.png';
+import creativegenius from '../../public/img/sponsers/creativegenius.png';
 
 const MyCreateStory = (): ReactElement => {
   return (
@@ -34,12 +35,19 @@ const MyCreateStory = (): ReactElement => {
        
       />
       <Image
+        src={creativegenius}
+        alt="Creative Genius Academy"
+        width="300px"
+        height="220px"
+      />
+      <Image
         src={sticker}
         alt="Sticker Giant"
         width="350px"
         height="183px"
         on-onClick={"https://www.stickergiant.com/coupons"}
       />
+      
       <p className="body pb-9 md:pb-16"> </p>
 
       <h2 className="h2 pb-4 md:pb-5">#mycreatestory</h2>
