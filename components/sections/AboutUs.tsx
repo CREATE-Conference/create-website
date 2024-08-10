@@ -49,7 +49,7 @@ const AboutUs = (): ReactElement => {
       </div>
       <div className="absolute -bottom-24 left-3 hidden xl:block">
         <Image
-          src={graphic4}
+          src={graphic3}
           alt="CREATE Markham Retreat 3"
           width="280px"
           height="280px"
