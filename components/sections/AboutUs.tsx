@@ -5,6 +5,7 @@ import { ABOUT_US } from '../../constants/constants';
 import graphic1 from '../../public/img/graphics/about-1.png';
 import graphic2 from '../../public/img/graphics/about-2.png';
 import graphic3 from '../../public/img/graphics/about-3.png';
+import graphic4 from '../../public/img/graphics/about-4.png';
 
 const AboutUs = (): ReactElement => {
   return (
@@ -48,7 +49,7 @@ const AboutUs = (): ReactElement => {
       </div>
       <div className="absolute -bottom-24 left-3 hidden xl:block">
         <Image
-          src={graphic3}
+          src={graphic4}
           alt="CREATE Markham Retreat 3"
           width="280px"
           height="280px"
