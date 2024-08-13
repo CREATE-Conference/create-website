@@ -6,6 +6,9 @@ import graphic1 from '../../public/img/graphics/about-1.png';
 import graphic2 from '../../public/img/graphics/about-2.png';
 import graphic3 from '../../public/img/graphics/about-3.png';
 import graphic4 from '../../public/img/graphics/about-4.png';
+import graphic5 from '../../public/img/graphics/about-5.png';
+import graphic6 from '../../public/img/graphics/about-6.png';
+import graphic7 from '../../public/img/graphics/about-7.png';
 
 const AboutUs = (): ReactElement => {
   return (
@@ -33,7 +36,7 @@ const AboutUs = (): ReactElement => {
       </div>
       <div className="absolute -top-4 -left-5 hidden xl:block">
         <Image
-          src={graphic1}
+          src={graphic5}
           alt="CREATE Markham Retreat 1"
           width="183px"
           height="183px"
@@ -41,7 +44,7 @@ const AboutUs = (): ReactElement => {
       </div>
       <div className="absolute -right-12 bottom-24 hidden xl:block">
         <Image
-          src={graphic2}
+          src={graphic6}
           alt="CREATE Markham Retreat 2"
           width="339px"
           height="339px"
@@ -49,7 +52,7 @@ const AboutUs = (): ReactElement => {
       </div>
       <div className="absolute -bottom-24 left-3 hidden xl:block">
         <Image
-          src={graphic3}
+          src={graphic7}
           alt="CREATE Markham Retreat 3"
           width="280px"
           height="280px"
