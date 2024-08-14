@@ -2,6 +2,7 @@ import Image from 'next/image';
 import type { ReactElement } from 'react';
 import Button from '../UI/Button';
 import landingGraphic from '../../public/img/graphics/landing.png';
+import landingGraphic1 from '../../public/img/graphics/landing-1.png';
 
 const Landing = (): ReactElement => {
   return (
@@ -36,7 +37,7 @@ const Landing = (): ReactElement => {
         </div>
       </div>
       <div className="-ml-[20%] w-[140%] sm:mx-auto sm:w-full sm:max-w-[600px] lg:ml-0 lg:w-[110%] lg:max-w-none">
-        <Image src={landingGraphic} alt="CREATE Markham Conference" priority />
+        <Image src={landingGraphic1} alt="CREATE Markham Conference" priority />
       </div>
     </section>
   );
