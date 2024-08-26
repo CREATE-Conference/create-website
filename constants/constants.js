@@ -61,6 +61,19 @@ import luca from '../public/img/team/2023-2024/luca.png';
 import vanushaa from '../public/img/team/2023-2024/vanushaaa.png';
 import jerryl from '../public/img/team/2023-2024/jerryl.jpg';
 
+//team 2024-2025
+import gloriana2 from '../public/img/team/2024-2025/gloriana2.png';
+import jimi2 from '../public/img/team/2024-2025/jimi2.png';
+import tristin from '../public/img/team/2024-2025/tristin.png';
+import justin from '../public/img/team/2024-2025/justin.png';
+import tiffany from '../public/img/team/2024-2025/tiffany.png';
+import irene from '../public/img/team/2024-2025/irene.png';
+import vanushaa2 from '../public/img/team/2024-2025/vanushaa.png';
+import natalie from '../public/img/team/2024-2025/natalie.png';
+import jake from '../public/img/team/2024-2025/jake.png';
+import owen from '../public/img/team/2024-2025/owen.png';
+
+
 // Footer socials
 import mail from '../public/img/icons/mail.svg';
 import instagram from '../public/img/icons/instagram-gradient.svg';
@@ -113,6 +126,110 @@ export const MY_CREATE_STORY = [
 
 export const TEAM = [
   {
+    year: '2024-2025',
+    members: [
+      {
+        id: 'member-1',
+        name: 'Jimi Zhao',
+        position: 'Co-President',
+        picture: jimi2,
+        description: [
+          "Hi guys my name is Jimi and im supa excited to be your copres this year with Gloriana 💪💪!! This is my last 😞 year on CREATE so I’m going all out 😈. CREATE has Introduced me to so many incredible people and has left me with unforgettable memories ♾️. When I’m not planning conference you can see me chilling🧊 with my cats Cleo 🐈 and Caesar 🐈‍⬛ or working out 🏋️. I can’t wait to see everyone at conference and be a part of the BEST CREATE YEAR EVER!!"
+        ],
+        instagram: 'https://www.instagram.com/jimizhaoo/',
+      },
+      {
+        id: 'member-2',
+        name: 'Gloriana Zheng',
+        position: 'Co-President',
+        picture: gloriana2,
+        description: ["hiiii, im gloriana and i’m the 2024-2025 CREATE CO-PRES W/ JIMI! This is my fourth (and last 😔) year on CREATE and i’m so excited for the best conference yet!!! Some of my favourite memories from conference are def the late night campfires, eating ramen at 2am, and winning the pitch comp last year! I don’t know what I would do without my time at CREATE and I am grateful for all the friends that I have met and gotten close to over the last 3 years. If you ever have any question or just want to talk, feel free to DM me @gloriana.zheng ! I hope to see YOU at CREATE this year #CREATE4LIFE"
+        ],
+        instagram: 'https://www.instagram.com/gloriana.zheng/',
+      },
+      {
+        id: 'member-3',
+        name: 'Tristin Tran',
+        position: 'Marketing Executive',
+        picture: tristin,
+        description: [
+          "Whats good create mates 😎 My name is tristin and this is my first year on create!! I am a grade 11 student from milliken mills (shoutout rhianna and rachel!!) who will be serving as your graphic marketing executive for this year. Future Oscar winner @byjustinwu and I promise to provide you guys the most GOATED content throughout the year that will blow your minds 🤯 I am beyond excited to be apart of this wonderful community and make some awesome memories! Feel free to chat or ask any questions at @s3leryy_, as well as checking out my PERFECT letterboxd @ rambeau. I’ll see you guys at conference 🙏💯⭐️"
+        ],
+        instagram: 'https://www.instagram.com/s3leryy_/',
+      },
+      {
+        id: 'member-4',
+        name: 'Justin Wu',
+        position: 'Marketing Executive',
+        picture: justin,
+        description: [
+          "hi gang, my name is justin and i’m a grade 12 student at pierre elliott trudeau; this is my first year on CREATE ! ill be working alongside the mixed media 🐐 @s3leryy_ to create nice looking graphics/videos/media creations on the CREATE insta or sumn. can’t wait to meet all y’all at conference 🤝 @byjustinwu if u wanna chat ✌️"
+        ],
+        instagram: 'https://www.instagram.com/byjustinwu/',
+      },
+      {
+        id: 'member-5',
+        name: 'Irene Li',
+        position: 'Treasurer',
+        picture: irene,
+        description: [
+          "Hi everyone! I’m Irene, currently attending The Country Day School. I’m your treasurer executive this year! This is my second year on CREATE, and I’m hoping to see your name on the list when I’m accounting for the retreat! Just so you know, I talk to everyone, so please don’t be shy to come and ask me questions. 😊😊🩷"
+        ],
+        instagram: 'https://www.instagram.com/1reneli/',
+      },
+      {
+        id: 'member-6',
+        name: 'Tiffany Ho',
+        position: 'Technology Chairperson',
+        picture: tiffany,
+        description: [
+          "Hi, I’m Tiffany and I’m going to be your technology chair this year on CREATE! This is my third year on CREATE, and I’m excited for everyone to see what we have planned this year. Through CREATE I have made unforgettable memories with new people and gained so much leadership experience. I can’t wait to meet everyone and make some more new and amazing memories at the 2024-2025 conference!"
+        ],
+        instagram: 'https://www.instagram.com/tiiffanyho/',
+      },
+      {
+        id: 'member-7',
+        name: 'Natalie To',
+        position: 'Activities Executive',
+        picture: natalie,
+        description: [
+          "Heyy, my name is Natalie and I’m one of your activities execs🥰 This is my third year on CREATE, and we’re working hard to make conference especially memorable this year. I can’t wait for you guys to see what we have in store!!"
+        ],
+        instagram: 'https://www.instagram.com/natalieto__/',
+      },
+      {
+        id: 'member-8',
+        name: 'Owen Chan',
+        position: 'Activites Executive',
+        picture: owen,
+        description: [
+          "Hi everyone! I’m Owen and a part of your activities council. I’m a grade 11 student at Markville and super excited for my second year at CREATE! If I’m not listening to music, you better bet I’m tossing a frisbee around with my friends or playing volleyball at any drop-in available. I also love learning about new and interesting topics, so always feel free to chat with me about anything 😁👍"
+        ],
+        instagram: 'https://www.instagram.com/owen.ykc/',
+      },
+      {
+        id: 'member-9',
+        name: 'Vanushaa Sivathason',
+        position: 'Activities Executive',
+        picture: vanushaa2,
+        description: [
+          "hii I’m Vanushaa, one of your activities execs this year!!! This is my 4th yr on CREATE and I’m so excited for what we have in store! CREATE has helped me grow and has given me so many great friendships and experiences throughout high school. I hope to see you all at conference and make new memories this year!"
+        ],
+        instagram: 'https://www.instagram.com/vanushaa.s/',
+      },
+      {
+        id: 'member-10',
+        name: 'Jake Yang',
+        position: 'Activities Executive',
+        picture: jake,
+        description: [
+          "hey team! it’s jake and this year i’m one of your Activities Execs🧏‍♂️. This year will be my second, and we all know second is the best🥈💅. i’m a grade 11 student at milliken mills and can’t wait for the school year to start, not cuz im a nerd, but because CREATE CONFERENCE IS ONE STEP CLOSER🫶🫶🫶. that’s right, create is THAT opportunity, allowing me to meet my idols (@elfanum) and become a better leader. Now u may be thinking “jake, creates gon be boring” but ur totally capping. and ur wrong. see it for yourself and SEE YALL AT CONFERENCE 🫡🤩"
+        ],
+        instagram: 'https://www.instagram.com/jake.yang__/',
+      },
+    ],
+  }
+  ,{
     year: '2023-2024',
     members: [
       {
@@ -166,7 +283,7 @@ export const TEAM = [
       },
       {
         id: 'member-6',
-        name: 'GLoriana Zheng',
+        name: 'Gloriana Zheng',
         position: 'Activities Executive',
         picture: gloriana,
         description: [
