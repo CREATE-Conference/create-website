@@ -36,7 +36,7 @@ const AboutUs = (): ReactElement => {
       </div>
       <div className="absolute -top-4 -left-5 hidden xl:block">
         <Image
-          src={graphic5}
+          src={graphic1}
           alt="CREATE Markham Retreat 1"
           width="183px"
           height="183px"
