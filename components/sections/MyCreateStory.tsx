@@ -5,6 +5,7 @@ import landingGraphic from '../../public/img/graphics/landing.png';
 import brain from '../../public/img/sponsers/brain.png';
 import sticker from '../../public/img/sponsers/sticker.png';
 import hub from '../../public/img/sponsers/hublink.png';
+import hublink from '../../public/img/sponsers/hublink.png';
 import markham from '../../public/img/sponsers/markham.png';
 import creativegenius from '../../public/img/sponsers/creativegenius.png';
 
@@ -22,7 +23,7 @@ const MyCreateStory = (): ReactElement => {
         height="183px"
       />
       <Image
-        src={hub}
+        src={hublink}
         alt="Hub Climbing – Rock Climbing and Birthday Parties in Markham"
         width="199px"
         height="93px"
