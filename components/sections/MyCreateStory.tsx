@@ -4,7 +4,7 @@ import { MY_CREATE_STORY } from '../../constants/constants';
 import landingGraphic from '../../public/img/graphics/landing.png';
 import brain from '../../public/img/sponsers/brain.png';
 import sticker from '../../public/img/sponsers/sticker.png';
-import hub from '../../public/img/sponsers/hub.png';
+import hub from '../../public/img/sponsers/hublink.png';
 import markham from '../../public/img/sponsers/markham.png';
 import creativegenius from '../../public/img/sponsers/creativegenius.png';
 
