@@ -68,7 +68,7 @@ import tristin from '../public/img/team/2024-2025/tristin.png';
 import justin from '../public/img/team/2024-2025/justin.png';
 import tiffany from '../public/img/team/2024-2025/tiffany.png';
 import irene from '../public/img/team/2024-2025/irene.png';
-import vanushaa2 from '../public/img/team/2024-2025/vanushaa.png';
+import vanushaa2 from '../public/img/team/2024-2025/vanushaa2.png';
 import natalie from '../public/img/team/2024-2025/natalie.png';
 import jake from '../public/img/team/2024-2025/jake.png';
 import owen from '../public/img/team/2024-2025/owen.png';
