@@ -24,8 +24,9 @@ const MyCreateStory = (): ReactElement => {
       <Image
         src={hub}
         alt="Hub Climbing – Rock Climbing and Birthday Parties in Markham"
-        width="199px"
-        height="93px"
+        width="221px"
+        height="115px"
+        on-onClick={"https://hubclimbing.com/markham"}
       />
       <Image
         src={markham}
