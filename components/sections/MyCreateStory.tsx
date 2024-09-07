@@ -42,13 +42,14 @@ const MyCreateStory = (): ReactElement => {
         width="300px"
         height="220px"
       />
-      <Image
-        src={sticker}
-        alt="Sticker Giant"
-        width="350px"
-        height="183px"
-        on-onClick={"https://www.stickergiant.com/coupons"}
-      />
+      <a href="https://www.stickergiant.com/coupons" target="_blank" rel="noopener noreferrer">
+        <Image
+          src={sticker}
+          alt="Sticker Giant"
+          width={350}
+          height={183}
+        />
+      </a>
       
       <p className="body pb-9 md:pb-16"> </p>
 
