@@ -25,8 +25,8 @@ const MyCreateStory = (): ReactElement => {
         src={hub}
         alt="Hub Climbing – Rock Climbing and Birthday Parties in Markham"
         href = "https://hubclimbing.com/markham"
-        width="299px"
-        height="193px"
+        width="259px"
+        height="153px"
         on-onClick={"https://hubclimbing.com/markham"}
       />
       <Image
