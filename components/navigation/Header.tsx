@@ -10,6 +10,8 @@ const ROUTES = [
   { id: 'route-1', text: 'Home', route: '/' },
   { id: 'route-2', text: 'Applications', route: '/applications' },
   { id: 'route-3', text: 'Team', route: '/team' },
+  { id: 'route-4', text: 'Gallery', route: '/gallery'}
+
   // { id: 'route-4', text: 'Gallery', route: '/gallery' },
 ];
 
