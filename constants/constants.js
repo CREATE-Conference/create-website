@@ -651,7 +651,7 @@ export const FOOTER_SOCIALS = [
     id: 'social-1',
     icon: mail,
     altText: 'email icon',
-    link: 'mailto:createconferencecouncil@gmail.com',
+    link: 'mailto:hello@createmarkham.ca',
   },
   {
     id: 'social-2',
