@@ -2,7 +2,6 @@ import { ReactElement, useState } from 'react';
 import Image, { StaticImageData } from 'next/image';
 import Button from '../UI/Button';
 import { GALLERY_IMG } from '../../constants/constants';
-import gallery from '../public/img/gallery/4971_0001.jpg';
 
 const GalleryPage = (): ReactElement => {
   return (
@@ -17,10 +16,8 @@ const GalleryPage = (): ReactElement => {
               src={src}
               alt={`Gallery Image ${index + 1}`}
               priority={index === 0} // Set priority for the first image for better performance
-              layout="responsive"
-              width={500}
-              height={300}
-              objectFit="cover"
+              fill
+              style={{ objectFit: 'cover' }} // Use style instead of objectFit
             />
           </div>
         ))}
