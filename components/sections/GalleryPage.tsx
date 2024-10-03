@@ -1,5 +1,6 @@
 import { ReactElement, useState } from 'react';
 import Button from '../UI/Button';
+import Image from 'next/image';
 
 import gallery1 from '../public/img/gallery/4971_0001.jpg';
 import gallery2 from '../public/img/gallery/4971_0002.jpg';
