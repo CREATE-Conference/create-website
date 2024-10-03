@@ -1,5 +1,6 @@
 import { ReactElement, useState } from 'react';
 import Button from '../UI/Button';
+
 import gallery1 from '../public/img/gallery/4971_0001.jpg';
 import gallery2 from '../public/img/gallery/4971_0002.jpg';
 import gallery3 from '../public/img/gallery/4971_0004.jpg';
@@ -32,8 +33,13 @@ const GalleryPage = (): ReactElement => {
       <div className="lg:-mt-240 text-center">
         <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">gallery</h1>
       </div>
-      <div className="-ml-[20%] w-[140%] sm:mx-auto sm:w-full sm:max-w-[600px] lg:ml-0 lg:w-[110%] lg:max-w-none">
-        <Image src={gallery1} alt="CREATE Markham Conference" priority />
+      <div className="absolute -top-4 -left-5 hidden xl:block">
+        <Image
+          src={gallery1}
+          alt="Gallery1"
+          width="183px"
+          height="183px"
+        />
       </div>
     </section>
   );
