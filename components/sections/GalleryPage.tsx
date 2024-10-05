@@ -37,8 +37,6 @@ const GalleryPage = (): ReactElement => {
         <Image
           src={gallery1}
           alt="IMG1"
-          width="339px"
-          height="339px"
         />
       </div>
     </section>
