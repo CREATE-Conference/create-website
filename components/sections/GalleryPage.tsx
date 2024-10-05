@@ -2,7 +2,7 @@ import { ReactElement, useState } from 'react';
 import Button from '../UI/Button';
 import Image from 'next/image';
 
-import gallery1 from '../public/img/gallery/4971_0001.jpg';
+//import gallery1 from '../public/img/gallery/4971_0001.jpg';
 // import gallery2 from '../public/img/gallery/4971_0002.jpg';
 // import gallery3 from '../public/img/gallery/4971_0004.jpg';
 // import gallery4 from '../public/img/gallery/4971_0005.jpg';
@@ -34,14 +34,14 @@ const GalleryPage = (): ReactElement => {
       <div className="lg:-mt-240 text-center">
         <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">gallery</h1>
       </div>
-      <div className="absolute -right-12 bottom-24 hidden xl:block">
+      {/* <div className="absolute -right-12 bottom-24 hidden xl:block">
         <Image
           src={gallery1}
           alt="IMG1"
           width="339px"
           height="339px"
         />
-      </div>
+      </div> */}
     </section>
   );
 };
