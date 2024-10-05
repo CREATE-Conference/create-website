@@ -39,7 +39,7 @@ const GalleryPage = (): ReactElement => {
           alt="IMG1"
           width="507px"
           height="340px"
-          className="absolute top-0 left-0"
+          className="absolute top-4 left-4"
         />
       </div>
     </section>
