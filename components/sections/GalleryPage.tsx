@@ -32,16 +32,16 @@ const GalleryPage = (): ReactElement => {
   return (
     <section className="section center items-center">
       <div className="lg:-mt-240 text-center">
-        <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">Gallery</h1>
+        <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">gallery</h1>
       </div>
-      {<div className="absolute -top-4 -left-5 hidden xl:block">
+      <div className="absolute -right-12 bottom-24 hidden xl:block">
         <Image
           src={gallery1}
-          alt="gallery1"
-          width="183px"
-          height="183px"
+          alt="IMG1"
+          width="339px"
+          height="339px"
         />
-      </div>}
+      </div>
     </section>
   );
 };
