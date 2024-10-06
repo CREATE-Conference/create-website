@@ -33,7 +33,7 @@ const GalleryPage = (): ReactElement => {
       <div className="lg:-mt-240 text-center">
         <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">Gallery</h1>
       </div>
-      <div className="absolute -bottom-24 left-3 hidden xl:block">
+      <div className="absolute -bottom-16 left-8 hidden xl:block">
         <Image
           src={gallery1}
           alt="IMG1"
