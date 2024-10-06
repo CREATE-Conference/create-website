@@ -45,7 +45,7 @@ import gallery38 from '../../public/img/gallery/IMG_5726.png';
 import gallery43 from '../../public/img/gallery/IMG_6581.png';
 import gallery44 from '../../public/img/gallery/IMG_6588.png';
 //import gallery45 from '../../public/img/gallery/IMG_8432.png';
-import gallery46 from '../../public/img/gallery/IMG_8463.png';
+//import gallery46 from '../../public/img/gallery/IMG_8463.png';
 import gallery47 from '../../public/img/gallery/IMG_8524.png';
 //import gallery48 from '../../public/img/gallery/IMG_8721.png';
 //import gallery49 from '../../public/img/gallery/IMG_8840.png';
@@ -55,8 +55,7 @@ const GALLERY = [
   gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15,
   gallery16, gallery17, gallery19, gallery20, gallery21, gallery22,
   gallery23, gallery24, gallery25, gallery26, gallery27, gallery28, gallery29,
-  gallery33, gallery38, gallery43, gallery44, gallery46,
-  gallery47
+  gallery33, gallery38, gallery43, gallery44, gallery47
 ];
 
 const GalleryPage = (): ReactElement => {
