@@ -43,7 +43,7 @@ import gallery38 from '../../public/img/gallery/IMG_5726.png';
 //import gallery40 from '../../public/img/gallery/IMG_6410.png';
 //import gallery41 from '../../public/img/gallery/IMG_6494.png';
 //import gallery42 from '../../public/img/gallery/IMG_6500.png';
-import gallery43 from '../../ublic/img/gallery/IMG_6581.png';
+import gallery43 from '../../public/img/gallery/IMG_6581.png';
 import gallery44 from '../../public/img/gallery/IMG_6588.png';
 import gallery45 from '../../public/img/gallery/IMG_8432.png';
 import gallery46 from '../../public/img/gallery/IMG_8463.png';
