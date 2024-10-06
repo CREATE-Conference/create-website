@@ -50,7 +50,6 @@ const GalleryPage = (): ReactElement => {
               alt={`Gallery Image ${index + 1}`}
               width={507}
               height={340}
-              className="rounded-lg object-cover"
             />
           </div>
         ))}
