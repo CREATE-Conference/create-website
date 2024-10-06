@@ -30,10 +30,30 @@ import gallery24 from '../../public/img/gallery/4971_0032.png';
 import gallery25 from '../../public/img/gallery/4971_0033.png';
 
 const GALLERY = [
-  [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, 
-  gallery10, gallery11, gallery12, gallery13, gallery14, gallery15, gallery16, gallery17, 
-  gallery18, gallery19, gallery20, gallery21, gallery22, gallery23, gallery24, gallery25]
+  [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15, gallery16, gallery17, gallery18, gallery19, gallery20, gallery21, gallery22, gallery23, gallery24, gallery25]
 ]
+
+const GalleryGrid = (): ReactElement => {
+  const [currentSet, setCurrentSet] = useState(0);
+
+  const handleSetChange = (direction: number): void => {
+    setCurrentSet((prev) => {
+      const nextSet = prev + direction;
+      if (nextSet >= 0 && nextSet < GALLERY.length) return nextSet;
+      return prev;
+    });
+  };
+
+  return (
+    <div className="section m-horizontal">
+      <div className="text-center">
+        <h1 className="h1 mb-6 md:mb-10">Gallery</h1>
+      </div>
+      <SetIndicator currentSet={currentSet} handleSetChange={handleSetChange} />
+      <GallerySet currentSet={currentSet} />
+    </div>
+  );
+};
 
 const GalleryPage = (): ReactElement => {
   return (
@@ -41,7 +61,7 @@ const GalleryPage = (): ReactElement => {
       <div className="lg:-mt-240 text-center">
         <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">gallery</h1>
       </div>
-      <div className="absolute -bottom-10 left-8 hidden xl:block">
+      <div className="absolute -bottom-6 left-8 hidden xl:block">
         <Image
           src={gallery1}
           alt="IMG1"
