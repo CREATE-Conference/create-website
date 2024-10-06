@@ -48,8 +48,8 @@ const GalleryPage = (): ReactElement => {
             <Image
               src={image}
               alt={`Gallery Image ${index + 1}`}
-              width={507}
-              height={340}
+              width="507"
+              height="340"
             />
           </div>
         ))}
