@@ -28,12 +28,39 @@ import gallery22 from '../../public/img/gallery/4971_0029.png';
 import gallery23 from '../../public/img/gallery/4971_0031.png';
 import gallery24 from '../../public/img/gallery/4971_0032.png';
 import gallery25 from '../../public/img/gallery/4971_0033.png';
+import gallery26 from '../../public/img/gallery/_7EE7388.png';
+import gallery27 from '../../public/img/gallery/_7EE7438.png';
+import gallery28 from '../../public/img/gallery/_7EE7568.png';
+import gallery29 from '../../public/img/gallery/_7EE7688.png';
+import gallery30 from '../../public/img/gallery/IMG_0216.png';
+import gallery31 from '../../public/img/gallery/IMG_0760.png';
+import gallery32 from '../../public/img/gallery/IMG_0808.png';
+import gallery33 from '../../public/img/gallery/IMG_2171.png';
+import gallery34 from '../../public/img/gallery/IMG_5681.png';
+import gallery35 from '../../public/img/gallery/IMG_5682.png';
+import gallery36 from '../../public/img/gallery/IMG_5697.png';
+import gallery37 from '../../public/img/gallery/IMG_5724.png';
+import gallery38 from '../../public/img/gallery/IMG_5726.png';
+import gallery39 from '../../public/img/gallery/IMG_6399.png';
+import gallery40 from '../../public/img/gallery/IMG_6410.png';
+import gallery41 from '../../public/img/gallery/IMG_6494.png';
+import gallery42 from '../../public/img/gallery/IMG_6500.png';
+import gallery43 from '../../ublic/img/gallery/IMG_6581.png';
+import gallery44 from '../../public/img/gallery/IMG_6588.png';
+import gallery45 from '../../public/img/gallery/IMG_8432.png';
+import gallery46 from '../../public/img/gallery/IMG_8463.png';
+import gallery47 from '../../public/img/gallery/IMG_8524.png';
+import gallery48 from '../../public/img/gallery/IMG_8721.png';
+import gallery49 from '../../public/img/gallery/IMG_8840.png';
 
 const GALLERY = [
   gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8,
   gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15,
   gallery16, gallery17, gallery18, gallery19, gallery20, gallery21, gallery22,
-  gallery23, gallery24, gallery25
+  gallery23, gallery24, gallery25, gallery26, gallery27, gallery28, gallery29,
+  gallery30, gallery31, gallery32, gallery33, gallery34, gallery35, gallery36,
+  gallery37, gallery38, gallery39, gallery40, gallery41, gallery42, gallery43,
+  gallery44, gallery45, gallery46, gallery47, gallery48, gallery49
 ];
 
 const GalleryPage = (): ReactElement => {
