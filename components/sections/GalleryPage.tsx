@@ -1,6 +1,8 @@
 import { ReactElement, useState } from 'react';
 import Button from '../UI/Button';
 import Image from 'next/image';
+import arrowLeftIcon from '../../public/img/icons/arrow-gradient-left.svg';
+import arrowRightIcon from '../../public/img/icons/arrow-gradient-right.svg';
 import gallery1 from '../../public/img/gallery/4971_0001.png';
 import gallery2 from '../../public/img/gallery/4971_0002.png';
 import gallery3 from '../../public/img/gallery/4971_0004.png';
@@ -27,11 +29,17 @@ import gallery23 from '../../public/img/gallery/4971_0031.png';
 import gallery24 from '../../public/img/gallery/4971_0032.png';
 import gallery25 from '../../public/img/gallery/4971_0033.png';
 
+const GALLERY = [
+  [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, 
+  gallery10, gallery11, gallery12, gallery13, gallery14, gallery15, gallery16, gallery17, 
+  gallery18, gallery19, gallery20, gallery21, gallery22, gallery23, gallery24, gallery25]
+]
+
 const GalleryPage = (): ReactElement => {
   return (
     <section className="section center items-center">
       <div className="lg:-mt-240 text-center">
-        <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">Gallery</h1>
+        <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">gallery</h1>
       </div>
       <div className="absolute -bottom-10 left-8 hidden xl:block">
         <Image
