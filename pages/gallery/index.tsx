@@ -5,14 +5,16 @@ import SEO from '../../components/SEO/SEO';
 
 const Gallery: NextPage = () => {
   return (
-    <SEO
+    <>
+      <SEO
         title="Gallery | CREATE Markham"
         description="Interested in gaining volunteer hours in Markham? Apply for the CREATE Conference today!"
         keywords=""
       />
-    <Page curPage="Gallery">
-      <GalleryPage />
-    </Page>
+      <Page curPage="Gallery">
+        <GalleryPage />
+      </Page>
+    </>
   );
 };
 
