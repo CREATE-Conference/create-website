@@ -1,8 +1,6 @@
 import { ReactElement, useState } from 'react';
 import Button from '../UI/Button';
 import Image from 'next/image';
-import arrowLeftIcon from '../../public/img/icons/arrow-gradient-left.svg';
-import arrowRightIcon from '../../public/img/icons/arrow-gradient-right.svg';
 import gallery1 from '../../public/img/gallery/4971_0001.png';
 import gallery2 from '../../public/img/gallery/4971_0002.png';
 import gallery3 from '../../public/img/gallery/4971_0004.png';
