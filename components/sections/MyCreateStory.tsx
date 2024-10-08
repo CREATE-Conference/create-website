@@ -53,7 +53,7 @@ const MyCreateStory = (): ReactElement => {
       </a>
       <a href="https://www.graphixandco.ca/" target="_blank" rel="noopener noreferrer">
         <Image
-          src={graphixca}
+          src={graphixco}
           alt="graphixco"
           width={350}
           height={183}
