@@ -3,6 +3,8 @@ import briceZhao from '../public/img/mycreatestory/bricezhao.png';
 import dylanKang from '../public/img/mycreatestory/dylankang.png';
 import jianaWan from '../public/img/mycreatestory/jianiwan.png';
 import sarahMak from '../public/img/mycreatestory/sarahmak.png';
+import lydiaTseng from '../public/img/mycreatestory/lydiaTseng.png';
+
 
 import one from '../public/img/mycreatestory/bricezhao.png';
 import two from '../public/img/mycreatestory/dylankang.png';
@@ -121,6 +123,12 @@ export const MY_CREATE_STORY = [
     name: 'Sarah Mak',
     text: "CREATE remains to be one of the fondest events of my life, as I got to share smiles and laughs with my friends 😄. If I had to choose my favourite memory about CREATE— night activities. I remember my group and i running around in the dark trying to go to one from place to another. Now thinking back, we were super sweaty and tired, but it was quite funny how everyone looked like a swarm of minions scattered around on the field haha. CREATE taught me so much about not being afraid to reach out to people because everyone is super duper friendly and kind (don't worry, people are not as scary as you may think) 😁. In fact, I am probably still that one timid and shy girl, but deep down inside my heart, I got little more courage. Connect with the people around you— new and old— don't forget to share some happiness (or food) 😆.",
     icon: sarahMak,
+  },
+  {
+    id: 'story-5',
+    name: 'Lydia Tseng',
+    text: 'Hi guys!! My name is Lydia and I was previously in Pierre Elliott Trudeau High School!!! I was a delegate for Create (shoutout team pause4paws!!!!) It was such an amazing experience and I got to meet so many people. I loved going to conference, from making ramen at night to seeing the sunrise in the morning. We had so much fun. I wish I could go back to those memories, I dont regret it at allllll',
+    icon: lydiaTseng,
   },
 ];
 
