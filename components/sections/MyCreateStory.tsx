@@ -7,6 +7,7 @@ import sticker from '../../public/img/sponsers/sticker.png';
 import hub from '../../public/img/sponsers/hub.png';
 import markham from '../../public/img/sponsers/markham.png';
 import creativegenius from '../../public/img/sponsers/creativegenius.png';
+import graphixco from '../../public/img/sponsers/graphixco.png';
 
 const MyCreateStory = (): ReactElement => {
   return (
@@ -46,6 +47,14 @@ const MyCreateStory = (): ReactElement => {
         <Image
           src={sticker}
           alt="Sticker Giant"
+          width={350}
+          height={183}
+        />
+      </a>
+      <a href="https://www.graphixandco.ca/" target="_blank" rel="noopener noreferrer">
+        <Image
+          src={graphixca}
+          alt="graphixco"
           width={350}
           height={183}
         />
