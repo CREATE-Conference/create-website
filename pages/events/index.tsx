@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import SEO from '../../components/SEO/SEO';
 import Page from '../../components/layout/Page';
-import Events from '../../components/sections/Events';
+import EventsPage from '../../components/sections/EventsPage';
 
 const Events: NextPage = () => {
   return (
@@ -12,10 +12,10 @@ const Events: NextPage = () => {
         keywords=""
       />
       <Page curPage="Events">
-        <Events/>
+        <EventsPage/>
       </Page>
     </>
   );
 };
 
-export default Events;
+export default EventsPage;
