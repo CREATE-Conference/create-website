@@ -1,12 +1,13 @@
-import { ReactElement, useState } from 'react';
+import type { ReactElement } from 'react';
 import Image from 'next/image';
 
 const Events = (): ReactElement => {
     return (
-        <section className="section center items-center">
-          <div className="lg:-mt-240 text-center">
-            <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">Events</h1>
+        <section className="section center items-center max-w-screen-lg mx-auto text-center">
+          <div className="lg:-mt-60 mb-10 lg:mb-14">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Events</h1>
           </div>
+          {/* Add event details or future content here */}
         </section>
       );
 };
