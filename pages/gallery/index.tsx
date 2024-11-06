@@ -8,7 +8,7 @@ const Gallery: NextPage = () => {
     <>
       <SEO
         title="Gallery | CREATE Markham"
-        description="Interested in gaining volunteer hours in Markham? Apply for the CREATE Conference today!"
+        description="View our photos from past years!"
         keywords=""
       />
       <Page curPage="Gallery">
