@@ -8,7 +8,6 @@ const EventsPage = (): ReactElement => {
           <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">
             events
           </h1>
-          
         </div>
       </section>
     );
