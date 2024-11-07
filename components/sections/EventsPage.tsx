@@ -129,6 +129,6 @@ const EventList = ({ year }: EventListPropsInterface): ReactElement => {
         ))}
       </Row2>
     );
-  };
+};
 
-  export default EventsPage;
+export default EventsPage;

@@ -669,6 +669,8 @@ export const FOOTER_SOCIALS = [
   },
 ];
 
+import boostCreate from '../public/img/events/boostCreate.png';
+
 export const EVENTS = [
   {
     year: '2023',
@@ -677,9 +679,9 @@ export const EVENTS = [
         id: 'event-1',
         title: 'Annual Arts Festival',
         date: 'March 10, 2023',
-        picture: sampleEventImage,
+        picture: boostCreate,
         description: ['Event description here.'],
-        link: 'https://example.com',
+        link: 'https://www.instagram.com/boostcreate_/',
       },
     ],
   },
