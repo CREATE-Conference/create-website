@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image';
-import type { ReactElement , useState } from 'react';
+import { ReactElement , useState } from 'react';
 import button from '../UI/Button';
 import Row2 from '../layout/Row2';
 import Card from '../UI/Card';
