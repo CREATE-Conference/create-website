@@ -673,16 +673,16 @@ import boostCreate from '../public/img/events/boostCreate.png';
 
 export const EVENTS = [
   {
-    year: '2023',
+    year: '2024',
     events: [
       {
         id: 'event-1',
-        title: 'Annual Arts Festival',
-        date: 'March 10, 2023',
+        title: 'Boost Create x Create MCC',
+        date: 'May 3rd, 2024',
         picture: boostCreate,
         description: ['Event description here.'],
         link: 'https://www.instagram.com/boostcreate_/',
       },
     ],
   },
-];
+];  
