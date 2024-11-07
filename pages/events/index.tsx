@@ -12,7 +12,7 @@ const Events: NextPage = () => {
         keywords=""
       />
       <Page curPage="Events">
-        <EventsPage/>
+        <EventsPage />
       </Page>
     </>
   );
