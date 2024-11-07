@@ -669,7 +669,7 @@ export const FOOTER_SOCIALS = [
   },
 ];
 
-import boostCreate from '../public/img/events/boostCreate.png';
+import boostCreate from '../public/img/events/boostCreate2.png';
 
 export const EVENTS = [
   {
@@ -677,10 +677,10 @@ export const EVENTS = [
     events: [
       {
         id: 'event-1',
-        title: 'Boost Create x Create MCC',
+        title: 'Boost Create - physical wellness',
         date: 'May 3rd, 2024',
         picture: boostCreate,
-        description: ['Event description here.'],
+        description: ['Basketball Intramurals. Colab with Create MCC at King Square Court!'],
         link: 'https://www.instagram.com/boostcreate_/',
       },
     ],
