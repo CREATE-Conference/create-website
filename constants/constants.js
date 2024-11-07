@@ -669,57 +669,21 @@ export const FOOTER_SOCIALS = [
   },
 ];
 
-//GALLERY 2023 PICS
-// import gallery1 from '../../public/img/gallery/4971_0001.png';
-// import gallery2 from '../../public/img/gallery/4971_0002.png';
-// import gallery3 from '../../public/img/gallery/4971_0004.png';
-// import gallery4 from '../../public/img/gallery/4971_0005.png';
-// import gallery5 from '../../public/img/gallery/4971_0006.png';
-// import gallery6 from '../../public/img/gallery/4971_0008.png';
-// import gallery7 from '../../public/img/gallery/4971_0009.png';
-// import gallery8 from '../../public/img/gallery/4971_0011.png';
-// import gallery9 from '../../public/img/gallery/4971_0015.png';
-// import gallery10 from '../../public/img/gallery/4971_0016.png';
-// import gallery11 from '../../public/img/gallery/4971_0017.png';
-// import gallery12 from '../../public/img/gallery/4971_0018.png';
-// import gallery13 from '../../public/img/gallery/4971_0020.png';
-// import gallery14 from '../../public/img/gallery/4971_0021.png';
-// import gallery15 from '../../public/img/gallery/4971_0022.png';
-// import gallery16 from '../../public/img/gallery/4971_0023.png';
-// import gallery17 from '../../public/img/gallery/4971_0024.png';
-// import gallery18 from '../../public/img/gallery/4971_0025.png';
-// import gallery19 from '../../public/img/gallery/4971_0026.png';
-// import gallery20 from '../../public/img/gallery/4971_0027.png';
-// import gallery21 from '../../public/img/gallery/4971_0028.png';
-// import gallery22 from '../../public/img/gallery/4971_0029.png';
-// import gallery23 from '../../public/img/gallery/4971_0031.png';
-// import gallery24 from '../../public/img/gallery/4971_0032.png';
-// import gallery25 from '../../public/img/gallery/4971_0033.png';
-
-// export const GALLERY_IMG = [
-//   gallery1,
-//   gallery2,
-//   gallery3,
-//   gallery4,
-//   gallery5,
-//   gallery6,
-//   gallery7,
-//   gallery8,
-//   gallery9,
-//   gallery10,
-//   gallery11,
-//   gallery12,
-//   gallery13,
-//   gallery14,
-//   gallery15,
-//   gallery16,
-//   gallery17,
-//   gallery18,
-//   gallery19,
-//   gallery20,
-//   gallery21,
-//   gallery22,
-//   gallery23,
-//   gallery24,
-//   gallery25,
-// ];
+export const EVENTS = [
+  {
+    year: '2023',
+    events: [
+      {
+        id: 'event-1',
+        title: 'Annual Arts Festival',
+        date: 'March 10, 2023',
+        picture: christopher,
+        description: [
+          'Celebrate local artists and their masterpieces at the Annual Arts Festival.',
+          'This year features a wide range of artworks and live performances.',
+        ],
+        link: 'https://www.example.com/event1',
+      },
+    ],
+  },
+];
