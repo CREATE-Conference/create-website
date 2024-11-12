@@ -670,10 +670,11 @@ export const FOOTER_SOCIALS = [
 ];
 
 import boostCreate from '../public/img/events/boostCreate2.png';
-
+import impac7 from '../public/img/events/impac7.png';
+import fivenance5 from '../public/img/events/fivenance5.png';
 export const EVENTS = [
   {
-    year: '2024',
+    year: '2023-2024',
     events: [
       {
         id: 'event-1',
@@ -683,6 +684,30 @@ export const EVENTS = [
         description: ['Basketball Intramurals. Colab with Create MCC at King Square Court!'],
         link: 'https://www.instagram.com/boostcreate_/',
       },
+      {
+        id: 'event-2',
+        title: 'Fuse Expo - financial wellness',
+        date: 'May 3rd, 2024',
+        picture: boostCreate,
+        description: [''],
+        link: 'https://www.instagram.com/boostcreate_/',
+      },
+      {
+        id: 'event-3',
+        title: 'Impac7 - Social Wellness',
+        date: 'May 3rd, 2024',
+        picture: impac7,
+        description: ['partnered with @creativegeniusacademy, Promoting Social Wellness in our Community'],
+        link: 'https://www.instagram.com/impac7_create/',
+      },
+      {
+        id: 'event-4',
+        title: 'fivenance5',
+        date: 'May 3rd, 2024',
+        picture: fivenance5,
+        description: ['Promoting financial wellness, Partnered with CFEE'],
+        link: 'https://www.instagram.com/fivenance5/',
+      }
     ],
   },
 ];  
