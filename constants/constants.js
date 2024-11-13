@@ -672,6 +672,7 @@ export const FOOTER_SOCIALS = [
 import boostCreate from '../public/img/events/boostCreate2.png';
 import impac7 from '../public/img/events/impac7.png';
 import fivenance5 from '../public/img/events/fivenance5.png';
+import fuseExpo from '../public/img/events/FuseExpo.png';
 export const EVENTS = [
   {
     year: '2023-2024',
@@ -687,25 +688,33 @@ export const EVENTS = [
       {
         id: 'event-2',
         title: 'Fuse Expo - financial wellness',
-        date: 'May 3rd, 2024',
-        picture: boostCreate,
-        description: [''],
+        date: '2024',
+        picture: fuseExpo,
+        description: ['Financial wellness. Partnered with City of Markham'],
         link: 'https://www.instagram.com/boostcreate_/',
       },
       {
         id: 'event-3',
         title: 'Impac7 - Social Wellness',
-        date: 'May 3rd, 2024',
+        date: '2024',
         picture: impac7,
         description: ['partnered with @creativegeniusacademy, Promoting Social Wellness in our Community'],
         link: 'https://www.instagram.com/impac7_create/',
       },
       {
         id: 'event-4',
-        title: 'fivenance5',
-        date: 'May 3rd, 2024',
+        title: 'fivenance5 - financial wellness',
+        date: '2024',
         picture: fivenance5,
         description: ['Promoting financial wellness, Partnered with CFEE'],
+        link: 'https://www.instagram.com/fivenance5/',
+      },
+      {
+        id: 'event-5',
+        title: 'projectgr3en - environmental wellness',
+        date: '2024',
+        picture: fivenance5,
+        description: ['Youth Promoting Environmental Wellness!, Partnered with @_unearthd'],
         link: 'https://www.instagram.com/fivenance5/',
       }
     ],
