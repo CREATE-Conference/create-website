@@ -6,6 +6,7 @@ import Card from '../UI/Card';
 import { EVENTS } from '../../constants/constants';
 import arrowLeftIcon from '../../public/img/icons/arrow-gradient-left.svg';
 import arrowRightIcon from '../../public/img/icons/arrow-gradient-right.svg';
+import instagramIcon from '../../public/img/icons/instagram.svg';
 
 const EventsPage = (): ReactElement => {
     const [year, setYear] = useState(0);
@@ -111,7 +112,7 @@ const EventList = ({ year }: EventListPropsInterface): ReactElement => {
                     rel="noreferrer"
                     className="transition-300 absolute top-5 right-5 hover:scale-105 lg:top-8 lg:right-8"
                   >
-                    <p className="text-white text-sm">Learn More</p>
+                    <Image src={instagramIcon} alt="Instagram icon" />
                   </a>
                 )}
               </div>

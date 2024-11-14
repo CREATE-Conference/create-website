@@ -688,7 +688,7 @@ export const EVENTS = [
         title: 'Boost Create - physical wellness',
         date: '2024',
         picture: boostEvent,
-        description: ['Youth Promoting Physical Wellness in partner with L.A. Fitness!!Basketball Intramurals. Colab with Create MCC at King Square Court!'],
+        description: ['Youth Promoting Physical Wellness in partner with L.A. Fitness!! Basketball Intramurals. Colab with Create MCC at King Square Court!'],
         link: 'https://www.instagram.com/boostcreate_/',
       },
       {
@@ -712,7 +712,7 @@ export const EVENTS = [
         title: 'Impac7 - Social Wellness',
         date: '2024',
         picture: impac7event,
-        description: ['partnered with @creativegeniusacademy, Promoting Social Wellness in our Community. At our Art Cafe, we will be hosting bracelet making, painting, clay sculpting, and more! Come join us on this wonderful night with refreshments and snacks!'],
+        description: ['Partnered with @creativegeniusacademy, Promoting Social Wellness in our Community. At our Art Cafe, we will be hosting bracelet making, painting, clay sculpting, and more! Come join us on this wonderful night with refreshments and snacks!'],
         link: 'https://www.instagram.com/impac7_create/',
       },
       {
