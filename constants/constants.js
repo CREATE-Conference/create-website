@@ -693,7 +693,7 @@ export const EVENTS = [
       },
       {
         id: 'event-2',
-        title: 'mcc - Markham Courtside Clash - physical wellness',
+        title: 'MCC - Markham Courtside Clash - physical wellness',
         date: '2024',
         picture: mcc,
         description: ['Youth Promoting Physical Wellness!!'],
@@ -717,7 +717,7 @@ export const EVENTS = [
       },
       {
         id: 'event-5',
-        title: 'fivenance5 - financial wellness',
+        title: 'Fivenance5 - financial wellness',
         date: '2024',
         picture: fivenance5,
         description: ['Promoting financial wellness, Partnered with CFEE'],
@@ -725,7 +725,7 @@ export const EVENTS = [
       },
       {
         id: 'event-6',
-        title: 'projectgr3en - environmental wellness',
+        title: 'Projectgr3en - Environmental Wellness',
         date: '2024',
         picture: projectgr3en,
         description: ['Youth Promoting Environmental Wellness!, Partnered with @_unearthd'],
@@ -733,7 +733,7 @@ export const EVENTS = [
       },
       {
         id: 'event-7',
-        title: 'partyyof6ix - environmental wellness',
+        title: 'Partyyof6ix - Environmental Wellness',
         date: '2024',
         picture: partyyof6ix,
         description: ['Youth Promoting Environmental Wellness in partner with @torontowildlifecentre'],
