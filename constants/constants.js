@@ -678,7 +678,7 @@ import fuseExpo from '../public/img/events/FuseExpo.png';
 import partyyof6ix from '../public/img/events/partyyof6ix.png';
 import projectgr3en from '../public/img/events/projectgr3en.png';
 import mcc from '../public/img/events/mcc.png';
-
+import MCCevent from '../public/img/events/MCCevent.png';
 export const EVENTS = [
   {
     year: '2023-2024',
@@ -695,7 +695,7 @@ export const EVENTS = [
         id: 'event-2',
         title: 'Markham Courtside Clash - Physical Wellness',
         date: '2024',
-        picture: mcc,
+        picture: MCCevent,
         description: ['Youth Promoting Physical Wellness!!'],
         link: 'https://www.instagram.com/create_mcc/',
       },
