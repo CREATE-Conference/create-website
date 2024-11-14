@@ -693,7 +693,7 @@ export const EVENTS = [
       },
       {
         id: 'event-2',
-        title: 'MCC - Markham Courtside Clash - Physical Wellness',
+        title: 'Markham Courtside Clash - Physical Wellness',
         date: '2024',
         picture: mcc,
         description: ['Youth Promoting Physical Wellness!!'],
