@@ -678,7 +678,7 @@ import fuseExpo from '../public/img/events/FuseExpo.png';
 import partyyof6ix from '../public/img/events/partyyof6ix.png';
 import projectgr3en from '../public/img/events/projectgr3en.png';
 import mcc from '../public/img/events/mcc.png';
-import MCCevent from '../public/img/events/MCCevent.png';
+import MCCevent from '../public/img/events/mccEvent.png';
 export const EVENTS = [
   {
     year: '2023-2024',
