@@ -670,7 +670,9 @@ export const FOOTER_SOCIALS = [
 ];
 
 import boostCreate from '../public/img/events/boostCreate2.png';
+import boostEvent from '../public/img/events/boostEvent.png';
 import impac7 from '../public/img/events/impac7.png';
+import impac7event from '../public/img/events/impac7event.png';
 import fivenance5 from '../public/img/events/fivenance5.png';
 import fuseExpo from '../public/img/events/FuseExpo.png';
 import partyyof6ix from '../public/img/events/partyyof6ix.png';
@@ -684,13 +686,21 @@ export const EVENTS = [
       {
         id: 'event-1',
         title: 'Boost Create - physical wellness',
-        date: 'May 3rd, 2024',
-        picture: boostCreate,
-        description: ['Basketball Intramurals. Colab with Create MCC at King Square Court!'],
+        date: '2024',
+        picture: boostEvent,
+        description: ['Youth Promoting Physical Wellness in partner with L.A. Fitness!!Basketball Intramurals. Colab with Create MCC at King Square Court!'],
         link: 'https://www.instagram.com/boostcreate_/',
       },
       {
         id: 'event-2',
+        title: 'mcc - Markham Courtside Clash - physical wellness',
+        date: '2024',
+        picture: mcc,
+        description: ['Youth Promoting Physical Wellness!!'],
+        link: 'https://www.instagram.com/create_mcc/',
+      },
+      {
+        id: 'event-3',
         title: 'Fuse Expo - financial wellness',
         date: '2024',
         picture: fuseExpo,
@@ -698,15 +708,15 @@ export const EVENTS = [
         link: 'https://www.instagram.com/boostcreate_/',
       },
       {
-        id: 'event-3',
+        id: 'event-4',
         title: 'Impac7 - Social Wellness',
         date: '2024',
-        picture: impac7,
-        description: ['partnered with @creativegeniusacademy, Promoting Social Wellness in our Community'],
+        picture: impac7event,
+        description: ['partnered with @creativegeniusacademy, Promoting Social Wellness in our Community. At our Art Cafe, we will be hosting bracelet making, painting, clay sculpting, and more! Come join us on this wonderful night with refreshments and snacks!'],
         link: 'https://www.instagram.com/impac7_create/',
       },
       {
-        id: 'event-4',
+        id: 'event-5',
         title: 'fivenance5 - financial wellness',
         date: '2024',
         picture: fivenance5,
@@ -714,7 +724,7 @@ export const EVENTS = [
         link: 'https://www.instagram.com/fivenance5/',
       },
       {
-        id: 'event-5',
+        id: 'event-6',
         title: 'projectgr3en - environmental wellness',
         date: '2024',
         picture: projectgr3en,
@@ -722,20 +732,12 @@ export const EVENTS = [
         link: 'https://www.instagram.com/fivenance5/',
       },
       {
-        id: 'event-6',
+        id: 'event-7',
         title: 'partyyof6ix - environmental wellness',
         date: '2024',
         picture: partyyof6ix,
         description: ['Youth Promoting Environmental Wellness in partner with @torontowildlifecentre'],
         link: 'https://www.instagram.com/partyyof6ix/',
-      },
-      {
-        id: 'event-7',
-        title: 'mcc - Markham Courtside Clash - physical wellness',
-        date: '2024',
-        picture: mcc,
-        description: ['Youth Promoting Physical Wellness!!'],
-        link: 'https://www.instagram.com/create_mcc/',
       }
     ],
   },
