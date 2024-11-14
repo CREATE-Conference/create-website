@@ -674,8 +674,8 @@ import impac7 from '../public/img/events/impac7.png';
 import fivenance5 from '../public/img/events/fivenance5.png';
 import fuseExpo from '../public/img/events/FuseExpo.png';
 import partyyof6ix from '../public/img/events/partyyof6ix.png';
-import projectgr3en from 'public/img/events/projectgr3en.png';
-import mcc from 'public/img/events/mcc.png';
+import projectgr3en from '../public/img/events/projectgr3en.png';
+import mcc from '../public/img/events/mcc.png';
 
 export const EVENTS = [
   {
