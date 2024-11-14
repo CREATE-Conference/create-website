@@ -675,6 +675,7 @@ import fivenance5 from '../public/img/events/fivenance5.png';
 import fuseExpo from '../public/img/events/FuseExpo.png';
 import partyyof6ix from '../public/img/events/partyyof6ix.png';
 import projectgr3en from 'public/img/events/projectgr3en.png';
+import mcc from 'public/img/events/mcc.png';
 
 export const EVENTS = [
   {
@@ -727,6 +728,14 @@ export const EVENTS = [
         picture: partyyof6ix,
         description: ['Youth Promoting Environmental Wellness in partner with @torontowildlifecentre'],
         link: 'https://www.instagram.com/partyyof6ix/',
+      },
+      {
+        id: 'event-7',
+        title: 'mcc - Markham Courtside Clash - physical wellness',
+        date: '2024',
+        picture: mcc,
+        description: ['Youth Promoting Physical Wellness!!'],
+        link: 'https://www.instagram.com/create_mcc/',
       }
     ],
   },
