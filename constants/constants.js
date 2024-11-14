@@ -673,6 +673,9 @@ import boostCreate from '../public/img/events/boostCreate2.png';
 import impac7 from '../public/img/events/impac7.png';
 import fivenance5 from '../public/img/events/fivenance5.png';
 import fuseExpo from '../public/img/events/FuseExpo.png';
+import partyyof6ix from '../public/img/events/partyyof6ix.png';
+import projectgr3en from 'public/img/events/projectgr3en.png';
+
 export const EVENTS = [
   {
     year: '2023-2024',
@@ -713,9 +716,17 @@ export const EVENTS = [
         id: 'event-5',
         title: 'projectgr3en - environmental wellness',
         date: '2024',
-        picture: fivenance5,
+        picture: projectgr3en,
         description: ['Youth Promoting Environmental Wellness!, Partnered with @_unearthd'],
         link: 'https://www.instagram.com/fivenance5/',
+      },
+      {
+        id: 'event-6',
+        title: 'partyyof6ix - environmental wellness',
+        date: '2024',
+        picture: partyyof6ix,
+        description: ['Youth Promoting Environmental Wellness in partner with @torontowildlifecentre'],
+        link: 'https://www.instagram.com/partyyof6ix/',
       }
     ],
   },
