@@ -685,7 +685,7 @@ export const EVENTS = [
     events: [
       {
         id: 'event-1',
-        title: 'Boost Create - physical wellness',
+        title: 'Boost Create - Physical Wellness',
         date: '2024',
         picture: boostEvent,
         description: ['Youth Promoting Physical Wellness in partner with L.A. Fitness!! Basketball Intramurals. Colab with Create MCC at King Square Court!'],
@@ -693,7 +693,7 @@ export const EVENTS = [
       },
       {
         id: 'event-2',
-        title: 'MCC - Markham Courtside Clash - physical wellness',
+        title: 'MCC - Markham Courtside Clash - Physical Wellness',
         date: '2024',
         picture: mcc,
         description: ['Youth Promoting Physical Wellness!!'],
@@ -701,10 +701,10 @@ export const EVENTS = [
       },
       {
         id: 'event-3',
-        title: 'Fuse Expo - financial wellness',
+        title: 'Fuse Expo - Financial Wellness',
         date: '2024',
         picture: fuseExpo,
-        description: ['Financial wellness. Partnered with City of Markham'],
+        description: ['Youth Promoting Financial wellness. Equipping young people with the skills and knowledge to handle money effectively, plan for the future, and make informed financial decisions. Strengthen youth financial wellness programs with Early Financial Education in Schools, Practical Financial Tools, Interactive Workshops and Simulations, Youth-Focused Saving and Investment Programs, Awareness of Financial Scams, Debt Education and Management, and much more! Partnered with City of Markham'],
         link: 'https://www.instagram.com/boostcreate_/',
       },
       {
@@ -717,10 +717,10 @@ export const EVENTS = [
       },
       {
         id: 'event-5',
-        title: 'Fivenance5 - financial wellness',
+        title: 'Fivenance5 - Financial Wellness',
         date: '2024',
         picture: fivenance5,
-        description: ['Promoting financial wellness, Partnered with CFEE'],
+        description: ['Youth Promoting Financial Wellness! Partnered with CFEE'],
         link: 'https://www.instagram.com/fivenance5/',
       },
       {
