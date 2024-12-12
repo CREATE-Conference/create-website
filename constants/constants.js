@@ -730,7 +730,7 @@ export const EVENTS = [
         date: '2024',
         picture: projectgr3en,
         description: ['Youth Promoting Environmental Wellness!, Partnered with @_unearthd'],
-        link: 'https://www.instagram.com/fivenance5/',
+        link: 'https://www.instagram.com/projectgr3en/',
       },
       {
         id: 'event-7',
