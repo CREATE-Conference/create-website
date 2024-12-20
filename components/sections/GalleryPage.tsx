@@ -9,7 +9,7 @@ const GalleryPage = (): ReactElement => {
       </div>
       <div className="w-full h-full">
         <iframe
-          src="https://drive.google.com/drive/folders/1b3b7dnTPzxtMABpfR_614fesngDgtAAs"
+          src="https://drive.google.com/drive/folders/1b3b7dnTPzxtMABpfR_614fesngDgtAAs?usp=sharing"
           width="100%"
           height="600px"
           frameBorder="0"
