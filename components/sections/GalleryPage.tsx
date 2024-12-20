@@ -10,10 +10,11 @@ const GalleryPage = (): ReactElement => {
       <div className="w-full h-full">
         <iframe
           src="https://drive.google.com/embeddedfolderview?id=1b3b7dnTPzxtMABpfR_614fesngDgtAAs#grid"
-          width="200%"
+          width="100%"
           height="600px"
           frameBorder="0"
           className="gallery-iframe"
+          title="Google Drive Gallery"
         ></iframe>
       </div>
     </section>
