@@ -16,18 +16,6 @@ const GalleryPage = (): ReactElement => {
           style={{ pointerEvents: "none" }}
         ></iframe>
       </div>
-      <style jsx>{
-        .iframe-container iframe {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-        }
-        .iframe-container iframe::-webkit-scrollbar {
-          display: none; /* Custom remove Name sliders */
-        }
-      }</style>
     </section>
   );
 };
