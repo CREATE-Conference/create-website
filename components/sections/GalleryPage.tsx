@@ -10,9 +10,10 @@ const GalleryPage = (): ReactElement => {
       <div className="w-full h-full">
         <iframe
           src="https://drive.google.com/embeddedfolderview?id=1b3b7dnTPzxtMABpfR_614fesngDgtAAs#grid"
-          width="100%"
+          width="200%"
           height="600px"
           frameBorder="0"
+          className="gallery-iframe"
         ></iframe>
       </div>
     </section>
