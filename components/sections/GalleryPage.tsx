@@ -11,7 +11,7 @@ const GalleryPage = (): ReactElement => {
         <iframe
           src="https://drive.google.com/embeddedfolderview?id=1b3b7dnTPzxtMABpfR_614fesngDgtAAs#grid"
           width="100%"
-          height="100%"
+          height="700px"
           frameBorder="0"
           className="gallery-iframe"
            title="Google Drive Gallery"
@@ -24,14 +24,10 @@ const GalleryPage = (): ReactElement => {
           padding: 0;
           display: block;
         }
-        
-        // Ensure the iframe is centered and takes up the full viewport
         .section {
           width: 100%;
           height: 100vh;
         }
-
-        // Optional: hide file names if possible, but it's not always supported
         iframe::after {
           display: none !important;
         }
