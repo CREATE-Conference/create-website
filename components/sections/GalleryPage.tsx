@@ -1,4 +1,6 @@
-import { ReactElement } from 'react';
+// import { ReactElement } from 'react';
+// import React, { useState } from 'react';
+import { ReactElement, useState } from 'react';
 import Image from 'next/image';
 
 import gallery1 from '../../public/img/gallery/4971_0001.png';
