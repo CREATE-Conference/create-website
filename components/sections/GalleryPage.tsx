@@ -60,15 +60,15 @@ import gallery47 from '../../public/img/gallery/IMG_8524.png';
 // ];
 
 const GALLERY = [
-  { src:  gallery1},
-  { src: gallery2 },
-  { src: gallery3 },
+  require('../../public/img/gallery/4971_0001.png'), // StaticImageData
+  require('../../public/img/gallery/4971_0002.png'),
+  require('../../public/img/gallery/4971_0004.png'),
 ];
 
 const GalleryPage = (): ReactElement => {
   const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
-  const openLightbox = (image: string) => setLightboxImage(image);
+  const openLightbox = (image: StaticImageData) => setLightboxImage(image.src); // Use image.src
   const closeLightbox = () => setLightboxImage(null);
 
   return (
@@ -82,7 +82,7 @@ const GalleryPage = (): ReactElement => {
           <div
             key={index}
             className="gallery-item relative w-full h-64 cursor-pointer"
-            onClick={() => openLightbox(image.src)} // Use image.src to pass the string
+            onClick={() => openLightbox(image)} // Pass StaticImageData
           >
             <Image
               src={image}
