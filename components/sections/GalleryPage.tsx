@@ -58,7 +58,7 @@ const GALLERY = [
   gallery23, gallery24, gallery25, gallery26, gallery27, gallery28, gallery29, 
   gallery30, gallery31, gallery32, gallery33, gallery34, gallery35, gallery36, 
   gallery37, gallery38, gallery39, gallery40, gallery41, gallery42, gallery43,
-  gallery44, gallery45, gallery46, gallery47, gallery48, gallery49
+  gallery44, gallery45, gallery46, gallery47, gallery48, gallery49,
 ];
 
 
