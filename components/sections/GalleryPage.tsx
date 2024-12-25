@@ -1,5 +1,3 @@
-// import { ReactElement } from 'react';
-// import React, { useState } from 'react';
 import { ReactElement, useState } from 'react';
 import Image from 'next/image';
 
@@ -62,82 +60,35 @@ const GALLERY = [
 ];
 
 const GalleryPage = (): ReactElement => {
-  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
-  const openLightbox = (index: number) => setLightboxIndex(index);
-  const closeLightbox = () => setLightboxIndex(null);
-
-  const nextImage = () => {
-    if (lightboxIndex !== null && lightboxIndex < GALLERY.length - 1) {
-      setLightboxIndex(lightboxIndex + 1);
-    }
-  };
-
-  const prevImage = () => {
-    if (lightboxIndex !== null && lightboxIndex > 0) {
-      setLightboxIndex(lightboxIndex - 1);
-    }
-  };
+  const openLightbox = (image: string) => setLightboxImage(image);
+  const closeLightbox = () => setLightboxImage(null);
 
   return (
     <section className="section center items-center bg-black text-white">
       <div className="text-center py-10">
         <h1 className="text-4xl font-bold">Gallery</h1>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-1">
+      <div className="gallery-container">
         {GALLERY.map((image, index) => (
           <div
             key={index}
-            className="relative overflow-hidden group"
-            onClick={() => openLightbox(index)}
+            className="gallery-item"
+            onClick={() => openLightbox(image.src)} // Use image.src to pass the string
           >
             <Image
               src={image}
               alt={`Gallery Image ${index + 1}`}
-              layout="intrinsic"
-              className="cursor-pointer transform transition-transform duration-300 group-hover:scale-105"
-              priority={index < 4} // Load the first 4 images with high priority
+              layout="fill"
+              objectFit="cover"
             />
           </div>
         ))}
       </div>
-      {lightboxIndex !== null && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80"
-          onClick={closeLightbox}
-          aria-hidden="true"
-        >
-          <div className="relative">
-            <button
-              onClick={prevImage}
-              className="absolute left-2 text-white bg-black bg-opacity-60 rounded-full p-2"
-              aria-label="Previous Image"
-              disabled={lightboxIndex === 0}
-            >
-              ←
-            </button>
-            <Image
-              src={GALLERY[lightboxIndex]}
-              alt={`Lightbox Image ${lightboxIndex + 1}`}
-              layout="intrinsic"
-              className="max-w-screen max-h-screen object-contain"
-            />
-            <button
-              onClick={nextImage}
-              className="absolute right-2 text-white bg-black bg-opacity-60 rounded-full p-2"
-              aria-label="Next Image"
-              disabled={lightboxIndex === GALLERY.length - 1}
-            >
-              →
-            </button>
-            <button
-              onClick={closeLightbox}
-              className="absolute top-2 right-2 text-white bg-black bg-opacity-60 rounded-full p-2"
-              aria-label="Close Lightbox"
-            >
-              ✕
-            </button>
-          </div>
+      {lightboxImage && (
+        <div className="lightbox" onClick={closeLightbox}>
+          <img src={lightboxImage} alt="Lightbox" />
         </div>
       )}
     </section>
