@@ -61,20 +61,4 @@
 
   .button-margin {
   }
-
-  .gallery-iframe {
-    @apply w-full h-[600px] block mx-auto border-none;
-  }
-
-  .gallery-iframe img {
-    @apply inline-block mr-2; 
-  }
-
-  .gallery-iframe {
-    @apply flex justify-start flex-wrap gap-2; 
-  }
-  
-  .gallery-iframe img + figcaption {
-    @apply hidden;
-  }
 }
