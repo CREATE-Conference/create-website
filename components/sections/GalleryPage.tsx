@@ -104,9 +104,9 @@ const GalleryPage = (): ReactElement => {
   const closeLightbox = () => setLightboxImage(null);
 
   return (
-    <section className="section center items-center bg-black text-white">
-      <div className="text-center py-10">
-        <h1 className="text-4xl font-bold">Gallery</h1>
+    <section className="section center items-center">
+      <div className="lg:-mt-240 text-center">
+        <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">gallery</h1>
       </div>
       {/* Gallery container */}
       <div className="gallery-container grid grid-cols-3 gap-2">
@@ -120,7 +120,7 @@ const GalleryPage = (): ReactElement => {
               src={image}
               alt={`Gallery Image ${index + 1}`}
               layout="fill"
-              objectFit="cover"
+              objectFit="contain" // Keep the aspect ratio and avoid empty space
               className="rounded-lg"
             />
           </div>
