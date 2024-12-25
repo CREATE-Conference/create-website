@@ -51,12 +51,18 @@ import gallery47 from '../../public/img/gallery/IMG_8524.png';
 //import gallery48 from '../../public/img/gallery/IMG_8721.png';
 //import gallery49 from '../../public/img/gallery/IMG_8840.png';
 
+// const GALLERY = [
+//   gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8,
+//   gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15,
+//   gallery16, gallery17, gallery18, gallery19, gallery20, gallery21, gallery22,
+//   gallery23, gallery24, gallery25, gallery26, gallery27, gallery28, gallery29,
+//   gallery33, gallery38, gallery43, gallery44, gallery47
+// ];
+
 const GALLERY = [
-  gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8,
-  gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15,
-  gallery16, gallery17, gallery18, gallery19, gallery20, gallery21, gallery22,
-  gallery23, gallery24, gallery25, gallery26, gallery27, gallery28, gallery29,
-  gallery33, gallery38, gallery43, gallery44, gallery47
+  { src:  gallery1},
+  { src: gallery2 },
+  { src: gallery3 },
 ];
 
 const GalleryPage = (): ReactElement => {
@@ -70,11 +76,12 @@ const GalleryPage = (): ReactElement => {
       <div className="text-center py-10">
         <h1 className="text-4xl font-bold">Gallery</h1>
       </div>
-      <div className="gallery-container">
+      {/* Gallery container */}
+      <div className="gallery-container grid grid-cols-3 gap-2">
         {GALLERY.map((image, index) => (
           <div
             key={index}
-            className="gallery-item"
+            className="gallery-item relative w-full h-64 cursor-pointer"
             onClick={() => openLightbox(image.src)} // Use image.src to pass the string
           >
             <Image
@@ -82,13 +89,22 @@ const GalleryPage = (): ReactElement => {
               alt={`Gallery Image ${index + 1}`}
               layout="fill"
               objectFit="cover"
+              className="rounded-lg"
             />
           </div>
         ))}
       </div>
+      {/* Lightbox */}
       {lightboxImage && (
-        <div className="lightbox" onClick={closeLightbox}>
-          <img src={lightboxImage} alt="Lightbox" />
+        <div
+          className="lightbox fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50"
+          onClick={closeLightbox}
+        >
+          <img
+            src={lightboxImage}
+            alt="Lightbox"
+            className="max-w-3xl max-h-full rounded-lg"
+          />
         </div>
       )}
     </section>
