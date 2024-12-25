@@ -62,10 +62,22 @@ const GALLERY = [
 ];
 
 const GalleryPage = (): ReactElement => {
-  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
-  const openLightbox = (image: string) => setLightboxImage(image);
-  const closeLightbox = () => setLightboxImage(null);
+  const openLightbox = (index: number) => setLightboxIndex(index);
+  const closeLightbox = () => setLightboxIndex(null);
+
+  const nextImage = () => {
+    if (lightboxIndex !== null && lightboxIndex < GALLERY.length - 1) {
+      setLightboxIndex(lightboxIndex + 1);
+    }
+  };
+
+  const prevImage = () => {
+    if (lightboxIndex !== null && lightboxIndex > 0) {
+      setLightboxIndex(lightboxIndex - 1);
+    }
+  };
 
   return (
     <section className="section center items-center bg-black text-white">
@@ -77,32 +89,51 @@ const GalleryPage = (): ReactElement => {
           <div
             key={index}
             className="relative overflow-hidden group"
-            onClick={() => openLightbox(image)}
+            onClick={() => openLightbox(index)}
           >
             <Image
               src={image}
               alt={`Gallery Image ${index + 1}`}
               layout="intrinsic"
               className="cursor-pointer transform transition-transform duration-300 group-hover:scale-105"
+              priority={index < 4} // Load the first 4 images with high priority
             />
           </div>
         ))}
       </div>
-      {lightboxImage && (
+      {lightboxIndex !== null && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80"
           onClick={closeLightbox}
+          aria-hidden="true"
         >
           <div className="relative">
+            <button
+              onClick={prevImage}
+              className="absolute left-2 text-white bg-black bg-opacity-60 rounded-full p-2"
+              aria-label="Previous Image"
+              disabled={lightboxIndex === 0}
+            >
+              ←
+            </button>
             <Image
-              src={lightboxImage}
-              alt="Lightbox Image"
+              src={GALLERY[lightboxIndex]}
+              alt={`Lightbox Image ${lightboxIndex + 1}`}
               layout="intrinsic"
               className="max-w-screen max-h-screen object-contain"
             />
             <button
+              onClick={nextImage}
+              className="absolute right-2 text-white bg-black bg-opacity-60 rounded-full p-2"
+              aria-label="Next Image"
+              disabled={lightboxIndex === GALLERY.length - 1}
+            >
+              →
+            </button>
+            <button
               onClick={closeLightbox}
               className="absolute top-2 right-2 text-white bg-black bg-opacity-60 rounded-full p-2"
+              aria-label="Close Lightbox"
             >
               ✕
             </button>
