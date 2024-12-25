@@ -109,7 +109,7 @@ const GalleryPage = (): ReactElement => {
         <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">gallery</h1>
       </div>
       {/* Gallery container */}
-      <div className="gallery-container grid grid-cols-3 gap-2">
+      <div className="gallery-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
         {GALLERY.map((image, index) => (
           <div
             key={index}
@@ -119,8 +119,8 @@ const GalleryPage = (): ReactElement => {
             <Image
               src={image}
               alt={`Gallery Image ${index + 1}`}
-              layout="fill"
-              objectFit="contain" // Keep the aspect ratio and avoid empty space
+              layout="responsive"
+              objectFit="cover" // Ensure images fill their space without leaving gaps
               className="rounded-lg"
             />
           </div>
