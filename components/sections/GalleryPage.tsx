@@ -61,9 +61,40 @@ import gallery47 from '../../public/img/gallery/IMG_8524.png';
 // ];
 
 const GALLERY = [
-  require('../../public/img/gallery/4971_0001.png'), // StaticImageData
+  require('../../public/img/gallery/4971_0001.png'),
   require('../../public/img/gallery/4971_0002.png'),
   require('../../public/img/gallery/4971_0004.png'),
+  require('../../public/img/gallery/4971_0005.png'),
+  require('../../public/img/gallery/4971_0006.png'),
+  require('../../public/img/gallery/4971_0008.png'),
+  require('../../public/img/gallery/4971_0009.png'),
+  require('../../public/img/gallery/4971_0011.png'),
+  require('../../public/img/gallery/4971_0015.png'),
+  require('../../public/img/gallery/4971_0016.png'),
+  require('../../public/img/gallery/4971_0017.png'),
+  require('../../public/img/gallery/4971_0018.png'),
+  require('../../public/img/gallery/4971_0020.png'),
+  require('../../public/img/gallery/4971_0021.png'),
+  require('../../public/img/gallery/4971_0022.png'),
+  require('../../public/img/gallery/4971_0023.png'),
+  require('../../public/img/gallery/4971_0024.png'),
+  require('../../public/img/gallery/4971_0025.png'),
+  require('../../public/img/gallery/4971_0026.png'),
+  require('../../public/img/gallery/4971_0027.png'),
+  require('../../public/img/gallery/4971_0028.png'),
+  require('../../public/img/gallery/4971_0029.png'),
+  require('../../public/img/gallery/4971_0031.png'),
+  require('../../public/img/gallery/4971_0032.png'),
+  require('../../public/img/gallery/4971_0033.png'),
+  require('../../public/img/gallery/_7EE7388.png'),
+  require('../../public/img/gallery/_7EE7438.png'),
+  require('../../public/img/gallery/_7EE7568.png'),
+  require('../../public/img/gallery/_7EE7688.png'),
+  require('../../public/img/gallery/IMG_2171.png'),
+  require('../../public/img/gallery/IMG_5726.png'),
+  require('../../public/img/gallery/IMG_6581.png'),
+  require('../../public/img/gallery/IMG_6588.png'),
+  require('../../public/img/gallery/IMG_8524.png'),
 ];
 
 const GalleryPage = (): ReactElement => {
