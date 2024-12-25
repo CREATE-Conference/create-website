@@ -60,22 +60,53 @@ const GALLERY = [
 ];
 
 const GalleryPage = (): ReactElement => {
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
+
+  const openLightbox = (image: string) => setLightboxImage(image);
+  const closeLightbox = () => setLightboxImage(null);
+
   return (
-    <section className="section center items-center">
-      <div className="lg:-mt-240 text-center">
-        <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">gallery</h1>
+    <section className="section center items-center bg-black text-white">
+      <div className="text-center py-10">
+        <h1 className="text-4xl font-bold">Gallery</h1>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-1">
         {GALLERY.map((image, index) => (
-          <div key={index} className="relative">
+          <div
+            key={index}
+            className="relative overflow-hidden group"
+            onClick={() => openLightbox(image)}
+          >
             <Image
               src={image}
               alt={`Gallery Image ${index + 1}`}
               layout="intrinsic"
+              className="cursor-pointer transform transition-transform duration-300 group-hover:scale-105"
             />
           </div>
         ))}
       </div>
+      {lightboxImage && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80"
+          onClick={closeLightbox}
+        >
+          <div className="relative">
+            <Image
+              src={lightboxImage}
+              alt="Lightbox Image"
+              layout="intrinsic"
+              className="max-w-screen max-h-screen object-contain"
+            />
+            <button
+              onClick={closeLightbox}
+              className="absolute top-2 right-2 text-white bg-black bg-opacity-60 rounded-full p-2"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 };
