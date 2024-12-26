@@ -104,7 +104,7 @@ const GalleryPage = (): ReactElement => {
   const closeLightbox = () => setLightboxImage(null);
 
   return (
-    <section className="section center items-center">
+    <section className= "section center items-center bg-black text-white py-10 px-4 sm:px-6 lg:px-10">
       <div className="lg:-mt-240 text-center">
         <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">gallery</h1>
       </div>
