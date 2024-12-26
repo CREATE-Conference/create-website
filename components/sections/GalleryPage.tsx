@@ -109,18 +109,18 @@ const GalleryPage = (): ReactElement => {
         <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">gallery</h1>
       </div>
       {/* Gallery container */}
-      <div className="gallery-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <div className="gallery-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
         {GALLERY.map((image, index) => (
           <div
             key={index}
-            className="gallery-item relative w-full h-64 cursor-pointer"
-            onClick={() => openLightbox(image)} // Pass StaticImageData
+            className="relative w-full aspect-w-1 aspect-h-1 cursor-pointer"
+            onClick={() => openLightbox(image)}
           >
             <Image
               src={image}
               alt={`Gallery Image ${index + 1}`}
-              layout="responsive"
-              objectFit="cover" // Ensure images fill their space without leaving gaps
+              layout="fill"
+              objectFit="cover" // Fill space proportionally
               className="rounded-lg"
             />
           </div>
