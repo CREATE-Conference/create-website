@@ -100,7 +100,7 @@ const GALLERY = [
 const GalleryPage = (): ReactElement => {
   const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
-  const openLightbox = (image: StaticImageData) => setLightboxImage(image.src); // Use image.src
+  const openLightbox = (image: string) => setLightboxImage(image); // Use string for dynamic imports
   const closeLightbox = () => setLightboxImage(null);
 
   return (
@@ -109,18 +109,18 @@ const GalleryPage = (): ReactElement => {
         <h1 className="h1 mb-5 xs:mb-10 md:mb-14 lg:mb-14 lg:mt-10">gallery</h1>
       </div>
       {/* Gallery container */}
-      <div className="gallery-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {GALLERY.map((image, index) => (
           <div
             key={index}
-            className="relative w-full aspect-w-1 aspect-h-1 cursor-pointer"
+            className="relative aspect-square cursor-pointer"
             onClick={() => openLightbox(image)}
           >
             <Image
               src={image}
               alt={`Gallery Image ${index + 1}`}
               layout="fill"
-              objectFit="cover" // Fill space proportionally
+              objectFit="cover"
               className="rounded-lg"
             />
           </div>
@@ -129,7 +129,7 @@ const GalleryPage = (): ReactElement => {
       {/* Lightbox */}
       {lightboxImage && (
         <div
-          className="lightbox fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50"
+          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50"
           onClick={closeLightbox}
         >
           <img
