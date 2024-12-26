@@ -3,11 +3,11 @@ import Image from 'next/image';
 import type { StaticImageData } from 'next/image'
 
 const GALLERY = [
-  require('public/img/gallery/2024-2025/0B8C69F8-5152-44AB-85FA-4D288C503B68.png'),
-  require('public/img/gallery/2024-2025/101_1068.png'),
+  //require('public/img/gallery/2024-2025/0B8C69F8-5152-44AB-85FA-4D288C503B68.png'),
+  //require('public/img/gallery/2024-2025/101_1068.png'),
   require('public/img/gallery/2024-2025/101_1069.png'),
-  require('public/img/gallery/2024-2025/101_1073.png'),
-  require('public/img/team public/img/gallery/2024-2025/101_1075.png'),
+  //require('public/img/gallery/2024-2025/101_1073.png'),
+  //require('public/img/team public/img/gallery/2024-2025/101_1075.png'),
   require('public/img/gallery/2024-2025/101_1080.png'),
   require('public/img/gallery/2024-2025/101_1081.png'),
   require('public/img/gallery/2024-2025/101_1083.png'),
