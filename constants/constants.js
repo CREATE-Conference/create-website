@@ -670,16 +670,16 @@ export const FOOTER_SOCIALS = [
 ];
 
 //2023-2024
-import boostCreate from '../public/img/events/boostCreate2.png';
-import boostEvent from '../public/img/events/boostEvent.png';
-import impac7 from '../public/img/events/impac7.png';
-import impac7event from '../public/img/events/impac7event.png';
-import fivenance5 from '../public/img/events/fivenance5.png';
-import fuseExpo from '../public/img/events/FuseExpo.png';
-import partyyof6ix from '../public/img/events/partyyof6ix.png';
-import projectgr3en from '../public/img/events/projectgr3en.png';
+import boostCreate from '../public/img/events/2023-2024/boostCreate2.png';
+import boostEvent from '../public/img/events/2023-2024/boostEvent.png';
+import impac7 from '../public/img/events/2023-2024/impac7.png';
+import impac7event from '../public/img/events/2023-2024/impac7event.png';
+import fivenance5 from '../public/img/events/2023-2024/fivenance5.png';
+import fuseExpo from '../public/img/events/2023-2024/FuseExpo.png';
+import partyyof6ix from '../public/img/events/2023-2024/partyyof6ix.png';
+import projectgr3en from '../public/img/events/2023-2024/projectgr3en.png';
 import mcc from '../public/img/events/mcc.png';
-import MCCevent from '../public/img/events/MCCevent.png';
+import MCCevent from '../public/img/events/2023-2024/MCCevent.png';
 
 //2024-2025
 import hooptroop from '../public/img/events/2024-2025/hooptroop.png';
