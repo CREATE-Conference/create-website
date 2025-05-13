@@ -223,11 +223,6 @@ const GALLERY = [
   require('../../public/img/gallery/2023-2024/_7EE7438.png'),
   require('../../public/img/gallery/2023-2024/_7EE7568.png'),
   require('../../public/img/gallery/2023-2024/_7EE7688.png'),
-  require('../../public/img/gallery/2023-2024/IMG_2171.png'),
-  require('../../public/img/gallery/2023-2024/IMG_5726.png'),
-  require('../../public/img/gallery/2023-2024/IMG_6581.png'),
-  require('../../public/img/gallery/2023-2024/IMG_6588.png'),
-  require('../../public/img/gallery/2023-2024/IMG_8524.png')
 ];
 
 const GalleryPage = (): ReactElement => {
