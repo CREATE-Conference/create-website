@@ -687,6 +687,7 @@ import good2go from '../public/img/events/2024-2025/good2go.png';
 import wellnesscubed from '../public/img/events/2024-2025/wellnesscubed.png';
 import pawsitiveminds from '../public/img/events/2024-2025/pawsitiveminds.png';
 import bikinibob from '../public/img/events/2024-2025/bikinibob.png';
+import allnet from '../public/img/events/2024-2025/allnet.png';
 import the7thwonder from '../public/img/events/2024-2025/the7thwonder.png';
 import fortunate8 from '../public/img/events/2024-2025/fortunate8.png';
 
@@ -738,7 +739,7 @@ export const EVENTS = [
         id: 'event-6',
         title: 'Allnet - Creative Wellness',
         date: '2025',
-        picture: bikinibob,
+        picture: allnet,
         description: ['Youth Promoting Creative Wellness in partner with CCYAA and HoopTropp(Team 1)!! Basketball Intramurals, painting murals, and guest speakers!!.'],
         link: 'https://www.instagram.com/6allnet/',
       },
