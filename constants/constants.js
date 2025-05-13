@@ -669,6 +669,7 @@ export const FOOTER_SOCIALS = [
   },
 ];
 
+//2023-2024
 import boostCreate from '../public/img/events/boostCreate2.png';
 import boostEvent from '../public/img/events/boostEvent.png';
 import impac7 from '../public/img/events/impac7.png';
@@ -680,7 +681,85 @@ import projectgr3en from '../public/img/events/projectgr3en.png';
 import mcc from '../public/img/events/mcc.png';
 import MCCevent from '../public/img/events/MCCevent.png';
 
+//2024-2025
+import hooptroop from '../public/img/events/2024-2025/hooptroop.png';
+import good2go from '../public/img/events/2024-2025/good2go.png';
+import wellnesscubed from '../public/img/events/2024-2025/wellnesscubed.png';
+import pawsitiveminds from '../public/img/events/2024-2025/pawsitiveminds.png';
+import bikinibob from '../public/img/events/2024-2025/bikinibob.png';
+import the7thwonder from '../public/img/events/2024-2025/the7thwonder.png';
+import fortunate8 from '../public/img/events/2024-2025/fortunate8.png';
+
 export const EVENTS = [
+  {
+    year: '2024-2025',
+    events: [
+      {
+        id: 'event-1',
+        title: 'Hooptroop - Physical Wellness',
+        date: '2025',
+        picture: hooptroop,
+        description: ['Youth Promoting Physical Wellness in partner with CCYAA and L.A Fitness!! Basketball Intramurals, All stars games.'],
+        link: 'https://www.instagram.com/hooptroop.create?igsh=MWlodGlzeTdhdmtzdg==',
+      },
+      {
+        id: 'event-2',
+        title: 'Good2go - Social Wellness',
+        date: '2025',
+        picture: good2go,
+        description: ['Promoting social wellness in partner with L.A Fitness & Platform for youth creativity!! Selling treats and promoting social wellness.'],
+        link: 'https://www.instagram.com/good2go.create/',
+      },
+      {
+        id: 'event-3',
+        title: 'Wellness Cubed - Environemental Wellness',
+        date: '2025',
+        picture: wellnesscubed,
+        description: ['Promoting environmental wellness in partner with UnEarthD_ & Platform for youth creativity!! Painting pots,reusing materials and plating new plants to promote environemental wellness around the community'],
+        link: 'https://www.instagram.com/wellness.cubed/',
+      },
+      {
+        id: 'event-4',
+        title: 'Pawsitive minds - Mental Wellness',
+        date: '2025',
+        picture: pawsitiveminds,
+        description: ['Promoting mental wellness amongst teens in markham in partnership with @sunshinetherapydogs. Photobooths, mario kart games, friendship bracelet trading, vision boarding, but of course—THERAPY DOGS'],
+        link: 'https://www.instagram.com/4pawsitiveminds/',
+      },
+      {
+        id: 'event-5',
+        title: 'BikiniBob Ballers - Physical Wellness',
+        date: '2025',
+        picture: bikinibob,
+        description: ['Youth Promoting Physical Wellness in partner with CCYAA and @sportslinkvolleyball!! Basketball and volleyball Intramurals, Championship clash!!!.'],
+        link: 'https://www.instagram.com/team5.create/',
+      },
+      {
+        id: 'event-6',
+        title: 'Allnet - Creative Wellness',
+        date: '2025',
+        picture: bikinibob,
+        description: ['Youth Promoting Creative Wellness in partner with CCYAA and HoopTropp(Team 1)!! Basketball Intramurals, painting murals, and guest speakers!!.'],
+        link: 'https://www.instagram.com/6allnet/',
+      },
+      {
+        id: 'event-7',
+        title: 'The7thWonder - Creative Wellness',
+        date: '2025',
+        picture: the7thwonder,
+        description: ['Youth Promoting Creative Wellness in partner Creative Genius Art Academy!! Painting, food and collaborative murals to promote creativity amoungst the youth!!.'],
+        link: 'https://www.instagram.com/the7th_wonder/',
+      },
+      {
+        id: 'event-8',
+        title: 'fortunate8 - Financial Wellness',
+        date: '2025',
+        picture: fortunate8,
+        description: ['Youth Promoting Financial Wellness in partner with City of Markham!! Painting, food, and games in the parc while pormoting financial wellness, teaching you have to mangage and save your money!!'],
+        link: 'https://www.instagram.com/fortunate8s/',
+      },
+    ],
+  },
   {
     year: '2023-2024',
     events: [
