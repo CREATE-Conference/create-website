@@ -678,7 +678,7 @@ import fivenance5 from '../public/img/events/2023-2024/fivenance5.png';
 import fuseExpo from '../public/img/events/2023-2024/FuseExpo.png';
 import partyyof6ix from '../public/img/events/2023-2024/partyyof6ix.png';
 import projectgr3en from '../public/img/events/2023-2024/projectgr3en.png';
-import mcc from '../public/img/events/mcc.png';
+import mcc from '../public/img/events/2023-2024/mcc.png';
 import MCCevent from '../public/img/events/2023-2024/MCCevent.png';
 
 //2024-2025
