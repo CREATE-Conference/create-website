@@ -8,6 +8,7 @@ import hub from '../../public/img/sponsers/hub.png';
 import markham from '../../public/img/sponsers/markham.png';
 import creativegenius from '../../public/img/sponsers/creativegenius.png';
 import graphixco from '../../public/img/sponsers/graphixco.png';
+import dorcas from '../../public/img/sponsers/dorcas.png';
 
 const MyCreateStory = (): ReactElement => {
   return (
@@ -58,7 +59,14 @@ const MyCreateStory = (): ReactElement => {
           width={350}
           height={183}
         />
+      <Image
+        src={dorcas}
+        alt="dorcas cent"
+        width="246px"
+        height="128px"
+      />
       </a>
+      
       
       <p className="body pb-9 md:pb-16"> </p>
 
