@@ -62,8 +62,8 @@ const MyCreateStory = (): ReactElement => {
       <Image
         src={dorcas}
         alt="dorcas cent"
-        width="246px"
-        height="128px"
+        width="256px"
+        height="138px"
       />
       </a>
       
