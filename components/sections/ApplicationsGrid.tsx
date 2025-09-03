@@ -58,8 +58,16 @@ const ApplicationsGrid = (): ReactElement => {
         </Row2>
       ) : (
         <p className="text-center text-lg font-medium text-green-1">
-          Looking for an opportunity to lead and connect with like-minded individuals today?
-          Maven applications are not open for long! Apply below at https://forms.gle/L8BCw8x5bnzx9bMy8
+          Looking for an opportunity to lead and connect with like-minded individuals? 
+          Applications for Maven are now open until September 8th! Apply here: Apply below at{" "}
+          <a
+            href="https://forms.gle/L8BCw8x5bnzx9bMy8"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "underline", color: "#0645AD" }}
+          >
+            https://forms.gle/L8BCw8x5bnzx9bMy8
+          </a>
         </p>
       )}
     </section>
