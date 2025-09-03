@@ -58,8 +58,8 @@ const ApplicationsGrid = (): ReactElement => {
         </Row2>
       ) : (
         <p className="text-center text-lg font-medium text-green-1">
-          Applications are now closed. Stay tuned for more!
-          Retreat form is now opened for current delegates. Refer to google classroom for more information!
+          Looking for an opportunity to lead and connect with like-minded individuals today?
+          Maven applications are not open for long! Apply below at https://forms.gle/L8BCw8x5bnzx9bMy8
         </p>
       )}
     </section>
