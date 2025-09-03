@@ -59,7 +59,7 @@ const ApplicationsGrid = (): ReactElement => {
       ) : (
         <p className="text-center text-lg font-medium text-green-1">
           Looking for an opportunity to lead and connect with like-minded individuals? 
-          Applications for Maven are now open until September 8th! Apply here: Apply below at{" "}
+          Applications for Maven are now open until September 8th! Apply here: {" "}
           <a
             href="https://forms.gle/L8BCw8x5bnzx9bMy8"
             target="_blank"
