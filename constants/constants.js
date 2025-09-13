@@ -147,6 +147,72 @@ export const MY_CREATE_STORY = [
 
 export const TEAM = [
   {
+    year: '2025-2026',
+    members: [
+      {
+        id: 'member-1',
+        name: 'Jake Yang',
+        position: 'Co-President',
+        picture: jake2,
+        description: [
+          "Hey CREATE family! I’m jake and it’s my third and last year on create 😢. What a journey it’s been climbing the ranks and getting to be your CREATE 2025-2026 prezzy! I’m now a grade 12 student at milliken so that means i’m locked in… FOR CREATE. thats right, creates going to be the best it’s ever been and this year is going to be AMAZING. 😤😤😤 See yall at CREATE 25-26!! 🥶"
+        ],
+        instagram: 'https://www.instagram.com/jake.yang__/',
+      },
+      {
+        id: 'member-2',
+        name: 'Owen Chan',
+        position: 'Co-President',
+        picture: owen2,
+        description: [
+          "Hi guys! I’m Owen one of the co-prezzies this year with Jake! This is going to be my third and final year on CREATE 🤠👍 and I’m super excited to show you guys what’s in store 🔥🔥 I’ve met some of the best people and created some of the best memories at CREATE. I hope that you guys join and enjoy it as much as I did 🙏"
+        ],
+        instagram: 'https://www.instagram.com/owen.ykc/',
+      },
+      {
+        id: 'member-3',
+        name: 'Tristin Tran',
+        position: 'Marketing Executive',
+        picture: tristin2,
+        description: [
+          "Hi everyone! Im tristin and i’m returning this year as your graphics marketing exec alongside @ccnnieli ⭐️ im a grade 12 student from milliken mills; this is my SECOND year on CREATE! we been working hard for you guys to produce the most fire content for the next… 6-7 months 😂😂 i love CREATE so much and im soso excited see yall at conference 🤩 @tristintr4n @trisownies"
+        ],
+        instagram: 'https://www.instagram.com/tristintr4n/',
+      },
+      {
+        id: 'member-4',
+        name: 'Connie Li',
+        position: 'Marketing Executive',
+        picture: connie,
+        description: [
+          "hi my name is connie and i will be ur media marketing executive. i’m in grade 12 and i attend pierre elliot trudeau high school. love everything that has to do with digital design/creativity. i’m excited to meet all of you and work hard tgt for another successful year on CREATE!"
+        ],
+        instagram: 'https://www.instagram.com/ccnnieli/',
+      },
+      {
+        id: 'member-5',
+        name: 'Irene Li',
+        position: 'Secretary',
+        picture: irene2,
+        description: [
+          "HEY CREATE! I’m Irene your Secretary Executive of this year and I go to the country day school, this is my third and final year on CREATE and I am so excited to make our year the absolute best. See you at conference!!"
+        ],
+        instagram: 'https://www.instagram.com/1reneli/',
+      },
+      {
+        id: 'member-6',
+        name: 'Marcus Yu',
+        position: 'Treasurer',
+        picture: marcus,
+        description: [
+          "What’s good CREATE ✌️. My name is marcus and ima grade 12 student at markville. This is my first year on create and I’m super excited to be your treasurer this year 🤑. Here are two truths and a lie about me, I placed top 15 in Canada track and field 🏃‍♂️, I have the cutest haircut on the exec team 👩‍🦲, and I am the sweetest 😻 most caring 🩷 guy you will ever meet, JK they’re all true LOL 😝. I can’t wait to run 2 mans at conference with my co pres and bestie 4 life Jake Yang 🤞. Taking applications in the comments! (serious inquiries only 🤬). If you have any questions ab create hmu @marcusyu88 is, I’m active for 6 7 😂 hours everyday. Marcus out ✌️"
+        ],
+        instagram: 'https://www.instagram.com/marcusyu88/",
+      },
+    ],
+  },
+      
+  {
     year: '2024-2025',
     members: [
       {
