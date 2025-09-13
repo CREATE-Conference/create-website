@@ -75,6 +75,19 @@ import natalie from '../public/img/team/2024-2025/natalie.png';
 import jake from '../public/img/team/2024-2025/jake.png';
 import owen from '../public/img/team/2024-2025/owen.png';
 
+// team 2025-2026
+import jake2 from '../public/img/team/2025-2026/jake2.png';
+import owen2 from '../public/img/team/2025-2026/owen2.png';
+import tristin2 from '../public/img/team/2025-2026/tristin2.png';
+import connie from '../public/img/team/2025-2026/connie.png';
+import irene from '../public/img/team/2025-2026/irene.png';
+import marcus from '../public/img/team/2025-2026/marcus.png';
+import daryn from '../public/img/team/2025-2026/daryn.png';
+import amanda from '../public/img/team/2025-2026/amanda.png';
+import jason from '../public/img/team/2025-2026/jason.png';
+import sophia from '../public/img/team/2025-2026/sophia.png';
+import cynthia from '../public/img/team/2025-2026/cynthia.png';
+
 
 // Footer socials
 import mail from '../public/img/icons/mail.svg';
