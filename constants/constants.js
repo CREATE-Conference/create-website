@@ -209,6 +209,56 @@ export const TEAM = [
         ],
         instagram: 'https://www.instagram.com/marcusyu88/',
       },
+      {
+        id: 'member-7',
+        name: 'Jason Lin',
+        position: 'Activities Executive',
+        picture: jason,
+        description: [
+          "Hi guys! I’m Jason, one of the activities execs and this is my second year on CREATE ✌ You will always always find me with my camera wherever I go, and I can’t wait to make conference super littt! I hope to see all of yall there!"
+        ],
+        instagram: 'https://www.instagram.com/jasoonese/',
+      },
+      {
+        id: 'member-8',
+        name: 'Cynthia Hui',
+        position: 'Activities Executive',
+        picture: cynthia,
+        description: [
+          "Hey everyone! Its Cynthia and im one of your Activities Exec this year on CREATE💚. This is my second year on CREATE and im super duper excited to see all of you attend Conference! CREATE has helped me strengthen my leadership skills and allowed me to make new friends along the way😙. Take CREATE as an opportunity because this is all applicable for you, and make sure to join CREATE in the 2025-2026 year!"
+        ],
+        instagram: 'https://www.instagram.com/cynthia_sdfj/',
+      },
+      {
+        id: 'member-9',
+        name: 'Daryn Markandaier',
+        position: 'Activities Executive',
+        picture: daryn,
+        description: [
+          "what’s up create!! my name is Daryn and I’m ur new activities exec going into gr 12 at Markville secondary skl. Im rly excited for my third yr at create and can’t wait to meet everyone."
+        ],
+        instagram: 'https://www.instagram.com/darynnm__/',
+      },
+      {
+        id: 'member-10',
+        name: 'Sophia Liu',
+        position: 'Activities Executive',
+        picture: sophia,
+        description: [
+          "hey everyone!! my name is Sophia and I’m one of your activities exec 😛. I’m a grade 11 student at Cardinal Carter Academy of the Arts and this is my second year on CREATE! Soooo exicted for everyone to gain new friendships, leadership experience, and collaboration skills during your time with CREATE. I’m also super pumped to be apart of the exec team and work together with some awesome people for an awesome year!! 😊 make sure you pullup to our awesome sauce conference in the fall and i cant wait to see everyone there! 🔥🔥🔥"
+        ],
+        instagram: 'https://www.instagram.com/s._.liuu/',
+      },
+      {
+        id: 'member-11',
+        name: 'Amanda Chen',
+        position: 'Activities Executive',
+        picture: amanda,
+        description: [
+          "HI GUYS!! I’m Amanda one of your Activities Execs this year, and I couldn’t be more excited! 🤗😋 I’m a Grade 12 student at Markville Secondary School and this is my second year being part of CREATE’s amazing journey! I’m all about making the most of every moment and bringing energy to everything we do, so u can always count on me to keep the vibes high🙌 let’s make this year a BLASSTTT!"
+        ],
+        instagram: 'https://www.instagram.com/am.chenn/',
+      },
     ],
   },
   {
