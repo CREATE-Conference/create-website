@@ -211,7 +211,6 @@ export const TEAM = [
       },
     ],
   },
-      
   {
     year: '2024-2025',
     members: [
