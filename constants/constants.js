@@ -80,7 +80,7 @@ import jake2 from '../public/img/team/2025-2026/jake2.png';
 import owen2 from '../public/img/team/2025-2026/owen2.png';
 import tristin2 from '../public/img/team/2025-2026/tristin2.png';
 import connie from '../public/img/team/2025-2026/connie.png';
-import irene from '../public/img/team/2025-2026/irene.png';
+import irene2 from '../public/img/team/2025-2026/irene2.png';
 import marcus from '../public/img/team/2025-2026/marcus.png';
 import daryn from '../public/img/team/2025-2026/daryn.png';
 import amanda from '../public/img/team/2025-2026/amanda.png';
