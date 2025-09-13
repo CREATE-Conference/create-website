@@ -207,7 +207,7 @@ export const TEAM = [
         description: [
           "What’s good CREATE ✌️. My name is marcus and ima grade 12 student at markville. This is my first year on create and I’m super excited to be your treasurer this year 🤑. Here are two truths and a lie about me, I placed top 15 in Canada track and field 🏃‍♂️, I have the cutest haircut on the exec team 👩‍🦲, and I am the sweetest 😻 most caring 🩷 guy you will ever meet, JK they’re all true LOL 😝. I can’t wait to run 2 mans at conference with my co pres and bestie 4 life Jake Yang 🤞. Taking applications in the comments! (serious inquiries only 🤬). If you have any questions ab create hmu @marcusyu88 is, I’m active for 6 7 😂 hours everyday. Marcus out ✌️"
         ],
-        instagram: 'https://www.instagram.com/marcusyu88/",
+        instagram: 'https://www.instagram.com/marcusyu88/',
       },
     ],
   },
