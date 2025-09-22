@@ -90,6 +90,7 @@ import cynthia from '../public/img/team/2025-2026/cynthia.png';
 
 // sponsors
 import siraPrint from '../public/img/sponsers/siraPrint.png';
+import arc from '../public/img/sponsers/arc.png';
 
 // Footer socials
 import mail from '../public/img/icons/mail.svg';
@@ -154,7 +155,13 @@ export const SPONSORS = [
     text: 'Custom stickers and keychains manufacturer',
     link: 'siraprint.ca',
     icon: siraPrint,
-  }
+  },
+  {
+    id: 'sponsor-2',
+    name: 'Asian Roots Collective',
+    text: 'Non-profit organization celebrating Asian culture throughout the GTA',
+    link: 'asianrootscollective.org',
+    icon: arc,
 ]
 
 export const TEAM = [
