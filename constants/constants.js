@@ -88,6 +88,8 @@ import jason from '../public/img/team/2025-2026/jason.png';
 import sophia from '../public/img/team/2025-2026/sophia.png';
 import cynthia from '../public/img/team/2025-2026/cynthia.png';
 
+// sponsors
+import siraPrint from '../public/img/sponsors/siraPrint.png';
 
 // Footer socials
 import mail from '../public/img/icons/mail.svg';
@@ -144,6 +146,16 @@ export const MY_CREATE_STORY = [
     icon: lydiaTseng,
   },
 ];
+
+export const SPONSORS = [
+  {
+    id: 'sponsor-1',
+    name: 'siraprint.ca',
+    text: 'Custom stickers and keychains manufacturer',
+    link: 'siraprint.ca',
+    icon: siraPrint,
+  }
+]
 
 export const TEAM = [
   {
