@@ -89,7 +89,7 @@ import sophia from '../public/img/team/2025-2026/sophia.png';
 import cynthia from '../public/img/team/2025-2026/cynthia.png';
 
 // sponsors
-import siraPrint from '../public/img/sponsors/siraPrint.png';
+import siraPrint from '../public/img/sponsers/siraPrint.png';
 
 // Footer socials
 import mail from '../public/img/icons/mail.svg';
