@@ -162,8 +162,8 @@ export const SPONSORS = [
     text: 'Non-profit organization celebrating Asian culture throughout the GTA',
     link: 'asianrootscollective.org',
     icon: arc,
-  }
-]
+  },
+];
 
 export const TEAM = [
   {
