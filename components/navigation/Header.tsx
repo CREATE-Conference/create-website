@@ -1,7 +1,7 @@
 import { ReactElement, useContext } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import createLogo from '../../public/img/create/logo.png';
+import createLogo from '../../public/img/create/logo2.png';
 import Button from '../UI/Button';
 import closeIcon from '../../public/img/icons/close.svg';
 import MenuOpenContext from '../../store/menu-open-context';
