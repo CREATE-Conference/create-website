@@ -51,8 +51,8 @@ const HeaderLogo = (): ReactElement => {
       <a className="flex w-[116px] items-center lg:w-[132px]">
         <Image
           src={createLogo}
-          width="140px"
-          height="36px"
+          width="210px"
+          height="54px"
           alt="CREATE Markham logo"
         />
       </a>
