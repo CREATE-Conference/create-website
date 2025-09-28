@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { ReactElement } from 'react';
-import createLogo from '../../public/img/create/logo2.png';
+import createLogo from '../../public/img/create/logo3.png';
 import Link from 'next/link';
 import { FOOTER_SOCIALS } from '../../constants/constants';
 
