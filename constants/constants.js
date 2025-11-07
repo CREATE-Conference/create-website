@@ -91,7 +91,7 @@ import cynthia from '../public/img/team/2025-2026/cynthia.png';
 // sponsors
 import siraPrint from '../public/img/sponsers/siraPrint.png';
 import arc from '../public/img/sponsers/arc.png';
-import CCYMSA from '../public/img/sponsers/CCYMSA.jpg';
+import ccymsa from '../public/img/sponsers/CCYMSA.jpg';
 
 // Footer socials
 import mail from '../public/img/icons/mail.svg';
@@ -169,7 +169,7 @@ export const SPONSORS = [
     name: 'CCYMSA',
     text: 'Jason Gao — Canada-China Youth Multicultural and Sports Association (CCYMSA)',
     link: 'ccymsa.org',
-    icon: CCYMSA,
+    icon: ccymsa,
   }.
 ];
 
