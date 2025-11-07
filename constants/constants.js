@@ -158,19 +158,19 @@ export const SPONSORS = [
     icon: siraPrint,
   },
   {
+    id: 'sponsor-2',
+    name: 'CCYMSA',
+    text: 'Jason Gao — Canada-China Youth Multicultural and Sports Association (CCYMSA)',
+    link: 'ccymsa.org',
+    icon: ccymsa,
+  },
+  {
     id: 'sponsor-3',
     name: 'Asian Roots Collective',
     text: 'Non-profit organization celebrating Asian culture throughout the GTA',
     link: 'asianrootscollective.org',
     icon: arc,
   },
-  {
-    id: 'sponsor-2',
-    name: 'CCYMSA',
-    text: 'Jason Gao — Canada-China Youth Multicultural and Sports Association (CCYMSA)',
-    link: 'ccymsa.org',
-    icon: ccymsa,
-  }.
 ];
 
 export const TEAM = [
