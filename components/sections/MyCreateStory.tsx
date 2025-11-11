@@ -9,7 +9,7 @@ import markham from '../../public/img/sponsers/markham.png';
 import creativegenius from '../../public/img/sponsers/creativegenius.png';
 import graphixco from '../../public/img/sponsers/graphixco.png';
 import dorcas from '../../public/img/sponsers/dorcas.png';
-import ccymsa from '../../public/img/sponsers/ccymsa.jpg';
+import ccymsa from '../../public/img/sponsers/ccymsa.png';
 import siraPrint from '../../public/img/sponsers/siraPrint.png';
 
 const MyCreateStory = (): ReactElement => {
