@@ -9,6 +9,8 @@ import markham from '../../public/img/sponsers/markham.png';
 import creativegenius from '../../public/img/sponsers/creativegenius.png';
 import graphixco from '../../public/img/sponsers/graphixco.png';
 import dorcas from '../../public/img/sponsers/dorcas.png';
+import ccymsa from '../../public/img/sponsers/ccymsa.jpg';
+import siraPrint from '../../public/img/sponsers/siraPrint.png';
 
 const MyCreateStory = (): ReactElement => {
   return (
@@ -65,8 +67,19 @@ const MyCreateStory = (): ReactElement => {
         width="256px"
         height="138px"
       />
+      <Image
+        src={ccymsa}
+        alt="CCYMSA"
+        width="350px"
+        height="180px"
+      />
+      <Image
+        src={siraPrint}
+        alt="Sira Print"
+        width="350px"
+        height="180px"
+      />
       </a>
-      
       
       <p className="body pb-9 md:pb-16"> </p>
 
