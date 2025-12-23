@@ -86,7 +86,7 @@ import daryn from '../public/img/team/2025-2026/daryn.jpeg';
 import amanda from '../public/img/team/2025-2026/amanda.jpeg';
 import jason from '../public/img/team/2025-2026/jason.jpeg';
 import sophia from '../public/img/team/2025-2026/sophia.jpeg';
-import cynthia from '../public/img/team/2025-2026/cynthia.jpeg';
+import cynthia from '../public/img/team/2025-2026/cynthia.png';
 
 // sponsors
 import siraPrint from '../public/img/sponsers/siraPrint.png';
