@@ -76,17 +76,17 @@ import jake from '../public/img/team/2024-2025/jake.png';
 import owen from '../public/img/team/2024-2025/owen.png';
 
 // team 2025-2026
-import jake2 from '../public/img/team/2025-2026/jake2.png';
-import owen2 from '../public/img/team/2025-2026/owen2.png';
-import tristin2 from '../public/img/team/2025-2026/tristin2.png';
-import connie from '../public/img/team/2025-2026/connie.png';
-import irene2 from '../public/img/team/2025-2026/irene2.png';
+import jake2 from '../public/img/team/2025-2026/jake2.jpeg';
+import owen2 from '../public/img/team/2025-2026/owen2.jpeg';
+import tristin2 from '../public/img/team/2025-2026/tristin2.jpeg';
+import connie from '../public/img/team/2025-2026/connie.jpeg';
+import irene2 from '../public/img/team/2025-2026/irene2.jpeg';
 import marcus from '../public/img/team/2025-2026/marcus.jpeg';
-import daryn from '../public/img/team/2025-2026/daryn.png';
-import amanda from '../public/img/team/2025-2026/amanda.png';
-import jason from '../public/img/team/2025-2026/jason.png';
-import sophia from '../public/img/team/2025-2026/sophia.png';
-import cynthia from '../public/img/team/2025-2026/cynthia.png';
+import daryn from '../public/img/team/2025-2026/daryn.jpeg';
+import amanda from '../public/img/team/2025-2026/amanda.jpeg';
+import jason from '../public/img/team/2025-2026/jason.jpeg';
+import sophia from '../public/img/team/2025-2026/sophia.jpeg';
+import cynthia from '../public/img/team/2025-2026/cynthia.jpeg';
 
 // sponsors
 import siraPrint from '../public/img/sponsers/siraPrint.png';
