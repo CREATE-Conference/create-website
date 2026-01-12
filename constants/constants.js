@@ -92,6 +92,7 @@ import cynthia from '../public/img/team/2025-2026/cynthia.png';
 import siraPrint from '../public/img/sponsers/siraPrint.png';
 import arc from '../public/img/sponsers/arc.png';
 import ccymsa from '../public/img/sponsers/ccymsa.png';
+import google from '../public/img/sponsers/google.png';
 
 // Footer socials
 import mail from '../public/img/icons/mail.svg';
@@ -159,18 +160,26 @@ export const SPONSORS = [
   },
   {
     id: 'sponsor-2',
+    name: 'Google',
+    text: 'The leading search engine in the world',
+    link: 'google.com',
+    icon: google,
+  },
+  {
+    id: 'sponsor-3',
     name: 'CCYMSA',
     text: 'Jason Gao — Canada-China Youth Multicultural and Sports Association (CCYMSA)',
     link: 'ccymsa.org',
     icon: ccymsa,
   },
   {
-    id: 'sponsor-3',
+    id: 'sponsor-4',
     name: 'Asian Roots Collective',
     text: 'Non-profit organization celebrating Asian culture throughout the GTA',
     link: 'asianrootscollective.org',
     icon: arc,
   },
+  
 ];
 
 export const TEAM = [
