@@ -59,7 +59,6 @@ const GALLERY = [
   require('../../public/img/gallery/2025-2026/54.JPG'),
   require('../../public/img/gallery/2025-2026/55.JPG'),
   require('../../public/img/gallery/2025-2026/56.JPG'),
-  require('../../public/img/gallery/2025-2026/56.JPG'),
   require('../../public/img/gallery/2025-2026/57.JPG'),
   require('../../public/img/gallery/2025-2026/58.JPG'),
   require('../../public/img/gallery/2025-2026/59.JPG'),
