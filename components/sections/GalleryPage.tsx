@@ -64,6 +64,7 @@ const GALLERY = [
   require('../../public/img/gallery/2025-2026/59.JPG'),
   require('../../public/img/gallery/2025-2026/60.JPG'),
   require('../../public/img/gallery/2025-2026/61.JPG'),
+  require('../../public/img/gallery/2025-2026/61.JPG'),
   require('../../public/img/gallery/2025-2026/62.JPG'),
   require('../../public/img/gallery/2025-2026/63.JPG'),
   require('../../public/img/gallery/2025-2026/64.JPG'),
