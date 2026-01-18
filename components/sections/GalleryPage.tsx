@@ -3,9 +3,9 @@ import Image from 'next/image';
 import type { StaticImageData } from 'next/image'
 
 const GALLERY = [
-  require('../../public/img/gallery/2024-2025/0B8C69F8-5152-44AB-85FA-4D288C503B68.png'),
-  require('../../public/img/gallery/2024-2025/101_1091.png'),
-  require('../../public/img/gallery/2024-2025/101_1092.png'),
+  require('../../public/img/gallery/2025-2026/01.JPG'),
+  require('../../public/img/gallery/2025-2026/02.JPG'),
+  require('../../public/img/gallery/2025-2026/03.JPG'),
   require('../../public/img/gallery/2024-2025/101_1095.png'),
   require('../../public/img/gallery/2024-2025/101_1121.png'),
   require('../../public/img/gallery/2024-2025/101_1123.png'),
