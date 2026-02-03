@@ -4,6 +4,7 @@ import dylanKang from '../public/img/mycreatestory/dylankang.png';
 import jianaWan from '../public/img/mycreatestory/jianiwan.png';
 import sarahMak from '../public/img/mycreatestory/sarahmak.png';
 import lydiaTseng from '../public/img/mycreatestory/lydiaTseng.png';
+import madelynYoung from '../public/img/mycreatestory/madelynYoung.png';
 
 
 import one from '../public/img/mycreatestory/bricezhao.png';
@@ -148,6 +149,39 @@ export const MY_CREATE_STORY = [
     text: 'Hi guys!! My name is Lydia and I was previously in Pierre Elliott Trudeau High School!!! I was a delegate for Create (shoutout team pause4paws!!!!) It was such an amazing experience and I got to meet so many people. I loved going to conference, from making ramen at night to seeing the sunrise in the morning. We had so much fun. I wish I could go back to those memories, I dont regret it at allllll',
     icon: lydiaTseng,
   },
+{
+  id: 'story-6',
+  name: 'Madelyn Young',
+  text: (
+    <>
+      <strong>Why did you join CREATE?</strong>
+      <br />
+      I first joined CREATE after I saw the delegate application post on instagram. I wanted to add more Business extracurriculars to my resume and was intrigued that it was an overnight conference.
+
+      <br />
+      <br />
+
+      <strong>What’s your favourite memory at conference?</strong>
+      <br />
+      After being on CREATE as both a Delegate and Maven, my favourite memory is the high rope activities we got to do at YMCA Cedar Glen! It’s literally the most fun thing ever and you get to do it with your amazing peers!
+
+      <br />
+      <br />
+
+      <strong>What will you miss most about CREATE?</strong>
+      <br />
+      I definitely miss all the people and connections. While I made many friendships at CREATE, there are so many people from different schools and grades that I shared deep convos or laughter with but we never crossed path again. I find that type of genuine human connection so rare, and I am so grateful CREATE gave me that!
+
+      <br />
+      <br />
+
+      <strong>What should future Delegates expect?</strong>
+      <br />
+      Expect the unexpected! Of course there’s tons of fun, as well as teamwork and commitment, but beyond that, CREATE offers such an indescribable and unique experience. It was an unforgettable part of my high school years and I encourage everyone to apply this year!
+    </>
+  ),
+  icon: madelynYoung,
+},
 ];
 
 export const SPONSORS = [
