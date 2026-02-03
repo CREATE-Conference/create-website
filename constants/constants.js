@@ -152,34 +152,18 @@ export const MY_CREATE_STORY = [
 {
   id: 'story-6',
   name: 'Madelyn Young',
-  text: (
-    <>
-      <strong>Why did you join CREATE?</strong>
-      <br />
-      I first joined CREATE after I saw the delegate application post on instagram. I wanted to add more Business extracurriculars to my resume and was intrigued that it was an overnight conference.
+  text: 
+  "Why did you join CREATE?\n" +
+  "I first joined CREATE after I saw the delegate application post on instagram. I wanted to add more Business extracurriculars to my resume and was intrigued that it was an overnight conference.\n\n" +
 
-      <br />
-      <br />
+  "What’s your favourite memory at conference?\n" +
+  "After being on CREATE as both a Delegate and Maven, my favourite memory is the high rope activities we got to do at YMCA Cedar Glen! It’s literally the most fun thing ever and you get to do it with your amazing peers!\n\n" +
 
-      <strong>What’s your favourite memory at conference?</strong>
-      <br />
-      After being on CREATE as both a Delegate and Maven, my favourite memory is the high rope activities we got to do at YMCA Cedar Glen! It’s literally the most fun thing ever and you get to do it with your amazing peers!
+  "What will you miss most about CREATE?\n" +
+  "I definitely miss all the people and connections. While I made many friendships at CREATE, there are so many people from different schools and grades that I shared deep convos or laughter with but we never crossed path again. I find that type of genuine human connection so rare, and I am so grateful CREATE gave me that!\n\n" +
 
-      <br />
-      <br />
-
-      <strong>What will you miss most about CREATE?</strong>
-      <br />
-      I definitely miss all the people and connections. While I made many friendships at CREATE, there are so many people from different schools and grades that I shared deep convos or laughter with but we never crossed path again. I find that type of genuine human connection so rare, and I am so grateful CREATE gave me that!
-
-      <br />
-      <br />
-
-      <strong>What should future Delegates expect?</strong>
-      <br />
-      Expect the unexpected! Of course there’s tons of fun, as well as teamwork and commitment, but beyond that, CREATE offers such an indescribable and unique experience. It was an unforgettable part of my high school years and I encourage everyone to apply this year!
-    </>
-  ),
+  "What should future Delegates expect?\n" +
+  "Expect the unexpected! Of course there’s tons of fun, as well as teamwork and commitment, but beyond that, CREATE offers such an indescribable and unique experience. It was an unforgettable part of my high school years and I encourage everyone to apply this year!",
   icon: madelynYoung,
 },
 ];
