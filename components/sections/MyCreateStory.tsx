@@ -126,7 +126,7 @@ const Testimonials = (): ReactElement => {
 
 interface TestimonialPropsInterface {
   name: string;
-  text: string;
+  text: ReactNode;
   icon: StaticImageData;
 }
 
