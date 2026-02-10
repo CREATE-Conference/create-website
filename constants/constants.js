@@ -152,12 +152,9 @@ export const MY_CREATE_STORY = [
 {
   id: 'story-6',
   name: 'Madelyn Young',
-  text: {
-  id: 'story-6',
-  name: 'Madelyn Young',
   text: (
     <>
-      Why did you join CREATE?
+      Why did you join CREATE???
       <br />
       I first joined CREATE after I saw the delegate application post on instagram. I wanted to add more Business extracurriculars to my resume and was intrigued that it was an overnight conference.
       <br />
@@ -180,8 +177,6 @@ export const MY_CREATE_STORY = [
       Expect the unexpected! Of course there’s tons of fun, as well as teamwork and commitment, but beyond that, CREATE offers such an indescribable and unique experience. It was an unforgettable part of my high school years and I encourage everyone to apply this year!
     </>
   ),
-  icon: madelynYoung,
-},
   icon: madelynYoung,
 },
 ];
