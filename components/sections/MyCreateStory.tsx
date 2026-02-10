@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image';
-import { ReactElement, useState } from 'react';
+import { ReactElement, useState, ReactNode } from 'react';
 import { MY_CREATE_STORY } from '../../constants/constants';
 import landingGraphic from '../../public/img/graphics/landing.png';
 import brain from '../../public/img/sponsers/brain.png';
