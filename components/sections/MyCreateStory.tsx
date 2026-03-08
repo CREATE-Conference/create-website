@@ -11,6 +11,7 @@ import graphixco from '../../public/img/sponsers/graphixco.png';
 import dorcas from '../../public/img/sponsers/dorcas.png';
 import ccymsa from '../../public/img/sponsers/ccymsa.png';
 import siraPrint from '../../public/img/sponsers/siraPrint.png';
+import firmpath from '../../public/img/sponsers/firmpath.png';
 
 const MyCreateStory = (): ReactElement => {
   return (
