@@ -61,25 +61,25 @@ const MyCreateStory = (): ReactElement => {
           width={350}
           height={183}
         />
+      </a>
       <Image
         src={dorcas}
         alt="dorcas cent"
-        width="256px"
-        height="138px"
+        width={256}
+        height={138}
       />
       <Image
         src={ccymsa}
         alt="CCYMSA"
-        width="350px"
-        height="180px"
+        width={350}
+        height={180}
       />
       <Image
         src={siraPrint}
         alt="Sira Print"
-        width="350px"
-        height="180px"
+        width={350}
+        height={180}
       />
-      </a>
       
       <p className="body pb-9 md:pb-16"> </p>
 
