@@ -80,6 +80,12 @@ const MyCreateStory = (): ReactElement => {
         width={350}
         height={180}
       />
+      <Image
+        src={firmpath}
+        alt="firmpath"
+        width={400}
+        height={140}
+      />
       
       <p className="body pb-9 md:pb-16"> </p>
 
