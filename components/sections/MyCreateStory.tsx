@@ -23,29 +23,29 @@ const MyCreateStory = (): ReactElement => {
       <Image
         src={brain}
         alt="Brain Power"
-        width="500px"
-        height="183px"
+        width={500}
+        height={183}
       />
       <a href="https://hubclimbing.com/markham" target="_blank" rel="noopener noreferrer">
         <Image
           src={hub}
           alt="Hub Climbing – Rock Climbing and Birthday Parties in Markham"
-          width="259px"
-          height="153px"
+          width={259}
+          height={153}
         />
       </a>
       <Image
         src={markham}
         alt="Markham"
-        width="450px"
-        height="183px"
+        width={450}
+        height={183}
        
       />
       <Image
         src={creativegenius}
         alt="Creative Genius Academy"
-        width="300px"
-        height="220px"
+        width={300}
+        height={220}
       />
       <a href="https://www.stickergiant.com/coupons" target="_blank" rel="noopener noreferrer">
         <Image
@@ -66,8 +66,8 @@ const MyCreateStory = (): ReactElement => {
       <Image
         src={dorcas}
         alt="dorcas cent"
-        width="256px"
-        height="138px"
+        width={256}
+        height={138}
       />
       <Image
         src={ccymsa}
