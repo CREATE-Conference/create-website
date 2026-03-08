@@ -11,7 +11,6 @@ import graphixco from '../../public/img/sponsers/graphixco.png';
 import dorcas from '../../public/img/sponsers/dorcas.png';
 import ccymsa from '../../public/img/sponsers/ccymsa.png';
 import siraPrint from '../../public/img/sponsers/siraPrint.png';
-import firmpath from '../../public/img/sponsers/firmpath.png';
 
 const MyCreateStory = (): ReactElement => {
   return (
@@ -23,29 +22,29 @@ const MyCreateStory = (): ReactElement => {
       <Image
         src={brain}
         alt="Brain Power"
-        width={500}
-        height={183}
+        width="500px"
+        height="183px"
       />
       <a href="https://hubclimbing.com/markham" target="_blank" rel="noopener noreferrer">
         <Image
           src={hub}
           alt="Hub Climbing – Rock Climbing and Birthday Parties in Markham"
-          width={259}
-          height={153}
+          width="259px"
+          height="153px"
         />
       </a>
       <Image
         src={markham}
         alt="Markham"
-        width={450}
-        height={183}
+        width="450px"
+        height="183px"
        
       />
       <Image
         src={creativegenius}
         alt="Creative Genius Academy"
-        width={300}
-        height={220}
+        width="300px"
+        height="220px"
       />
       <a href="https://www.stickergiant.com/coupons" target="_blank" rel="noopener noreferrer">
         <Image
@@ -62,31 +61,25 @@ const MyCreateStory = (): ReactElement => {
           width={350}
           height={183}
         />
-      </a>
       <Image
         src={dorcas}
         alt="dorcas cent"
-        width={256}
-        height={138}
+        width="256px"
+        height="138px"
       />
       <Image
         src={ccymsa}
         alt="CCYMSA"
-        width={350}
-        height={180}
+        width="350px"
+        height="180px"
       />
       <Image
         src={siraPrint}
         alt="Sira Print"
-        width={350}
-        height={180}
+        width="350px"
+        height="180px"
       />
-      <Image
-        src={firmpath}
-        alt="Firm Path"
-        width={400}
-        height={150}
-      />
+      </a>
       
       <p className="body pb-9 md:pb-16"> </p>
 
@@ -152,7 +145,7 @@ const Testimonial = ({
     <div className="w-full cursor-pointer" onClick={toggleClickHandler}>
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <Image src={icon} alt={name} width={50} height={50} />
+          <Image src={icon} alt={name} width="50px" height="50px" />
           <p className="text-2xl font-semibold text-green-1">{name}</p>
         </div>
         <div className="relative h-6 w-6">
