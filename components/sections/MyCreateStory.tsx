@@ -145,7 +145,7 @@ const Testimonial = ({
     <div className="w-full cursor-pointer" onClick={toggleClickHandler}>
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <Image src={icon} alt={name} width="50px" height="50px" />
+          <Image src={icon} alt={name} width={50} height={50} />
           <p className="text-2xl font-semibold text-green-1">{name}</p>
         </div>
         <div className="relative h-6 w-6">
