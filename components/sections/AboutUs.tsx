@@ -34,24 +34,24 @@ const AboutUs = (): ReactElement => {
         <Image
           src={graphic5}
           alt="CREATE Markham Retreat 1"
-          width="183px"
-          height="183px"
+          width={183}
+          height={183}
         />
       </div>
       <div className="absolute -right-12 bottom-24 hidden xl:block">
         <Image
           src={graphic6}
           alt="CREATE Markham Retreat 2"
-          width="339px"
-          height="339px"
+          width={339}
+          height={339}
         />
       </div>
       <div className="absolute -bottom-24 left-3 hidden xl:block">
         <Image
           src={graphic7}
           alt="CREATE Markham Retreat 3"
-          width="280px"
-          height="280px"
+          width={280}
+          height={280}
         />
       </div>
     </section>
