@@ -72,20 +72,20 @@ const MyCreateStory = (): ReactElement => {
       <Image
         src={ccymsa}
         alt="CCYMSA"
-        width="350px"
-        height="180px"
+        width={350}
+        height={180}
       />
       <Image
         src={siraPrint}
         alt="Sira Print"
-        width="350px"
-        height="180px"
+        width={350}
+        height={180}
       />
       <Image
         src={firmpath}
         alt="Firm Path"
-        width="400px"
-        height="150px"
+        width={400}
+        height={150}
       />
       
       <p className="body pb-9 md:pb-16"> </p>
