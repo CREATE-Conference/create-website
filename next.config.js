@@ -4,8 +4,6 @@ const nextConfig = {
   swcMinify: true,
   images: {
     unoptimized: true,
-    loader: 'custom',
-    loaderFile: './utils/imageLoader.js',
   },
 }
 
