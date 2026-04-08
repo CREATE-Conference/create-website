@@ -11,6 +11,8 @@ import graphixco from '../../public/img/sponsers/graphixco.png';
 import dorcas from '../../public/img/sponsers/dorcas.png';
 import ccymsa from '../../public/img/sponsers/ccymsa.png';
 import siraPrint from '../../public/img/sponsers/siraPrint.png';
+import firmpath from '../../public/img/sponsers/firmpath.png';
+import canuck from '../../public/img/sponsers/canuck.png';
 
 const MyCreateStory = (): ReactElement => {
   return (
@@ -79,6 +81,18 @@ const MyCreateStory = (): ReactElement => {
         alt="Sira Print"
         width="350px"
         height="180px"
+      />
+      <Image
+        src={firmpath}
+        alt="Firm Path"
+        width="400px"
+        height="150px"
+      />
+      <Image
+        src={canuck}
+        alt="Canuck Sports"
+        width="400px"
+        height="150px"
       />
       
       <p className="body pb-9 md:pb-16"> </p>
