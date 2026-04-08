@@ -2,7 +2,7 @@ import { createContext, ReactElement, useState } from 'react';
 
 const MenuOpenContext = createContext({
   isMenuOpen: false,
-  toggleMenuHandler: () => {},
+  toggleMenuHandler: () => { },
 });
 
 interface MenuOpenPropsInterface {
@@ -14,9 +14,16 @@ export const MenuOpenContextProvider = ({
 }: MenuOpenPropsInterface): ReactElement => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // function toggleMenuHandler(): void {
+  //   setIsMenuOpen((prevIsMenuOpen) => !prevIsMenuOpen);
+  //   document!.querySelector('body')!.classList.toggle('h-screen-trick');
+  // }
+
   function toggleMenuHandler(): void {
     setIsMenuOpen((prevIsMenuOpen) => !prevIsMenuOpen);
-    document!.querySelector('body')!.classList.toggle('h-screen-trick');
+    if (typeof document !== 'undefined') {  // ✅ guard added
+      document.querySelector('body')!.classList.toggle('h-screen-trick');
+    }
   }
 
   return (

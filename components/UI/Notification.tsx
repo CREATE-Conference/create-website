@@ -14,17 +14,21 @@ const Notification = (): ReactElement => {
     link: '',
   });
 
+
+
   useEffect(() => {
     const notificationRef = ref(db, 'notification');
     onValue(notificationRef, (snapshot) => {
       let data = snapshot.val();
-      let notification = { ...data };
-      setNotification(notification);
+      if (data) {  // ✅ guard added
+        setNotification({ ...data });
+      }
     });
   }, []);
 
   let notificationTextFirstPart = notification.text;
   let notificationTextSecondPart = '';
+
 
   if (notification.text.indexOf('{LINK}') !== -1) {
     notificationTextFirstPart = notification.text.slice(
@@ -45,17 +49,18 @@ const Notification = (): ReactElement => {
 
   const icon = (
     <div className="hidden w-5 sm:inline-block">
-      <Image src={openIcon} alt="open icon" layout="responsive" />
+      <Image src={openIcon} alt="open icon" width={500}
+        height={500}
+        style={{ width: '100%', height: 'auto' }} />
     </div>
   );
 
   return (
     <div
       className={`transition-300 gradient fixed bottom-0 left-0 right-0 z-20 flex px-4 py-4 sm:justify-center
-      ${
-        (!notificationOpenCtx.isNotificationOpen || notification.text === '') &&
+      ${(!notificationOpenCtx.isNotificationOpen || notification.text === '') &&
         'translate-y-full opacity-0'
-      }`}
+        }`}
     >
       {notification.link !== '' ? (
         <a
@@ -76,7 +81,9 @@ const Notification = (): ReactElement => {
         className="icon-light absolute right-4 top-1/2 h-8 w-8 -translate-y-1/2 cursor-pointer"
         onClick={notificationOpenCtx.closeNotificationHandler}
       >
-        <Image src={closeIcon} alt="close icon" layout="responsive" />
+        <Image src={closeIcon} alt="close icon" width={500}
+          height={500}
+          style={{ width: '100%', height: 'auto' }} />
       </div>
     </div>
   );
