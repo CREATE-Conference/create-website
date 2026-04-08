@@ -61,6 +61,7 @@ const MyCreateStory = (): ReactElement => {
           width={350}
           height={183}
         />
+      </a>
       <Image
         src={dorcas}
         alt="dorcas cent"
@@ -79,7 +80,6 @@ const MyCreateStory = (): ReactElement => {
         width="350px"
         height="180px"
       />
-      </a>
       
       <p className="body pb-9 md:pb-16"> </p>
 
