@@ -18,7 +18,7 @@ const ApplicationsGrid = (): ReactElement => {
 
   useEffect(() => {
     const linksRef = ref(db, 'applications');
-    onValue(linksRef, (snapshot) => {
+    const unsubscribe = onValue(linksRef, (snapshot) => {
       let data = snapshot.val();
       let links: Application[] = [];
       for (let key in data) {
@@ -26,6 +26,7 @@ const ApplicationsGrid = (): ReactElement => {
       }
       setApplications(links);
     });
+    return () => unsubscribe();
   }, []);
 
   return (
@@ -58,7 +59,7 @@ const ApplicationsGrid = (): ReactElement => {
         </Row2>
       ) : (
         <p className="text-center text-lg font-medium text-green-1">
-            Applications are now closed. Please check back later for more opportunities.
+          Applications are now closed. Please check back later for more opportunities.
         </p>
       )}
     </section>

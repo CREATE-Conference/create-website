@@ -18,12 +18,14 @@ const Notification = (): ReactElement => {
 
   useEffect(() => {
     const notificationRef = ref(db, 'notification');
-    onValue(notificationRef, (snapshot) => {
+    const unsubscribe = onValue(notificationRef, (snapshot) => {
       let data = snapshot.val();
       if (data) {  // ✅ guard added
         setNotification({ ...data });
       }
     });
+    return () => unsubscribe();
+
   }, []);
 
   let notificationTextFirstPart = notification.text;

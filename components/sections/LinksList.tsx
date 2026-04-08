@@ -14,7 +14,7 @@ const LinksList = (): ReactElement => {
 
   useEffect(() => {
     const linksRef = ref(db, 'links');
-    onValue(linksRef, (snapshot) => {
+    const unsubscribe = onValue(linksRef, (snapshot) => {
       let data = snapshot.val();
       let links: Link[] = [];
       for (let key in data) {
@@ -22,6 +22,7 @@ const LinksList = (): ReactElement => {
       }
       setLinks(links);
     });
+    return () => unsubscribe();
   }, []);
 
   return (
