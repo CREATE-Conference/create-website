@@ -4,6 +4,7 @@ import { getDatabase } from 'firebase/database';
 const firebaseConfig = {
   apiKey: 'AIzaSyAb-zXOqHw8crK9MzACuozfSgIk2qErwaw',
   authDomain: 'create-markham-website.firebaseapp.com',
+  databaseURL: 'https://create-markham-website-default-rtdb.firebaseio.com/',
   projectId: 'create-markham-website',
   storageBucket: 'create-markham-website.appspot.com',
   messagingSenderId: '953383687504',
