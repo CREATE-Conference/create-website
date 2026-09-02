@@ -26,12 +26,12 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
       <NotificationOpenContextProvider>
         <FormSubmissionModalOpenContextProvider>
           <Component {...pageProps} />
-          <FormSubmissionModal />
-          {path === '/' || path === '/applications' || path === '/team' ? (
+          {/* <FormSubmissionModal /> */}
+          { /*path === '/' || path === '/applications' || path === '/team' ? (
             <Notification />
           ) : (
             <></>
-          )}
+          )*/}
         </FormSubmissionModalOpenContextProvider>
       </NotificationOpenContextProvider>
     </MenuOpenContextProvider>
