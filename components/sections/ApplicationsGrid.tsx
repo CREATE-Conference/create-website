@@ -59,7 +59,16 @@ const ApplicationsGrid = (): ReactElement => {
         </Row2>
       ) : (
         <p className="text-center text-lg font-medium text-green-1">
-          Applications are now closed. Please check back later for more opportunities.
+                    Are you interested in taking the opportunity to lead and connect with like-minded individuals?
+          Time runs out quickly! Apply to be a Maven before September 11th, 11:59PM EST here at: {" "}
+                      <a
+                      href="https://forms.gle/cUH7EKCkDp7FPkir8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{textDecoration: "underline", color: "#0645AD"}}
+                      >
+                        https://forms.gle/cUH7EKCkDp7FPkir8
+                    </a>
         </p>
       )}
     </section>
