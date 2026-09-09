@@ -12,7 +12,7 @@ const Landing = (): ReactElement => {
           CREATE <span className="hidden md:inline-block">Markham</span>
         </h1>
         <p className="body mb-11 md:mb-16">
-          CREATE Markham is a two-day conference where participants come
+          CREATE Markham is a three-day conference where participants come
           together and brainstorm prompts to benefit their community!
           You&apos;ll develop your leadership skills and create connections,
           while also gaining volunteering hours and experience.
