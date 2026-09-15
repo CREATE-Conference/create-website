@@ -197,6 +197,13 @@ export const SPONSORS = [
     link: 'asianrootscollective.org',
     icon: arc,
   },
+  {
+    id: 'sponsor-5',
+    name: 'Fortunewise Family Office',
+    text: 'Family office with specialization in taxation, law, and wealth management, with extensive practical experience.',
+    link: 'fortunewise.ca',
+    icon: arc,
+  },
   
 ];
 
