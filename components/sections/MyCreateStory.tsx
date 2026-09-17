@@ -103,7 +103,7 @@ const MyCreateStory = (): ReactElement => {
           src={fortunewise2}
           alt="Fortunewise Family Office"
           width="350px"
-          height="180px"
+          height="120px"
         />
      </a>
       
