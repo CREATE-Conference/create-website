@@ -76,11 +76,12 @@ const MyCreateStory = (): ReactElement => {
         width="350px"
         height="180px"
       />
-      <Image
-        src={siraPrint}
-        alt="Sira Print"
-        width="350px"
-        height="180px"
+      <a href="https://siraprint.ca/" target="_blank" rel="noopener noreferrer">
+        <Image
+          src={siraPrint}
+          alt="Sira Print"
+          width="350px"
+          height="180px"
       />
       <Image
         src={firmpath}
