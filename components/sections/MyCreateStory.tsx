@@ -13,6 +13,7 @@ import ccymsa from '../../public/img/sponsers/ccymsa.png';
 import siraPrint from '../../public/img/sponsers/siraPrint.png';
 import firmpath from '../../public/img/sponsers/firmpath.png';
 import canuck from '../../public/img/sponsers/canuck.png';
+import fortunewise from '../../public/img/sponsors/canuck.png';
 
 const MyCreateStory = (): ReactElement => {
   return (
@@ -94,6 +95,13 @@ const MyCreateStory = (): ReactElement => {
         alt="Canuck Sports"
         width="400px"
         height="150px"
+      />
+      <a href="https://www.fortunewise.ca/" target="_blank" rel="noopener noreferrer">
+        <Image
+          src={fortunewise}
+          alt="Fortunewise Family Office"
+          width="350px"
+          height="150px"
       />
       
       <p className="body pb-9 md:pb-16"> </p>
