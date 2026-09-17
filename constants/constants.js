@@ -94,7 +94,7 @@ import siraPrint from '../public/img/sponsers/siraPrint.png';
 import arc from '../public/img/sponsers/arc.png';
 import ccymsa from '../public/img/sponsers/ccymsa.png';
 import google from '../public/img/sponsers/google.png';
-import fortunewise from '../public/img/sponsors/fortunewise.png';
+import fortunewise from '../public/img/sponsers/fortunewise.png';
 
 // Footer socials
 import mail from '../public/img/icons/mail.svg';
