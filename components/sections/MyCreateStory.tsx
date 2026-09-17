@@ -83,7 +83,7 @@ const MyCreateStory = (): ReactElement => {
           src={siraPrint}
           alt="Sira Print"
           width="350px"
-          height="180px"
+          height="150px"
         />
       </a>
       <Image
