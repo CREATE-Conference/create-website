@@ -13,7 +13,7 @@ import ccymsa from '../../public/img/sponsers/ccymsa.png';
 import siraPrint from '../../public/img/sponsers/siraPrint.png';
 import firmpath from '../../public/img/sponsers/firmpath.png';
 import canuck from '../../public/img/sponsers/canuck.png';
-import fortunewise from '../../public/img/sponsors/canuck.png';
+import fortunewise from '../../public/img/sponsors/fortunewise.png';
 
 const MyCreateStory = (): ReactElement => {
   return (
