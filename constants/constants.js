@@ -203,7 +203,7 @@ export const SPONSORS = [
     name: 'Fortunewise Family Office',
     text: 'Family office with specialization in taxation, law, and wealth management, with extensive practical experience.',
     link: 'fortunewise.ca',
-    icon: arc,
+    icon: fortunewise,
   },
   
 ];
