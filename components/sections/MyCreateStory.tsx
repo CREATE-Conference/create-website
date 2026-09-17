@@ -13,7 +13,8 @@ import ccymsa from '../../public/img/sponsers/ccymsa.png';
 import siraPrint from '../../public/img/sponsers/siraPrint.png';
 import firmpath from '../../public/img/sponsers/firmpath.png';
 import canuck from '../../public/img/sponsers/canuck.png';
-import fortunewise from '../../public/img/sponsers/fortunewise.png';
+import fortunewise from '../../public/img/sponsers/fortunewise.png'
+import fortunewise2 from '../../public/img/sponsers/fortunewise2.png';
 
 const MyCreateStory = (): ReactElement => {
   return (
@@ -99,10 +100,10 @@ const MyCreateStory = (): ReactElement => {
       />
       <a href="https://www.fortunewise.ca/" target="_blank" rel="noopener noreferrer">
         <Image
-          src={fortunewise}
+          src={fortunewise2}
           alt="Fortunewise Family Office"
           width="350px"
-          height="300px"
+          height="180px"
         />
      </a>
       
