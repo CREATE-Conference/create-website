@@ -83,7 +83,8 @@ const MyCreateStory = (): ReactElement => {
           alt="Sira Print"
           width="350px"
           height="180px"
-      />
+        />
+      </a>
       <Image
         src={firmpath}
         alt="Firm Path"
@@ -102,7 +103,8 @@ const MyCreateStory = (): ReactElement => {
           alt="Fortunewise Family Office"
           width="350px"
           height="150px"
-      />
+        />
+     </a>
       
       <p className="body pb-9 md:pb-16"> </p>
 
