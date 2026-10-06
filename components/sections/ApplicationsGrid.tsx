@@ -59,8 +59,7 @@ const ApplicationsGrid = (): ReactElement => {
         </Row2>
       ) : (
         <p className="text-center text-lg font-medium text-green-1">
-  Are you interested in taking the opportunity to lead and connect with like-minded individuals?
-          Time runs out quickly! Apply to be a Maven before September 11th, 11:59PM EST here at: {" "}
+  Check back for more CREATE opportunities in the future! 
           <a
             href="https://forms.gle/cUH7EKCkDp7FPkir8"
             target="_blank"
