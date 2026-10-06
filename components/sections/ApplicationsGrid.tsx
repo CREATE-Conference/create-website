@@ -61,7 +61,7 @@ const ApplicationsGrid = (): ReactElement => {
         <p className="text-center text-lg font-medium text-green-1">
   Check back for more CREATE opportunities in the future! 
           <a
-            href="https://forms.gle/cUH7EKCkDp7FPkir8"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             style={{textDecoration: "underline", color: "#0645AD"}}
