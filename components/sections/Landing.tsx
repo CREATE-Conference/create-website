@@ -9,10 +9,10 @@ const Landing = (): ReactElement => {
     <section className="section m-horizontal grid items-center gap-16 lg:grid-cols-2 lg:gap-8">
       <div className="text-center lg:-mt-24 lg:text-left">
         <h1 className="h1 mb-5 lowercase md:mb-6">
-          CREATE <span className="hidden md:inline-block">Markham</span>
+          CREATE <span className="hidden md:inline-block">Conference Council</span>
         </h1>
         <p className="body mb-11 md:mb-16">
-          CREATE Markham is a three-day conference where participants come
+          CREATE Conference Council is a three-day conference where participants come
           together and brainstorm prompts to benefit their community!
           You&apos;ll develop your leadership skills and create connections,
           while also gaining volunteering hours and experience.
