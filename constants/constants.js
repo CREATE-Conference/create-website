@@ -109,6 +109,7 @@ import ccymsa from '../public/img/sponsers/ccymsa.png';
 import google from '../public/img/sponsers/google.png';
 import fortunewise from '../public/img/sponsers/fortunewise.png';
 import arcadia from '../public/img/sponsers/Arcadia.png';
+import arcadia2 from '../public/img/sponsers/arcadia2.png';
 import inblack from '../public/img/sponsers/InBlack.png';
 import stickerscanada from '../public/img/sponsers/StickersCanada.png';
 
@@ -226,7 +227,7 @@ export const SPONSORS = [
     name: 'Arcadia Earth',
     text: 'An immersive multi-sensory exhibit in Toronto blending art and technology to inspire environmental action.',
     link: 'arcadiaearth.ca',
-    icon: arcadia,
+    icon: arcadia2,
   },
   {
     id: 'sponsor-7',
