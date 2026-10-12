@@ -231,16 +231,16 @@ export const SPONSORS = [
   {
     id: 'sponsor-7',
     name: 'InBlack Escape Room',
-    text: 'InBlack Escape Room is a GTA-based immersive escape room company with live actors and cinematic effects, including a location in Markham.',
+    text: 'Immersive escape room company with live actors and cinematic effects, including a location in Markham.',
     link: 'inblackescape.com',
     icon: inblack,
   },
   {
     id: 'sponsor-8',
     name: 'StickerCanada',
-    text: 'Sticker Canada is an Ontario-based printing service offering custom stickers, labels, and decals, printed locally and shipped across Canada.',
+    text: 'Printing service offering custom stickers, labels, and decals, printed locally and shipped across Canada.',
     link: 'stickercanada.ca',
-    icon: stickersCanada,
+    icon: stickerscanada,
   },
   
 ];
