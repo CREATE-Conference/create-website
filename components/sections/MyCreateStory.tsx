@@ -15,6 +15,10 @@ import firmpath from '../../public/img/sponsers/firmpath.png';
 import canuck from '../../public/img/sponsers/canuck.png';
 import fortunewise from '../../public/img/sponsers/fortunewise.png'
 import fortunewise2 from '../../public/img/sponsers/fortunewise2.png';
+import Arcadia from '../../public/img/sponsers/fortunewise2.png';
+import StickersCanada from '../../public/img/sponsers/fortunewise2.png';
+import InBlack from '../../public/img/sponsers/fortunewise2.png';
+
 
 const MyCreateStory = (): ReactElement => {
   return (
@@ -105,6 +109,27 @@ const MyCreateStory = (): ReactElement => {
           width="350px"
           height="120px"
         />
+      <a href="https://www.arcadiaearth.ca/" target="_blank" rel="noopener noreferrer">
+        <Image
+        src={Arcadia}
+        alt="Arcadia Earth"
+        width="445px"
+        height="134px"
+      />
+      <a href="https://www.inblackescape.com/" target="_blank" rel="noopener noreferrer">
+        <Image
+        src={InBlack}
+        alt="InBlack Escape Room"
+        width="496px"
+        height="72px"
+      />
+      <a href="https://stickercanada.ca/" target="_blank" rel="noopener noreferrer">
+        <Image
+        src={StickersCanada}
+        alt="StickersCanada"
+        width="430px"
+        height="109px"
+      />
      </a>
       
       <p className="body pb-9 md:pb-16"> </p>
