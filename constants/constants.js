@@ -108,6 +108,9 @@ import arc from '../public/img/sponsers/arc.png';
 import ccymsa from '../public/img/sponsers/ccymsa.png';
 import google from '../public/img/sponsers/google.png';
 import fortunewise from '../public/img/sponsers/fortunewise.png';
+import arcadia from '../public/img/sponsers/Arcadia.png';
+import inblack from '../public/img/sponsers/InBlack.png';
+import stickerscanada from '../public/img/sponsers/StickersCanada.png';
 
 // Footer socials
 import mail from '../public/img/icons/mail.svg';
@@ -217,6 +220,27 @@ export const SPONSORS = [
     text: 'Family office with specialization in taxation, law, and wealth management, with extensive practical experience.',
     link: 'fortunewise.ca',
     icon: fortunewise,
+  },
+  {
+    id: 'sponsor-6',
+    name: 'Arcadia Earth',
+    text: 'An immersive multi-sensory exhibit in Toronto blending art and technology to inspire environmental action.',
+    link: 'arcadiaearth.ca',
+    icon: arcadia,
+  },
+  {
+    id: 'sponsor-7',
+    name: 'InBlack Escape Room',
+    text: 'InBlack Escape Room is a GTA-based immersive escape room company with live actors and cinematic effects, including a location in Markham.',
+    link: 'inblackescape.com',
+    icon: inblack,
+  },
+  {
+    id: 'sponsor-8',
+    name: 'StickerCanada',
+    text: 'Sticker Canada is an Ontario-based printing service offering custom stickers, labels, and decals, printed locally and shipped across Canada.',
+    link: 'stickercanada.ca',
+    icon: stickersCanada,
   },
   
 ];
