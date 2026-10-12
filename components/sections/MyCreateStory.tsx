@@ -123,7 +123,7 @@ const MyCreateStory = (): ReactElement => {
         src={InBlack}
         alt="InBlack Escape Room"
         width="496px"
-        height="72px"
+        height="109px"
       />
       </a>
       <a href="https://stickercanada.ca/" target="_blank" rel="noopener noreferrer">
@@ -131,7 +131,7 @@ const MyCreateStory = (): ReactElement => {
         src={StickersCanada}
         alt="StickersCanada"
         width="430px"
-        height="109px"
+        height="82px"
       />
      </a>
       
