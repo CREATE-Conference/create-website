@@ -109,6 +109,7 @@ const MyCreateStory = (): ReactElement => {
           width="350px"
           height="120px"
         />
+      </a>
       <a href="https://www.arcadiaearth.ca/" target="_blank" rel="noopener noreferrer">
         <Image
         src={Arcadia}
@@ -116,6 +117,7 @@ const MyCreateStory = (): ReactElement => {
         width="445px"
         height="134px"
       />
+      </a>
       <a href="https://www.inblackescape.com/" target="_blank" rel="noopener noreferrer">
         <Image
         src={InBlack}
@@ -123,6 +125,7 @@ const MyCreateStory = (): ReactElement => {
         width="496px"
         height="72px"
       />
+      </a>
       <a href="https://stickercanada.ca/" target="_blank" rel="noopener noreferrer">
         <Image
         src={StickersCanada}
