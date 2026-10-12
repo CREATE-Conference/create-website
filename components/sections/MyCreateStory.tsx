@@ -15,9 +15,9 @@ import firmpath from '../../public/img/sponsers/firmpath.png';
 import canuck from '../../public/img/sponsers/canuck.png';
 import fortunewise from '../../public/img/sponsers/fortunewise.png'
 import fortunewise2 from '../../public/img/sponsers/fortunewise2.png';
-import Arcadia from '../../public/img/sponsers/fortunewise2.png';
-import StickersCanada from '../../public/img/sponsers/fortunewise2.png';
-import InBlack from '../../public/img/sponsers/fortunewise2.png';
+import Arcadia from '../../public/img/sponsers/Arcadia.png';
+import StickersCanada from '../../public/img/sponsers/StickersCanada.png';
+import InBlack from '../../public/img/sponsers/InBlack.png';
 
 
 const MyCreateStory = (): ReactElement => {
