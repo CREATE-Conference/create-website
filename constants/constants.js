@@ -77,7 +77,7 @@ import jake from '../public/img/team/2024-2025/jake.png';
 import owen from '../public/img/team/2024-2025/owen.png';
 
 // team 2025-2026
-import jake2 from ;
+import jake2 from '../public/img/team/2025-2026/jake2.jpeg';
 import owen2 from '../public/img/team/2025-2026/owen2.jpeg';
 import tristin2 from '../public/img/team/2025-2026/tristin2.jpeg';
 import connie from '../public/img/team/2025-2026/connie.jpeg';
@@ -292,8 +292,7 @@ export const TEAM = [
         position: 'Activities Executive',
         picture: elizabeth, 
         description: [ 
-          "Helloooo my name is elizabeth!! I will be one of your activities execs for CREATE this yearr. This is my first year as an exec and I am soooo excited to met everyone!! I cant wait!!!!!! Its gonna be da bomb yaallll
-#create4ever dabomb.com" 
+          "Helloooo my name is elizabeth!! I will be one of your activities execs for CREATE this yearr. This is my first year as an exec and I am soooo excited to met everyone!! I cant wait!!!!!! Its gonna be da bomb yaallll #create4ever dabomb.com" 
         ], 
         instagram: 'https://www.instagram.com/elizabeth.joseph37/'
       }, 
