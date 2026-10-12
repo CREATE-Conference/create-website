@@ -77,7 +77,7 @@ import jake from '../public/img/team/2024-2025/jake.png';
 import owen from '../public/img/team/2024-2025/owen.png';
 
 // team 2025-2026
-import jake2 from '../public/img/team/2025-2026/jake2.jpeg';
+import jake2 from ;
 import owen2 from '../public/img/team/2025-2026/owen2.jpeg';
 import tristin2 from '../public/img/team/2025-2026/tristin2.jpeg';
 import connie from '../public/img/team/2025-2026/connie.jpeg';
@@ -88,6 +88,19 @@ import amanda from '../public/img/team/2025-2026/amanda.jpeg';
 import jason from '../public/img/team/2025-2026/jason.jpeg';
 import sophia from '../public/img/team/2025-2026/sophia.jpeg';
 import cynthia from '../public/img/team/2025-2026/cynthia.png';
+
+// team 2026-2027 
+import jason2 from '../public/img/team/2026-2027/Jason.png'
+import cynthia2 from '../public/img/team/2026-2027/Cynthia.png'
+import elizabeth from '../public/img/team/2026-2027/Elizabeth.png'
+import jake3 from '../public/img/team/2026-2027/Jake.png'
+import jaric from '../public/img/team/2026-2027/Jaric.png'
+import kerol from '../public/img/team/2026-2027/Kerol.png'
+import matthew from '../public/img/team/2026-2027/Matthew.png'
+import shanaya from '../public/img/team/2026-2027/Shanaya.png'
+import sophia2 from '../public/img/team/2026-2027/Sophia.png'
+import brian from '../public/img/team/2026-2027/Brian.png'
+import tia from '../public/img/team/2026-2027/Tia.png'
 
 // sponsors
 import siraPrint from '../public/img/sponsers/siraPrint.png';
@@ -209,6 +222,123 @@ export const SPONSORS = [
 ];
 
 export const TEAM = [
+
+  {
+    year: '2026-2027',
+    members: [
+      {
+        id: 'member-1', 
+        name: 'Jason Lin',
+        position: 'Co-President',
+        picture: jason2, 
+        description: [ 
+          "i ❤️create"
+        ], 
+        instagram: 'https://www.instagram.com/jasoonese/',
+      }, 
+      {
+        id: 'member-2', 
+        name: 'Cynthia Hui',
+        position: 'Co-President',
+        picture: cynthia2, 
+        description: [ 
+          "Hey everyone im Cynthia, one of your co presidents this year on CREATE! This is my third year on the team and every experience ive had has become valuable memories i will carry into senior year. CREATE has been LIFECHANGING and I look forward to creating the same experience for you guys! See yall soon✌️"
+        ],
+        instagram: 'https://www.instagram.com/cynthia_sdfj/'
+      }, 
+      {
+        id: 'member-3', 
+        name: 'Jake Tran',
+        position: 'Marketing Executive',
+        picture: jake3, 
+        description: [ 
+          "hi guys i’m jake and im marketing this year! i’m in grade 11, and looking forward to my first year on create. heh… guess that’s just a glimpse into my create markham mindset… heh… heh… 🟢🟢🟢🟢🟢🟢media will deliver this year 👀👀"
+        ], 
+        instagram: 'https://www.instagram.com/jake.tran_/'
+      }, 
+      {
+        id: 'member-4', 
+        name: 'Tia Cao',
+        position: 'Marketing Executive',
+        picture: tia, 
+        description: [ 
+          "hi create 💚 my name is tia cao 💚💚 i am a marketing exec 💚💚💚i love create and graphics and ice cream 💚💚💚💚 so excited for whats to come this year!!!!!!!!!!! 💚💚💚💚💚💚💚💚💚💚💚💚💚💚💚💚"
+        ], 
+        instagram: 'https://www.instagram.com/tiaaanyi/'
+      },
+      {
+        id: 'member-5', 
+        name: 'Sophia Liu',
+        position: 'Secretary',
+        picture: sophia2, 
+        description: [ 
+          "hi CREATE my name is sophia and im a gr.12 drama major at ccaa! im the 2026-2027 secretary & looking forward to next year we super pumped 👀👀🔥🔥"
+        ], 
+        instagram: 'https://www.instagram.com/s._.liuu/'
+      }, 
+      { 
+        id: 'member-6', 
+        name: 'Kerol Chen',
+        position: 'Treasurer',
+        picture: kerol, 
+        description: [ 
+          "helloo guys my name is kerol and i will be your 2026-2027 treasurer for create 🤑🤑💸💰🪎 this is my second year on create and i’m super excited to meet everyone very soon 😚😚"
+        ], 
+        instagram: 'https://www.instagram.com/kkerllo.c/'
+      }, 
+      { 
+        id: 'member-7', 
+        name: 'Elizabeth Joseph',
+        position: 'Activities Executive',
+        picture: elizabeth, 
+        description: [ 
+          "Helloooo my name is elizabeth!! I will be one of your activities execs for CREATE this yearr. This is my first year as an exec and I am soooo excited to met everyone!! I cant wait!!!!!! Its gonna be da bomb yaallll
+#create4ever dabomb.com" 
+        ], 
+        instagram: 'https://www.instagram.com/elizabeth.joseph37/'
+      }, 
+      {
+        id: 'member-8', 
+        name: 'Shanaya Sheth',
+        position: 'Activities Executive',
+        picture: shanaya, 
+        description: [ 
+          "hi my name is shanaya! I am a grade 12 student at peirre elliot trudeau. I will be one of ur activity execs this year and I am super excited to get to know all of you guys and make it a great year!! #lovecreate🔥"
+        ], 
+        instagram: 'https://www.instagram.com/shanayashxth/',
+      }, 
+      {
+        id: 'member-9', 
+        name: 'Jaric Wang',
+        position: 'Activities Executive',
+        picture: jaric, 
+        description: [ 
+          "yooo CREATE family! I’m Jaric and I’m super stoked to be apart of this year’s executive team 😆 I’m a grade 12 at peths and this is my 3rd year on CREATE 🙈 can’t wait to create a hype conference for y’all and soooouper excited to meet everyone 😁 toodles✌️"
+        ], 
+        instagram: 'https://www.instagram.com/jaric.wg/',
+      }, 
+      {
+        id: 'member-10', 
+        name: 'Matthew Fong',
+        position: 'Activities Executive',
+        picture: matthew, 
+        description: [ 
+          "hey create! My name is matthew and im one of your activity execs. This is my first year as an exec and im so excited to see everyone at conference! This year is gonna be #fire #amazing #goated #tuffskis #balling"
+        ], 
+        instagram: 'https://www.instagram.com/matthe.wf/',
+      }, 
+      {
+        id: 'member-11', 
+        name: 'Brian Lin',
+        position: 'Technology Chairperson',
+        picture: brian, 
+        description: [ 
+          "hey create! im brian, ur tech chair for create this year! cant wait to see everyone at conference!"
+        ], 
+        instagram: 'https://www.instagram.com/ju.dianswyl/',
+      }, 
+    ],
+  },
   {
     year: '2025-2026',
     members: [
