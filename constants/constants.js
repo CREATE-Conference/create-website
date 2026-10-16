@@ -240,7 +240,7 @@ export const SPONSORS = [
     id: 'sponsor-8',
     name: 'StickerCanada',
     text: 'Printing service offering custom stickers, labels, and decals, printed locally and shipped across Canada.',
-    link: 'stickercanada.ca',
+    link: 'stickercanada.com',
     icon: stickerscanada,
   },
   
