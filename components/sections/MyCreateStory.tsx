@@ -126,7 +126,7 @@ const MyCreateStory = (): ReactElement => {
         height="109px"
       />
       </a>
-      <a href="https://stickercanada.ca/" target="_blank" rel="noopener noreferrer">
+      <a href="https://stickercanada.com/" target="_blank" rel="noopener noreferrer">
         <Image
         src={StickersCanada}
         alt="StickersCanada"
