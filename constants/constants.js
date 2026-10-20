@@ -1039,12 +1039,12 @@ import fortunate8 from '../public/img/events/2024-2025/fortunate8.png';
 //2025-2026
 import twocents from '../public/img/events/2025-2026/twocents.png';
 import nineandshine from '../public/img/events/2025-2026/nineandshine.png';
-import flowers4oryou from '../public/img/events/2025-2026/flower4oryou.png';
-import mindfive from '../public/img/events/2025-2026/twocents.png';
+import flowers4oryou from '../public/img/events/2025-2026/flowers4oryou.png';
+import mindfive from '../public/img/events/2025-2026/mindfive.png';
 import spawlight7 from '../public/img/events/2025-2026/spawlight7.png';
 import triplethreat from '../public/img/events/2025-2026/triplethreat.png';
 import volleyone from '../public/img/events/2025-2026/volleyone.png';
-import slinky6ix from '../public/img/events/2025-202/slinky6ix.png';
+import slinky6ix from '../public/img/events/2025-2026/slinky6ix.png';
 
 export const EVENTS = [
   {
