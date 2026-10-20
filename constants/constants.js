@@ -1096,7 +1096,7 @@ export const EVENTS = [
         date: 'May 1, 2026',
         picture: slinky6ix,
         description: ['Youth Promoting Creative Wellness in partner with Create Genius Academy to prove immersive opportuny to explore your creativity through hands-on art activities.'],
-        link: 'https://www.instagram.com/slinky6ix/,
+        link: 'https://www.instagram.com/slinky6ix/',
       },
       {
         id: 'event-7',
@@ -1104,7 +1104,7 @@ export const EVENTS = [
         date: 'May 18, 2026',
         picture: spawlight7,
         description: ['Youth Promoting Mental Wellness in partner with Sunshine Therapy Dogs!! A mission to spread mental health awareness through different activities and paw-sitive events for youth all over the GTA!'],
-        link: 'https://www.instagram.com/spawlight.7/,
+        link: 'https://www.instagram.com/spawlight.7/',
       },
       {
         id: 'event-8',
