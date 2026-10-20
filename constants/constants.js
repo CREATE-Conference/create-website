@@ -1036,7 +1036,95 @@ import allnet from '../public/img/events/2024-2025/allnet.png';
 import the7thwonder from '../public/img/events/2024-2025/the7thwonder.png';
 import fortunate8 from '../public/img/events/2024-2025/fortunate8.png';
 
+//2025-2026
+import twocents from '../public/img/events/2025-2026/twocents.png';
+import nineandshine from '../public/img/events/2025-2026/nineandshine.png';
+import flowers4oryou from '../public/img/events/2025-2026/flower4oryou.png';
+import mindfive from '../public/img/events/2025-2026/twocents.png';
+import spawlight7 from '../public/img/events/2025-2026/spawlight7.png';
+import triplethreat from '../public/img/events/2025-2026/triplethreat.png';
+import volleyone from '../public/img/events/2025-2026/volleyone.png';
+import slinky6ix from '../public/img/events/2025-202/slinky6ix.png';
+
 export const EVENTS = [
+  {
+    year:'2025-2026',
+    events: [ 
+      {
+        id: 'event-1',
+        title: 'Volleyone - Physical Wellness',
+        date: 'April 11, 2026',
+        picture: volleyone,
+        description: ['Youth promoting Physical Wellness in partner with Canuck Path & FIRMPATH hosting an inclusive volleyball intramural!.'],
+        link: 'https://www.instagram.com/volleyone.create/',
+      },
+      {
+        id: 'event-2',
+        title: 'Twocents - Financial Wellness',
+        date: 'May 3, 2026',
+        picture: twocents,
+        description: ['Promoting Financial Wellness in partnership with Y-Space by York University through an interactive, financial literacy development workshop'],
+        link: 'https://www.instagram.com/twocents.create/,
+      },
+      {
+        id: 'event-3',
+        title: 'Triplethreat - Physical Wellness'
+        date: 'April 18, 2026',
+        picture: triplethreat,
+        description: ["Promoting Physical Wellness in collaboration with Asian Roots Collective, L'Occitane En Provence & Mumuso to CREATE The Court Together! Featuring guest speakers Bonnie Cheung, Jenova Lin, Jasmin Yeung and Alex Porat for GTA to develop awareness on the importance of physical health."],
+        link: 'https://www.instagram.com/triplethreatcreate/',
+      },
+      {
+        id: 'event-4',
+        title: 'Flowers4oryou — Environmental Wellness',
+        date: 'May 9th, 2026',
+        picture: flowers4oryou,
+        description: ['Promoting Environmental Wellness in partner with Canada-China Youth Multicultural and Sports Association (CCYMSA) to curate a soughtafter, local flower festival ],
+        link: 'https://www.instagram.com/flower4oryou/',
+      },
+      {
+        id: 'event-5',
+        title: 'Mindfive — Mental Wellness',
+        date: 'April 11, 2026',
+        picture: mindfive,
+        description: ['Youth Promoting Mental Wellness in partner with North York General Hospital to host an amazing Basketball Intramurals!!!.'],
+        link: 'https://www.instagram.com/team.mindfive/',
+      },
+      {
+        id: 'event-6',
+        title: 'Slinky6ix - Creative Wellness',
+        date: 'May 1, 2026',
+        picture: slinky6ix,
+        description: ['Youth Promoting Creative Wellness in partner with Create Genius Academy to prove immersive opportuny to explore your creativity through hands-on art activities.'],
+        link: 'https://www.instagram.com/slinky6ix/,
+      },
+      {
+        id: 'event-7',
+        title: 'Spawlight7 - Mental Wellness',
+        date: 'May 18, 2026',
+        picture: spawlight7,
+        description: ['Youth Promoting Mental Wellness in partner with Sunshine Therapy Dogs!! A mission to spread mental health awareness through different activities and paw-sitive events for youth all over the GTA!'],
+        link: 'https://www.instagram.com/spawlight.7/,
+      },
+      {
+        id: 'event-8',
+        title: '',
+        date: '',
+        picture: ,
+        description: [''],
+        link: '',
+      },
+      {
+        id: 'event-9',
+        title: '9andshine - Creative Wellness ',
+        date: 'April 12, 2026',
+        picture: nineandshine,
+        description: ["Youth Promoting Creative Wellness in partner with the Varley Art Gallery!! First an appearance at Varley Art Gallery's Purple Market, then a CRAFT-A-THON that encourages creativity with unlimited possibilities. 9andshine believed that creativity should SHINE with no dent to your wallet."],
+        link: 'https://www.instagram.com/9andshine/',
+      },
+    ],
+  },
+  
   {
     year: '2024-2025',
     events: [
