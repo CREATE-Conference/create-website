@@ -1068,7 +1068,7 @@ export const EVENTS = [
       },
       {
         id: 'event-3',
-        title: 'Triplethreat - Physical Wellness'
+        title: 'Triplethreat - Physical Wellness',
         date: 'April 18, 2026',
         picture: triplethreat,
         description: ["Promoting Physical Wellness in collaboration with Asian Roots Collective, L'Occitane En Provence & Mumuso to CREATE The Court Together! Featuring guest speakers Bonnie Cheung, Jenova Lin, Jasmin Yeung and Alex Porat for GTA to develop awareness on the importance of physical health."],
@@ -1079,7 +1079,7 @@ export const EVENTS = [
         title: 'Flowers4oryou — Environmental Wellness',
         date: 'May 9th, 2026',
         picture: flowers4oryou,
-        description: ['Promoting Environmental Wellness in partner with Canada-China Youth Multicultural and Sports Association (CCYMSA) to curate a soughtafter, local flower festival ],
+        description: ['Promoting Environmental Wellness in partner with Canada-China Youth Multicultural and Sports Association (CCYMSA) to curate a soughtafter, local flower festival'],
         link: 'https://www.instagram.com/flower4oryou/',
       },
       {
