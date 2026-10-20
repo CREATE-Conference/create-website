@@ -1064,7 +1064,7 @@ export const EVENTS = [
         date: 'May 3, 2026',
         picture: twocents,
         description: ['Promoting Financial Wellness in partnership with Y-Space by York University through an interactive, financial literacy development workshop'],
-        link: 'https://www.instagram.com/twocents.create/,
+        link: 'https://www.instagram.com/twocents.create/',
       },
       {
         id: 'event-3',
