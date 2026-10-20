@@ -1105,15 +1105,7 @@ export const EVENTS = [
         picture: spawlight7,
         description: ['Youth Promoting Mental Wellness in partner with Sunshine Therapy Dogs!! A mission to spread mental health awareness through different activities and paw-sitive events for youth all over the GTA!'],
         link: 'https://www.instagram.com/spawlight.7/',
-      },
-      {
-        id: 'event-8',
-        title: '',
-        date: '',
-        picture: ,
-        description: [''],
-        link: '',
-      },
+      }
       {
         id: 'event-9',
         title: '9andshine - Creative Wellness ',
