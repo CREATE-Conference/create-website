@@ -4,20 +4,61 @@ import Row2 from '../layout/Row2';
 import Card from '../UI/Card';
 import { SPONSORS } from '../../constants/constants';
 
+type Tab = 'current' | 'past';
+
+const TABS: { id: Tab; label: string }[] = [ 
+  { id: 'current', label: 'Current' }, 
+  { id: 'past', label: 'Past' },
+]; 
+
 interface SponsorInterface {
   id: string;
   name: string;
   text: string;
   link: string;
   icon: StaticImageData;
+  past?: boolean;
 }
 
 const SponsorsPage = (): ReactElement => {
+  const [ tab, setTab] = useState<Tab>('current'); 
+
+  const sponsors = (SPONSORS as SponsorInterface[]), filter((sponsor) => 
+    tab === 'past' ? sponsor.past : !sponsor.past
+  );
+
   return (
     <div className="section m-horizontal">
       <div className="text-center">
         <h1 className="h1 mb-6 md:mb-10">sponsors</h1>
       </div>
+
+      <div className="mb-9 flex items-center justify-center gap-4 md:mb-16 md:gap-7">
+        {TABs.map(({ id,label }) => (
+        <button
+          key={id}
+          type="button"
+          onClick={() => setTab(id)}
+          aria-pressed={tab === id} 
+          className={'transition-300 border-1 inline-block rounded-full border px-10 py-4 ${
+            tab === id 
+              ? 'border-green-1'
+              : 'border-transparent opacity-50 hover:opacity-80'
+          }'}
+        >
+          {label}
+          </button>
+        ))}
+      </div>
+
+      {sponsors.length === 0 ? (
+        <p className="text-center text-green-1"> 
+          {tab === 'current'
+          ? "Sponsors for this year will be announced soon."
+          : 'No past sponsors listed yet.'} 
+
+      </p>
+    ) : ( 
       <Row2>
         {SPONSORS.map((sponsor: SponsorInterface) => (
           <Card key={sponsor.id}>
