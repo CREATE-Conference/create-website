@@ -16,7 +16,7 @@ import canuck from '../../public/img/sponsers/canuck.png';
 import fortunewise from '../../public/img/sponsers/fortunewise.png'
 import fortunewise2 from '../../public/img/sponsers/fortunewise2.png';
 import Arcadia from '../../public/img/sponsers/Arcadia.png';
-import StickersCanada from '../../public/img/sponsers/StickersCanada.png';
+import StickersCanada from '../../public/img/sponsers/StickerCanada.png';
 import InBlack from '../../public/img/sponsers/InBlack.png';
 
 
