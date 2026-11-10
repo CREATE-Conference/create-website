@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image';
-import { ReactElement } from 'react';
+import { ReactElement, useState } from 'react';
 import Row2 from '../layout/Row2';
 import Card from '../UI/Card';
 import { SPONSORS } from '../../constants/constants';
@@ -44,7 +44,7 @@ const SponsorsPage = (): ReactElement => {
             tab === id 
               ? 'border-green-1'
               : 'border-transparent opacity-50 hover:opacity-80'
-          }'}
+          }`}
         >
           {label}
           </button>
@@ -90,6 +90,7 @@ const SponsorsPage = (): ReactElement => {
           </Card>
         ))}
       </Row2>
+      )}
     </div>
   );
 };
