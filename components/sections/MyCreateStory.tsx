@@ -118,19 +118,11 @@ const MyCreateStory = (): ReactElement => {
         height="134px"
       />
       </a>
-      <a href="https://www.inblackescape.com/" target="_blank" rel="noopener noreferrer">
-        <Image
-        src={InBlack}
-        alt="InBlack Escape Room"
-        width="496px"
-        height="109px"
-      />
-      </a>
       <a href="https://stickercanada.com/" target="_blank" rel="noopener noreferrer">
         <Image
         src={StickersCanada}
         alt="StickersCanada"
-        width="400px"
+        width="360px"
         height="82px"
       />
      </a>
