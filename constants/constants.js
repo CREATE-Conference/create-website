@@ -111,7 +111,7 @@ import fortunewise from '../public/img/sponsers/fortunewise.png';
 import arcadia from '../public/img/sponsers/Arcadia.png';
 import arcadia2 from '../public/img/sponsers/arcadia2.png';
 import inblack from '../public/img/sponsers/InBlack.png';
-import stickerscanada from '../public/img/sponsers/StickersCanada.png';
+import stickerscanada from '../public/img/sponsers/StickerCanada.png';
 
 // Footer socials
 import mail from '../public/img/icons/mail.svg';
