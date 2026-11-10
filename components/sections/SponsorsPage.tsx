@@ -34,13 +34,13 @@ const SponsorsPage = (): ReactElement => {
       </div>
 
       <div className="mb-9 flex items-center justify-center gap-4 md:mb-16 md:gap-7">
-        {TABs.map(({ id,label }) => (
+        {TABS.map(({ id,label }) => (
         <button
           key={id}
           type="button"
           onClick={() => setTab(id)}
           aria-pressed={tab === id} 
-          className={'transition-300 border-1 inline-block rounded-full border px-10 py-4 ${
+          className={`transition-300 border-1 inline-block rounded-full border px-10 py-4 ${
             tab === id 
               ? 'border-green-1'
               : 'border-transparent opacity-50 hover:opacity-80'
@@ -60,7 +60,7 @@ const SponsorsPage = (): ReactElement => {
       </p>
     ) : ( 
       <Row2>
-        {SPONSORS.map((sponsor: SponsorInterface) => (
+        {sponsors.map((sponsor: SponsorInterface) => (
           <Card key={sponsor.id}>
             <div className="px-5 pt-5 pb-6 sm:px-8 sm:pt-8 sm:pb-10 lg:px-10 lg:pt-10 lg:pb-12">
               <h3 className="gradient-text gradient text-2xl font-semibold mb-1.5 md:mb-2.5 md:text-3xl lg:text-4xl">
