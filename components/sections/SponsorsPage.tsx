@@ -23,7 +23,7 @@ interface SponsorInterface {
 const SponsorsPage = (): ReactElement => {
   const [ tab, setTab] = useState<Tab>('current'); 
 
-  const sponsors = (SPONSORS as SponsorInterface[]), filter((sponsor) => 
+  const sponsors = (SPONSORS as SponsorInterface[]). filter((sponsor) => 
     tab === 'past' ? sponsor.past : !sponsor.past
   );
 
