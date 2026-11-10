@@ -122,7 +122,7 @@ const MyCreateStory = (): ReactElement => {
         <Image
         src={StickersCanada}
         alt="StickersCanada"
-        width="360px"
+        width="500px"
         height="100px"
       />
      </a>
