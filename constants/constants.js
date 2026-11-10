@@ -207,6 +207,7 @@ export const SPONSORS = [
     text: 'Jason Gao — Canada-China Youth Multicultural and Sports Association (CCYMSA)',
     link: 'ccymsa.org',
     icon: ccymsa,
+    past: true,
   },
   {
     id: 'sponsor-4',
@@ -221,6 +222,7 @@ export const SPONSORS = [
     text: 'Family office with specialization in taxation, law, and wealth management, with extensive practical experience.',
     link: 'fortunewise.ca',
     icon: fortunewise,
+    paste: true,
   },
   {
     id: 'sponsor-6',
